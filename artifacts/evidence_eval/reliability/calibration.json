@@ -1,0 +1,61 @@
+{
+  "seed": 777,
+  "n_calibration_items": 100,
+  "definition": "per-candidate P(candidate is the true partner | its rank for that source)",
+  "phenotype_reliability_by_rank": {
+    "1-2": 0.22,
+    "3-4": 0.16,
+    "5-6": 0.12
+  },
+  "annotation_reliability_by_rank": {
+    "1-2": 0.08,
+    "3-4": 0.42,
+    "5-6": 0.0
+  },
+  "annotation_argmax_reliability": 0.07,
+  "annotation_uninformative_fraction": 0.76,
+  "random_candidate": 0.1667,
+  "random_ranking_RR": 0.4083,
+  "regime_table": {
+    "1-2": {
+      "n": 44,
+      "phenotype_recovery_RR": 0.8182,
+      "annotation_recovery_RR": 0.3773,
+      "random_ranking_RR": 0.4083,
+      "more_reliable": "phenotype",
+      "best_strategy": "phenotype"
+    },
+    "3-4": {
+      "n": 32,
+      "phenotype_recovery_RR": 0.2995,
+      "annotation_recovery_RR": 0.3467,
+      "random_ranking_RR": 0.4083,
+      "more_reliable": "annotation",
+      "best_strategy": "neither (random)"
+    },
+    "5-6": {
+      "n": 24,
+      "phenotype_recovery_RR": 0.1875,
+      "annotation_recovery_RR": 0.3283,
+      "random_ranking_RR": 0.4083,
+      "more_reliable": "annotation",
+      "best_strategy": "neither (random)"
+    }
+  },
+  "phen_rank_hist": {
+    "1": 28,
+    "2": 16,
+    "3": 19,
+    "4": 13,
+    "5": 15,
+    "6": 9
+  },
+  "ann_rank_hist": {
+    "1": 7,
+    "2": 9,
+    "3": 5,
+    "4": 79,
+    "5": 0,
+    "6": 0
+  }
+}

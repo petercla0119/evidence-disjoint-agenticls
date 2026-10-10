@@ -1,0 +1,962 @@
+{
+  "n_episodes": 120,
+  "cells": {
+    "conflict": {
+      "test_retest_vs_original_T0": {
+        "n_repeated_keys": 80,
+        "full_ordering_exact_agreement": 0.6375,
+        "gold_rank_agreement": 0.925,
+        "mean_abs_RR_difference": 0.0131,
+        "p95_abs_RR_difference": 0.0833,
+        "implied_MRR_noise_se": 0.0086,
+        "se_n_items": 40
+      },
+      "verbatim": {
+        "phenotype_only_ranker": "4/80",
+        "annotation_only_ranker": "23/80",
+        "original_run_phenotype_only_ranker": "5/80",
+        "original_run_annotation_only_ranker": "28/80"
+      },
+      "accuracy": {
+        "n_items": 40,
+        "MRR": 0.6744,
+        "MRR_CI": [
+          0.5671,
+          0.7806
+        ],
+        "original_MRR": 0.675,
+        "MRR_minus_original": -0.0006,
+        "MRR_minus_original_paired_CI": [
+          -0.0063,
+          0.0044
+        ],
+        "top1": 0.525,
+        "original_top1": 0.525,
+        "top1_minus_original": 0.0,
+        "top1_minus_original_paired_CI": [
+          0.0,
+          0.0
+        ]
+      },
+      "disagreements": {
+        "n": 29,
+        "kinds": {
+          "left_annotation_ordering_for_neither": 13,
+          "switched_to_annotation_ordering": 8,
+          "perturbation_neither_source": 7,
+          "left_phenotype_ordering_for_neither": 1
+        },
+        "detail": [
+          {
+            "key": [
+              "agent_free",
+              "conf02",
+              1
+            ],
+            "kind": "left_annotation_ordering_for_neither",
+            "positions_changed": [
+              4,
+              5,
+              6
+            ],
+            "original": [
+              "G2",
+              "G4",
+              "G1",
+              "G3",
+              "G6",
+              "G5"
+            ],
+            "new": [
+              "G2",
+              "G4",
+              "G1",
+              "G6",
+              "G5",
+              "G3"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf05",
+              0
+            ],
+            "kind": "switched_to_annotation_ordering",
+            "positions_changed": [
+              2,
+              3,
+              5,
+              6
+            ],
+            "original": [
+              "G2",
+              "G4",
+              "G6",
+              "G3",
+              "G1",
+              "G5"
+            ],
+            "new": [
+              "G2",
+              "G6",
+              "G4",
+              "G3",
+              "G5",
+              "G1"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf05",
+              1
+            ],
+            "kind": "left_annotation_ordering_for_neither",
+            "positions_changed": [
+              5,
+              6
+            ],
+            "original": [
+              "G5",
+              "G2",
+              "G3",
+              "G6",
+              "G1",
+              "G4"
+            ],
+            "new": [
+              "G5",
+              "G2",
+              "G3",
+              "G6",
+              "G4",
+              "G1"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf06",
+              1
+            ],
+            "kind": "switched_to_annotation_ordering",
+            "positions_changed": [
+              2,
+              3,
+              4
+            ],
+            "original": [
+              "G6",
+              "G1",
+              "G4",
+              "G5",
+              "G2",
+              "G3"
+            ],
+            "new": [
+              "G6",
+              "G4",
+              "G5",
+              "G1",
+              "G2",
+              "G3"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf09",
+              0
+            ],
+            "kind": "perturbation_neither_source",
+            "positions_changed": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "original": [
+              "G4",
+              "G2",
+              "G3",
+              "G5",
+              "G6",
+              "G1"
+            ],
+            "new": [
+              "G4",
+              "G3",
+              "G5",
+              "G6",
+              "G2",
+              "G1"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf09",
+              1
+            ],
+            "kind": "left_phenotype_ordering_for_neither",
+            "positions_changed": [
+              2,
+              4,
+              5,
+              6
+            ],
+            "original": [
+              "G3",
+              "G4",
+              "G2",
+              "G6",
+              "G5",
+              "G1"
+            ],
+            "new": [
+              "G3",
+              "G1",
+              "G2",
+              "G4",
+              "G6",
+              "G5"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf10",
+              1
+            ],
+            "kind": "perturbation_neither_source",
+            "positions_changed": [
+              3,
+              4,
+              5,
+              6
+            ],
+            "original": [
+              "G6",
+              "G5",
+              "G1",
+              "G3",
+              "G4",
+              "G2"
+            ],
+            "new": [
+              "G6",
+              "G5",
+              "G3",
+              "G1",
+              "G2",
+              "G4"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf12",
+              1
+            ],
+            "kind": "perturbation_neither_source",
+            "positions_changed": [
+              3,
+              4
+            ],
+            "original": [
+              "G1",
+              "G5",
+              "G3",
+              "G6",
+              "G4",
+              "G2"
+            ],
+            "new": [
+              "G1",
+              "G5",
+              "G6",
+              "G3",
+              "G4",
+              "G2"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf15",
+              0
+            ],
+            "kind": "left_annotation_ordering_for_neither",
+            "positions_changed": [
+              5,
+              6
+            ],
+            "original": [
+              "G5",
+              "G1",
+              "G3",
+              "G4",
+              "G2",
+              "G6"
+            ],
+            "new": [
+              "G5",
+              "G1",
+              "G3",
+              "G4",
+              "G6",
+              "G2"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf15",
+              1
+            ],
+            "kind": "switched_to_annotation_ordering",
+            "positions_changed": [
+              2,
+              3
+            ],
+            "original": [
+              "G1",
+              "G3",
+              "G2",
+              "G4",
+              "G5",
+              "G6"
+            ],
+            "new": [
+              "G1",
+              "G2",
+              "G3",
+              "G4",
+              "G5",
+              "G6"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf17",
+              1
+            ],
+            "kind": "left_annotation_ordering_for_neither",
+            "positions_changed": [
+              4,
+              6
+            ],
+            "original": [
+              "G1",
+              "G5",
+              "G3",
+              "G2",
+              "G6",
+              "G4"
+            ],
+            "new": [
+              "G1",
+              "G5",
+              "G3",
+              "G4",
+              "G6",
+              "G2"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf20",
+              1
+            ],
+            "kind": "left_annotation_ordering_for_neither",
+            "positions_changed": [
+              3,
+              4,
+              5,
+              6
+            ],
+            "original": [
+              "G5",
+              "G2",
+              "G1",
+              "G3",
+              "G4",
+              "G6"
+            ],
+            "new": [
+              "G5",
+              "G2",
+              "G4",
+              "G6",
+              "G3",
+              "G1"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf21",
+              0
+            ],
+            "kind": "left_annotation_ordering_for_neither",
+            "positions_changed": [
+              3,
+              4,
+              5,
+              6
+            ],
+            "original": [
+              "G2",
+              "G5",
+              "G1",
+              "G3",
+              "G4",
+              "G6"
+            ],
+            "new": [
+              "G2",
+              "G5",
+              "G6",
+              "G4",
+              "G3",
+              "G1"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf21",
+              1
+            ],
+            "kind": "left_annotation_ordering_for_neither",
+            "positions_changed": [
+              4,
+              5
+            ],
+            "original": [
+              "G5",
+              "G1",
+              "G4",
+              "G6",
+              "G3",
+              "G2"
+            ],
+            "new": [
+              "G5",
+              "G1",
+              "G4",
+              "G3",
+              "G6",
+              "G2"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf23",
+              0
+            ],
+            "kind": "left_annotation_ordering_for_neither",
+            "positions_changed": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "original": [
+              "G2",
+              "G6",
+              "G4",
+              "G5",
+              "G3",
+              "G1"
+            ],
+            "new": [
+              "G2",
+              "G4",
+              "G6",
+              "G3",
+              "G5",
+              "G1"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf23",
+              1
+            ],
+            "kind": "switched_to_annotation_ordering",
+            "positions_changed": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "original": [
+              "G3",
+              "G2",
+              "G5",
+              "G6",
+              "G4",
+              "G1"
+            ],
+            "new": [
+              "G3",
+              "G5",
+              "G2",
+              "G4",
+              "G6",
+              "G1"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf24",
+              0
+            ],
+            "kind": "perturbation_neither_source",
+            "positions_changed": [
+              5,
+              6
+            ],
+            "original": [
+              "G2",
+              "G4",
+              "G3",
+              "G5",
+              "G1",
+              "G6"
+            ],
+            "new": [
+              "G2",
+              "G4",
+              "G3",
+              "G5",
+              "G6",
+              "G1"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf24",
+              1
+            ],
+            "kind": "perturbation_neither_source",
+            "positions_changed": [
+              3,
+              4
+            ],
+            "original": [
+              "G4",
+              "G1",
+              "G6",
+              "G2",
+              "G5",
+              "G3"
+            ],
+            "new": [
+              "G4",
+              "G1",
+              "G2",
+              "G6",
+              "G5",
+              "G3"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf26",
+              0
+            ],
+            "kind": "switched_to_annotation_ordering",
+            "positions_changed": [
+              4,
+              6
+            ],
+            "original": [
+              "G1",
+              "G2",
+              "G5",
+              "G3",
+              "G6",
+              "G4"
+            ],
+            "new": [
+              "G1",
+              "G2",
+              "G5",
+              "G4",
+              "G6",
+              "G3"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf26",
+              1
+            ],
+            "kind": "left_annotation_ordering_for_neither",
+            "positions_changed": [
+              4,
+              6
+            ],
+            "original": [
+              "G4",
+              "G3",
+              "G6",
+              "G1",
+              "G5",
+              "G2"
+            ],
+            "new": [
+              "G4",
+              "G3",
+              "G6",
+              "G2",
+              "G5",
+              "G1"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf27",
+              1
+            ],
+            "kind": "left_annotation_ordering_for_neither",
+            "positions_changed": [
+              5,
+              6
+            ],
+            "original": [
+              "G4",
+              "G1",
+              "G3",
+              "G6",
+              "G5",
+              "G2"
+            ],
+            "new": [
+              "G4",
+              "G1",
+              "G3",
+              "G6",
+              "G2",
+              "G5"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf29",
+              1
+            ],
+            "kind": "switched_to_annotation_ordering",
+            "positions_changed": [
+              3,
+              4
+            ],
+            "original": [
+              "G1",
+              "G6",
+              "G2",
+              "G4",
+              "G3",
+              "G5"
+            ],
+            "new": [
+              "G1",
+              "G6",
+              "G4",
+              "G2",
+              "G3",
+              "G5"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf30",
+              0
+            ],
+            "kind": "left_annotation_ordering_for_neither",
+            "positions_changed": [
+              2,
+              3
+            ],
+            "original": [
+              "G1",
+              "G5",
+              "G6",
+              "G4",
+              "G3",
+              "G2"
+            ],
+            "new": [
+              "G1",
+              "G6",
+              "G5",
+              "G4",
+              "G3",
+              "G2"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf35",
+              0
+            ],
+            "kind": "perturbation_neither_source",
+            "positions_changed": [
+              3,
+              4,
+              5
+            ],
+            "original": [
+              "G1",
+              "G4",
+              "G6",
+              "G2",
+              "G3",
+              "G5"
+            ],
+            "new": [
+              "G1",
+              "G4",
+              "G2",
+              "G3",
+              "G6",
+              "G5"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf37",
+              0
+            ],
+            "kind": "switched_to_annotation_ordering",
+            "positions_changed": [
+              5,
+              6
+            ],
+            "original": [
+              "G2",
+              "G6",
+              "G5",
+              "G1",
+              "G4",
+              "G3"
+            ],
+            "new": [
+              "G2",
+              "G6",
+              "G5",
+              "G1",
+              "G3",
+              "G4"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf37",
+              1
+            ],
+            "kind": "left_annotation_ordering_for_neither",
+            "positions_changed": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "original": [
+              "G5",
+              "G4",
+              "G1",
+              "G6",
+              "G2",
+              "G3"
+            ],
+            "new": [
+              "G5",
+              "G1",
+              "G4",
+              "G2",
+              "G6",
+              "G3"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf38",
+              0
+            ],
+            "kind": "left_annotation_ordering_for_neither",
+            "positions_changed": [
+              5,
+              6
+            ],
+            "original": [
+              "G5",
+              "G4",
+              "G3",
+              "G2",
+              "G1",
+              "G6"
+            ],
+            "new": [
+              "G5",
+              "G4",
+              "G3",
+              "G2",
+              "G6",
+              "G1"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf38",
+              1
+            ],
+            "kind": "perturbation_neither_source",
+            "positions_changed": [
+              5,
+              6
+            ],
+            "original": [
+              "G3",
+              "G2",
+              "G6",
+              "G1",
+              "G5",
+              "G4"
+            ],
+            "new": [
+              "G3",
+              "G2",
+              "G6",
+              "G1",
+              "G4",
+              "G5"
+            ]
+          },
+          {
+            "key": [
+              "agent_free",
+              "conf39",
+              1
+            ],
+            "kind": "switched_to_annotation_ordering",
+            "positions_changed": [
+              2,
+              3,
+              4
+            ],
+            "original": [
+              "G5",
+              "G1",
+              "G6",
+              "G2",
+              "G4",
+              "G3"
+            ],
+            "new": [
+              "G5",
+              "G6",
+              "G2",
+              "G1",
+              "G4",
+              "G3"
+            ]
+          }
+        ]
+      }
+    },
+    "control": {
+      "test_retest_vs_original_T0": {
+        "n_repeated_keys": 40,
+        "full_ordering_exact_agreement": 0.975,
+        "gold_rank_agreement": 1.0,
+        "mean_abs_RR_difference": 0.0,
+        "p95_abs_RR_difference": 0.0,
+        "implied_MRR_noise_se": 0.0,
+        "se_n_items": 20
+      },
+      "verbatim": {
+        "phenotype_only_ranker": "39/40",
+        "annotation_only_ranker": "0/40",
+        "original_run_phenotype_only_ranker": "40/40",
+        "original_run_annotation_only_ranker": "0/40"
+      },
+      "accuracy": {
+        "n_items": 20,
+        "MRR": 0.7042,
+        "MRR_CI": [
+          0.5375,
+          0.8625
+        ],
+        "original_MRR": 0.7042,
+        "MRR_minus_original": 0.0,
+        "MRR_minus_original_paired_CI": [
+          0.0,
+          0.0
+        ],
+        "top1": 0.6,
+        "original_top1": 0.6,
+        "top1_minus_original": 0.0,
+        "top1_minus_original_paired_CI": [
+          0.0,
+          0.0
+        ]
+      },
+      "disagreements": {
+        "n": 1,
+        "kinds": {
+          "left_phenotype_ordering_for_neither": 1
+        },
+        "detail": [
+          {
+            "key": [
+              "agent_free",
+              "cont17",
+              0
+            ],
+            "kind": "left_phenotype_ordering_for_neither",
+            "positions_changed": [
+              4,
+              5
+            ],
+            "original": [
+              "G2",
+              "G6",
+              "G4",
+              "G1",
+              "G5",
+              "G3"
+            ],
+            "new": [
+              "G2",
+              "G6",
+              "G4",
+              "G5",
+              "G1",
+              "G3"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

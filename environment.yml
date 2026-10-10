@@ -1,0 +1,17 @@
+# Pinned to the environment the paper's numbers were produced in (osx-arm64, conda-forge).
+# Python must be 3.10: packet aliases come from hash((item_id, order)), and CPython 3.11
+# changed the string hash, so other versions rebuild packets with different aliases.
+name: evidence-disjoint
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.13
+  - numpy=2.2.6
+  - scipy=1.15.2
+  - matplotlib=3.10.3
+  - pip
+  - pip:
+      # only needed to re-run model calls (`run` subcommands), not to recompute any number
+      - anthropic[vertex]==1.5.0
+      - google-auth==2.58.0
+      - openai==3.14.1

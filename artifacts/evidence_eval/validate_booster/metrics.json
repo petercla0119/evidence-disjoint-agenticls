@@ -1,0 +1,145 @@
+{
+  "model": "claude-sonnet-4-6",
+  "n_items": 24,
+  "unconditioned": true,
+  "conditions": {
+    "all": {
+      "n": 24,
+      "A-mask": 0.351,
+      "H-mask": 0.1816,
+      "H-shuffle": 0.3368,
+      "P": 0.1819
+    },
+    "rank1-2": {
+      "n": 0,
+      "A-mask": NaN,
+      "H-mask": NaN,
+      "H-shuffle": NaN,
+      "P": NaN
+    },
+    "rank3-4": {
+      "n": 0,
+      "A-mask": NaN,
+      "H-mask": NaN,
+      "H-shuffle": NaN,
+      "P": NaN
+    },
+    "rank5-6": {
+      "n": 24,
+      "A-mask": 0.351,
+      "H-mask": 0.1816,
+      "H-shuffle": 0.3368,
+      "P": 0.1819
+    }
+  },
+  "P_vs_Hmask": {
+    "all": {
+      "P_MRR": 0.1819,
+      "Hmask_MRR": 0.1816,
+      "Hmask_minus_P_MRR": -0.0003,
+      "per_item_boot_mean": -0.0003,
+      "ci95": [
+        -0.0042,
+        0.0035
+      ]
+    },
+    "rank1-2": {
+      "P_MRR": NaN,
+      "Hmask_MRR": NaN,
+      "Hmask_minus_P_MRR": NaN,
+      "per_item_boot_mean": NaN,
+      "ci95": [
+        NaN,
+        NaN
+      ]
+    },
+    "rank3-4": {
+      "P_MRR": NaN,
+      "Hmask_MRR": NaN,
+      "Hmask_minus_P_MRR": NaN,
+      "per_item_boot_mean": NaN,
+      "ci95": [
+        NaN,
+        NaN
+      ]
+    },
+    "rank5-6": {
+      "P_MRR": 0.1819,
+      "Hmask_MRR": 0.1816,
+      "Hmask_minus_P_MRR": -0.0003,
+      "per_item_boot_mean": -0.0003,
+      "ci95": [
+        -0.0042,
+        0.0035
+      ]
+    }
+  },
+  "rescue": {
+    "all": {
+      "delta_rescue_mean": -0.1694,
+      "ci95": [
+        -0.2611,
+        -0.0965
+      ],
+      "shuffle_control_mean": -0.0142,
+      "shuffle_ci95": [
+        -0.1219,
+        0.075
+      ]
+    },
+    "rank1-2": {
+      "delta_rescue_mean": NaN,
+      "ci95": [
+        NaN,
+        NaN
+      ],
+      "shuffle_control_mean": NaN,
+      "shuffle_ci95": [
+        NaN,
+        NaN
+      ]
+    },
+    "rank3-4": {
+      "delta_rescue_mean": NaN,
+      "ci95": [
+        NaN,
+        NaN
+      ],
+      "shuffle_control_mean": NaN,
+      "shuffle_ci95": [
+        NaN,
+        NaN
+      ]
+    },
+    "rank5-6": {
+      "delta_rescue_mean": -0.1694,
+      "ci95": [
+        -0.2611,
+        -0.0965
+      ],
+      "shuffle_control_mean": -0.0142,
+      "shuffle_ci95": [
+        -0.1219,
+        0.075
+      ]
+    }
+  },
+  "continuous": {
+    "predictor": "gold phenotype rank (1=most similar .. 6=least)",
+    "spearman_delta_vs_rank": -0.3387,
+    "ols_slope": -0.131,
+    "ols_intercept": 0.5565,
+    "note": "negative slope/rho => rescue shrinks (then reverses) as phenotype rank worsens"
+  },
+  "rank_gap_Hmask": {
+    "mean_r_llm_minus_r_pheno": 0.0208,
+    "n_llm_better": 2,
+    "n_tie": 20,
+    "n_llm_worse": 2
+  },
+  "sanity": {
+    "n_calls": 144,
+    "parse_errors": 0,
+    "masked_calls_removing_0_records": 0
+  }
+}

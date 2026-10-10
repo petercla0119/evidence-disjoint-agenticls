@@ -1,0 +1,10377 @@
+[
+  {
+    "id": "CPX-9",
+    "name": "bZIP transcription factor complex, ATF1-ATF4",
+    "genes": [
+      "ATF1",
+      "ATF4"
+    ]
+  },
+  {
+    "id": "CPX-69",
+    "name": "bZIP transcription factor complex, CEBPA-DDIT3",
+    "genes": [
+      "CEBPA",
+      "DDIT3"
+    ]
+  },
+  {
+    "id": "CPX-70",
+    "name": "bZIP transcription factor complex, CEBPB-DDIT3",
+    "genes": [
+      "CEBPB",
+      "DDIT3"
+    ]
+  },
+  {
+    "id": "CPX-73",
+    "name": "Phosphatidylinositol 3-kinase complex, class III, ATG14 variant",
+    "genes": [
+      "BECN1",
+      "PIK3C3",
+      "PIK3R4"
+    ]
+  },
+  {
+    "id": "CPX-74",
+    "name": "Phosphatidylinositol 3-kinase complex, class III, UVRAG variant",
+    "genes": [
+      "BECN1",
+      "PIK3C3",
+      "PIK3R4",
+      "UVRAG"
+    ]
+  },
+  {
+    "id": "CPX-79",
+    "name": "General transcription factor TFIIF complex",
+    "genes": [
+      "GTF2F1",
+      "GTF2F2"
+    ]
+  },
+  {
+    "id": "CPX-85",
+    "name": "Mitotic spindle assembly checkpoint MAD1-MAD2 complex",
+    "genes": [
+      "MAD1L1",
+      "MAD2L1"
+    ]
+  },
+  {
+    "id": "CPX-91",
+    "name": "MYC-MAX transcriptional activator complex",
+    "genes": [
+      "MAX",
+      "MYC"
+    ]
+  },
+  {
+    "id": "CPX-99",
+    "name": "Beta-catenin destruction core complex, APC2-AXIN1-GSK3B variant",
+    "genes": [
+      "APC2",
+      "AXIN1",
+      "CSNK1A1"
+    ]
+  },
+  {
+    "id": "CPX-107",
+    "name": "Beta-catenin destruction core complex, APC-AXIN1-GSK3A variant",
+    "genes": [
+      "APC",
+      "AXIN1",
+      "CSNK1A1"
+    ]
+  },
+  {
+    "id": "CPX-109",
+    "name": "Beta-catenin destruction core complex, APC-AXIN1-GSK3B variant",
+    "genes": [
+      "APC",
+      "AXIN1",
+      "CSNK1A1"
+    ]
+  },
+  {
+    "id": "CPX-116",
+    "name": "Chromosomal passenger complex, AURKB variant",
+    "genes": [
+      "AURKB",
+      "BIRC5",
+      "CDCA8",
+      "INCENP"
+    ]
+  },
+  {
+    "id": "CPX-132",
+    "name": "BAT3 complex",
+    "genes": [
+      "BAG6",
+      "GET4"
+    ]
+  },
+  {
+    "id": "CPX-137",
+    "name": "VCP-NPL4-UFD1 AAA ATPase complex",
+    "genes": [
+      "NPLOC4",
+      "UFD1",
+      "VCP"
+    ]
+  },
+  {
+    "id": "CPX-152",
+    "name": "Shelterin complex",
+    "genes": [
+      "ACD",
+      "POT1",
+      "TERF1",
+      "TERF2",
+      "TINF2"
+    ]
+  },
+  {
+    "id": "CPX-155",
+    "name": "RB1-E2F1-DP1 transcriptional repressor complex",
+    "genes": [
+      "E2F1",
+      "TFDP1"
+    ]
+  },
+  {
+    "id": "CPX-156",
+    "name": "PPP4C-PPP4R2 protein phosphatase 4 complex",
+    "genes": [
+      "PPP4C",
+      "PPP4R2"
+    ]
+  },
+  {
+    "id": "CPX-222",
+    "name": "Positive transcription elongation factor B, CDK9-cyclinT1 complex",
+    "genes": [
+      "CCNT1",
+      "CDK9"
+    ]
+  },
+  {
+    "id": "CPX-241",
+    "name": "Cyclin K-CDK12 complex",
+    "genes": [
+      "CCNK",
+      "CDK12"
+    ]
+  },
+  {
+    "id": "CPX-256",
+    "name": "YAP1-TEAD1 transcription factor complex",
+    "genes": [
+      "TEAD1",
+      "YAP1"
+    ]
+  },
+  {
+    "id": "CPX-262",
+    "name": "VCP-NSFL1C AAA ATPase complex",
+    "genes": [
+      "NSFL1C",
+      "VCP"
+    ]
+  },
+  {
+    "id": "CPX-329",
+    "name": "ESCRT-III complex",
+    "genes": [
+      "CHMP1A",
+      "CHMP2A",
+      "CHMP4B",
+      "CHMP4C",
+      "CHMP5",
+      "CHMP6",
+      "CHMP7",
+      "RNF103-CHMP3"
+    ]
+  },
+  {
+    "id": "CPX-338",
+    "name": "VPS4A/B complex",
+    "genes": [
+      "VPS4A",
+      "VPS4B"
+    ]
+  },
+  {
+    "id": "CPX-359",
+    "name": "Cyclin K-CDK13 complex",
+    "genes": [
+      "CCNK",
+      "CDK13"
+    ]
+  },
+  {
+    "id": "CPX-395",
+    "name": "GTPase HRAS - Son of sevenless homolog 1 complex",
+    "genes": [
+      "HRAS",
+      "SOS1"
+    ]
+  },
+  {
+    "id": "CPX-415",
+    "name": "DNA replication factor C complex, RFC1 variant",
+    "genes": [
+      "RFC1",
+      "RFC2",
+      "RFC3",
+      "RFC4",
+      "RFC5"
+    ]
+  },
+  {
+    "id": "CPX-419",
+    "name": "FACT complex",
+    "genes": [
+      "SSRP1",
+      "SUPT16H"
+    ]
+  },
+  {
+    "id": "CPX-432",
+    "name": "NoRC chromatin remodelling complex",
+    "genes": [
+      "BAZ2A",
+      "SMARCA5"
+    ]
+  },
+  {
+    "id": "CPX-439",
+    "name": "Beta-catenin destruction core complex, APC-AXIN2-GSK3B variant",
+    "genes": [
+      "APC",
+      "CSNK1A1"
+    ]
+  },
+  {
+    "id": "CPX-440",
+    "name": "Beta-catenin destruction core complex, APC2-AXIN2-GSK3B variant",
+    "genes": [
+      "APC2",
+      "CSNK1A1"
+    ]
+  },
+  {
+    "id": "CPX-441",
+    "name": "Beta-catenin destruction core complex, APC-AXIN2-GSK3A variant",
+    "genes": [
+      "APC",
+      "CSNK1A1"
+    ]
+  },
+  {
+    "id": "CPX-442",
+    "name": "Beta-catenin destruction core complex, APC2-AXIN1-GSK3A variant",
+    "genes": [
+      "APC2",
+      "AXIN1",
+      "CSNK1A1"
+    ]
+  },
+  {
+    "id": "CPX-443",
+    "name": "Beta-catenin destruction core complex, APC2-AXIN2-GSK3A variant",
+    "genes": [
+      "APC2",
+      "CSNK1A1"
+    ]
+  },
+  {
+    "id": "CPX-476",
+    "name": "Nuclear exosome complex, DIS3-EXOSC10 variant",
+    "genes": [
+      "DIS3",
+      "EXOSC1",
+      "EXOSC10",
+      "EXOSC2",
+      "EXOSC3",
+      "EXOSC4",
+      "EXOSC5",
+      "EXOSC6",
+      "EXOSC7",
+      "EXOSC8",
+      "EXOSC9"
+    ]
+  },
+  {
+    "id": "CPX-477",
+    "name": "CRL4-DDB2 E3 ubiquitin ligase complex, CUL4A variant",
+    "genes": [
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-484",
+    "name": "SLX4-TERF2 complex",
+    "genes": [
+      "SLX4",
+      "TERF2"
+    ]
+  },
+  {
+    "id": "CPX-489",
+    "name": "VAPA-OSBP complex",
+    "genes": [
+      "OSBP",
+      "VAPA"
+    ]
+  },
+  {
+    "id": "CPX-497",
+    "name": "Menin-JUND transcription inhibition complex",
+    "genes": [
+      "JUND",
+      "MEN1"
+    ]
+  },
+  {
+    "id": "CPX-503",
+    "name": "mTORC1 complex",
+    "genes": [
+      "MLST8",
+      "MTOR",
+      "RPTOR"
+    ]
+  },
+  {
+    "id": "CPX-504",
+    "name": "c-Myb-C/EBPbeta complex",
+    "genes": [
+      "CEBPB",
+      "MYB"
+    ]
+  },
+  {
+    "id": "CPX-506",
+    "name": "Interleukin-5 receptor-ligand complex",
+    "genes": [
+      "CSF2RB",
+      "TYK2"
+    ]
+  },
+  {
+    "id": "CPX-508",
+    "name": "RXRalpha-RARalpha retinoic acid receptor complex",
+    "genes": [
+      "RARA",
+      "RXRA"
+    ]
+  },
+  {
+    "id": "CPX-509",
+    "name": "bZIP transcription factor complex, CEBPA-CEBPB",
+    "genes": [
+      "CEBPA",
+      "CEBPB"
+    ]
+  },
+  {
+    "id": "CPX-513",
+    "name": "RXRalpha-NCOA2 activated retinoic acid receptor complex",
+    "genes": [
+      "NCOA2",
+      "RXRA"
+    ]
+  },
+  {
+    "id": "CPX-519",
+    "name": "General transcription factor complex TFIIA",
+    "genes": [
+      "GTF2A1",
+      "GTF2A2"
+    ]
+  },
+  {
+    "id": "CPX-550",
+    "name": "Ndc80 complex",
+    "genes": [
+      "NDC80",
+      "NUF2",
+      "SPC24",
+      "SPC25"
+    ]
+  },
+  {
+    "id": "CPX-560",
+    "name": "Mitochondrial respiratory chain complex III",
+    "genes": [
+      "CYC1",
+      "UQCR10",
+      "UQCRB",
+      "UQCRC1",
+      "UQCRC2",
+      "UQCRH",
+      "UQCRQ"
+    ]
+  },
+  {
+    "id": "CPX-561",
+    "name": "Mitochondrial respiratory chain complex II",
+    "genes": [
+      "SDHA",
+      "SDHB",
+      "SDHC",
+      "SDHD"
+    ]
+  },
+  {
+    "id": "CPX-569",
+    "name": "Chromatin assembly factor 1 complex",
+    "genes": [
+      "CHAF1A",
+      "CHAF1B",
+      "RBBP4"
+    ]
+  },
+  {
+    "id": "CPX-577",
+    "name": "Mitochondrial respiratory chain complex I",
+    "genes": [
+      "NDUFA1",
+      "NDUFA10",
+      "NDUFA11",
+      "NDUFA13",
+      "NDUFA2",
+      "NDUFA3",
+      "NDUFA5",
+      "NDUFA6",
+      "NDUFA7",
+      "NDUFA8",
+      "NDUFA9",
+      "NDUFAB1",
+      "NDUFB1",
+      "NDUFB10",
+      "NDUFB11",
+      "NDUFB2",
+      "NDUFB3",
+      "NDUFB4",
+      "NDUFB5",
+      "NDUFB6",
+      "NDUFB7",
+      "NDUFB8",
+      "NDUFB9",
+      "NDUFC1",
+      "NDUFC2",
+      "NDUFS1",
+      "NDUFS2",
+      "NDUFS3",
+      "NDUFS5",
+      "NDUFS7",
+      "NDUFS8",
+      "NDUFV1",
+      "NDUFV2"
+    ]
+  },
+  {
+    "id": "CPX-578",
+    "name": "Cyclin-dependent protein kinase-activating kinase complex",
+    "genes": [
+      "CCNH",
+      "CDK7",
+      "MNAT1"
+    ]
+  },
+  {
+    "id": "CPX-591",
+    "name": "Nucleolar exosome complex, EXOSC10 variant",
+    "genes": [
+      "EXOSC1",
+      "EXOSC10",
+      "EXOSC2",
+      "EXOSC3",
+      "EXOSC4",
+      "EXOSC5",
+      "EXOSC6",
+      "EXOSC7",
+      "EXOSC8",
+      "EXOSC9"
+    ]
+  },
+  {
+    "id": "CPX-592",
+    "name": "Cytoplasmic exosome complex, DIS3L variant",
+    "genes": [
+      "DIS3L",
+      "EXOSC1",
+      "EXOSC2",
+      "EXOSC3",
+      "EXOSC4",
+      "EXOSC5",
+      "EXOSC6",
+      "EXOSC7",
+      "EXOSC8",
+      "EXOSC9"
+    ]
+  },
+  {
+    "id": "CPX-593",
+    "name": "Exosome complex, DIS3 variant",
+    "genes": [
+      "DIS3",
+      "EXOSC1",
+      "EXOSC2",
+      "EXOSC3",
+      "EXOSC4",
+      "EXOSC5",
+      "EXOSC6",
+      "EXOSC7",
+      "EXOSC8",
+      "EXOSC9"
+    ]
+  },
+  {
+    "id": "CPX-600",
+    "name": "Cytoplasmic exosome complex, DIS3L-EXOSC10 variant",
+    "genes": [
+      "DIS3L",
+      "EXOSC1",
+      "EXOSC10",
+      "EXOSC2",
+      "EXOSC3",
+      "EXOSC4",
+      "EXOSC5",
+      "EXOSC6",
+      "EXOSC7",
+      "EXOSC8",
+      "EXOSC9"
+    ]
+  },
+  {
+    "id": "CPX-630",
+    "name": "Signal recognition particle receptor complex",
+    "genes": [
+      "SRPRA",
+      "SRPRB"
+    ]
+  },
+  {
+    "id": "CPX-642",
+    "name": "Negative cofactor 2 transcriptional regulator complex",
+    "genes": [
+      "DR1",
+      "DRAP1"
+    ]
+  },
+  {
+    "id": "CPX-648",
+    "name": "CRL4-DDB2 E3 ubiquitin ligase complex, CUL4B variant",
+    "genes": [
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-659",
+    "name": "CDT1-Geminin complex",
+    "genes": [
+      "CDT1",
+      "GMNN"
+    ]
+  },
+  {
+    "id": "CPX-666",
+    "name": "RARalpha-NCOA2 activated retinoic acid receptor complex",
+    "genes": [
+      "NCOA2",
+      "RARA"
+    ]
+  },
+  {
+    "id": "CPX-676",
+    "name": "Nascent polypeptide-associated complex",
+    "genes": [
+      "BTF3",
+      "NACA"
+    ]
+  },
+  {
+    "id": "CPX-680",
+    "name": "Exon junction subcomplex MAGOHB-Y14",
+    "genes": [
+      "MAGOHB",
+      "RBM8A"
+    ]
+  },
+  {
+    "id": "CPX-682",
+    "name": "Exon junction core complex, MAGOHB variant",
+    "genes": [
+      "CASC3",
+      "EIF4A3",
+      "MAGOHB",
+      "RBM8A"
+    ]
+  },
+  {
+    "id": "CPX-688",
+    "name": "NuRF chromatin remodeling complex",
+    "genes": [
+      "BPTF",
+      "RBBP4",
+      "RBBP7"
+    ]
+  },
+  {
+    "id": "CPX-696",
+    "name": "PRMT5 methylosome complex, CLNS1A variant",
+    "genes": [
+      "CLNS1A",
+      "PRMT5",
+      "WDR77"
+    ]
+  },
+  {
+    "id": "CPX-707",
+    "name": "CCR4-NOT mRNA deadenylase complex, CNOT6-CNOT7 variant",
+    "genes": [
+      "CNOT1",
+      "CNOT10",
+      "CNOT11",
+      "CNOT2",
+      "CNOT3",
+      "CNOT4",
+      "CNOT9"
+    ]
+  },
+  {
+    "id": "CPX-709",
+    "name": "Piccolo NuA4 histone acetyltransferase complex",
+    "genes": [
+      "EPC1",
+      "ING3",
+      "KAT5"
+    ]
+  },
+  {
+    "id": "CPX-715",
+    "name": "BRCA1-BARD1 complex",
+    "genes": [
+      "BARD1",
+      "BRCA1"
+    ]
+  },
+  {
+    "id": "CPX-718",
+    "name": "HBO1-4.1 histone acetyltransferase complex",
+    "genes": [
+      "KAT7",
+      "MEAF6"
+    ]
+  },
+  {
+    "id": "CPX-719",
+    "name": "HBO1-4.2 histone acetyltransferase complex",
+    "genes": [
+      "KAT7",
+      "MEAF6"
+    ]
+  },
+  {
+    "id": "CPX-720",
+    "name": "HBO1-4.3 histone acetyltransferase complex",
+    "genes": [
+      "KAT7",
+      "MEAF6"
+    ]
+  },
+  {
+    "id": "CPX-721",
+    "name": "HBO1-5.1 histone acetyltransferase complex",
+    "genes": [
+      "KAT7",
+      "MEAF6"
+    ]
+  },
+  {
+    "id": "CPX-722",
+    "name": "HBO1-5.2 histone acetyltransferase complex",
+    "genes": [
+      "KAT7",
+      "MEAF6"
+    ]
+  },
+  {
+    "id": "CPX-723",
+    "name": "HBO1-5.3 histone acetyltransferase complex",
+    "genes": [
+      "KAT7",
+      "MEAF6"
+    ]
+  },
+  {
+    "id": "CPX-725",
+    "name": "NXF1-NXT1 mRNA nuclear export factor complex",
+    "genes": [
+      "NXF1",
+      "NXT1"
+    ]
+  },
+  {
+    "id": "CPX-727",
+    "name": "MOZ1 histone acetyltransferase complex",
+    "genes": [
+      "BRPF1",
+      "KAT6A",
+      "MEAF6"
+    ]
+  },
+  {
+    "id": "CPX-733",
+    "name": "MOZ2 histone acetyltransferase complex",
+    "genes": [
+      "BRD1",
+      "KAT6A",
+      "MEAF6"
+    ]
+  },
+  {
+    "id": "CPX-736",
+    "name": "MOZ3 histone acetyltransferase complex",
+    "genes": [
+      "KAT6A",
+      "MEAF6"
+    ]
+  },
+  {
+    "id": "CPX-738",
+    "name": "MORF1 histone acetyltransferase complex",
+    "genes": [
+      "BRPF1",
+      "KAT6B",
+      "MEAF6"
+    ]
+  },
+  {
+    "id": "CPX-739",
+    "name": "MORF2 histone acetyltransferase complex",
+    "genes": [
+      "BRD1",
+      "KAT6B",
+      "MEAF6"
+    ]
+  },
+  {
+    "id": "CPX-740",
+    "name": "MORF3 histone acetyltransferase complex",
+    "genes": [
+      "KAT6B",
+      "MEAF6"
+    ]
+  },
+  {
+    "id": "CPX-745",
+    "name": "RNase H2 complex",
+    "genes": [
+      "RNASEH2A",
+      "RNASEH2B",
+      "RNASEH2C"
+    ]
+  },
+  {
+    "id": "CPX-757",
+    "name": "WICH chromatin remodelling complex",
+    "genes": [
+      "BAZ1B",
+      "SMARCA5"
+    ]
+  },
+  {
+    "id": "CPX-785",
+    "name": "CHRAC chromatin remodeling complex",
+    "genes": [
+      "POLE3",
+      "SMARCA5"
+    ]
+  },
+  {
+    "id": "CPX-787",
+    "name": "GINS complex",
+    "genes": [
+      "GINS1",
+      "GINS2",
+      "GINS3",
+      "GINS4"
+    ]
+  },
+  {
+    "id": "CPX-791",
+    "name": "Talin-1-Vinculin focal adhesion activation complex",
+    "genes": [
+      "TLN1",
+      "VCL"
+    ]
+  },
+  {
+    "id": "CPX-793",
+    "name": "XRCC1 DNA repair complex",
+    "genes": [
+      "LIG3",
+      "PNKP",
+      "XRCC1"
+    ]
+  },
+  {
+    "id": "CPX-809",
+    "name": "NSL histone acetyltransferase complex",
+    "genes": [
+      "HCFC1",
+      "KANSL1",
+      "KANSL2",
+      "KANSL3",
+      "KAT8",
+      "MCRS1",
+      "OGT",
+      "PHF20",
+      "WDR5"
+    ]
+  },
+  {
+    "id": "CPX-815",
+    "name": "MSL histone acetyltransferase complex",
+    "genes": [
+      "KAT8",
+      "MSL1"
+    ]
+  },
+  {
+    "id": "CPX-816",
+    "name": "RXRalpha-RARalpha-NCOA2 retinoic acid receptor complex",
+    "genes": [
+      "NCOA2",
+      "RARA",
+      "RXRA"
+    ]
+  },
+  {
+    "id": "CPX-845",
+    "name": "BRCA1-PALB2-BRCA2 homologous recombination DNA repair complex",
+    "genes": [
+      "BRCA1",
+      "BRCA2",
+      "PALB2"
+    ]
+  },
+  {
+    "id": "CPX-846",
+    "name": "INO80 chromatin remodeling complex",
+    "genes": [
+      "ACTL6A",
+      "ACTR5",
+      "ACTR8",
+      "INO80",
+      "INO80B",
+      "INO80C",
+      "INO80D",
+      "INO80E",
+      "MCRS1",
+      "NFRKB",
+      "RUVBL1",
+      "RUVBL2",
+      "TFPT",
+      "UCHL5",
+      "YY1"
+    ]
+  },
+  {
+    "id": "CPX-848",
+    "name": "METTL1-WDR4 tRNA (guanine-N(7)-)-methyltransferase complex",
+    "genes": [
+      "METTL1",
+      "WDR4"
+    ]
+  },
+  {
+    "id": "CPX-876",
+    "name": "GID E3 ubiquitin ligase complex, RMND5A-RANBP9 variant",
+    "genes": [
+      "MAEA",
+      "RMND5A",
+      "WDR26",
+      "YPEL5"
+    ]
+  },
+  {
+    "id": "CPX-880",
+    "name": "MBD2/NuRD nucleosome remodeling and deacetylase complex",
+    "genes": [
+      "CHD4",
+      "GATAD2A",
+      "MBD2",
+      "MTA2",
+      "RBBP4",
+      "RBBP7"
+    ]
+  },
+  {
+    "id": "CPX-885",
+    "name": "MTERF4-NSUN4 mitochondrial ribosomal assembly complex",
+    "genes": [
+      "MTERF4",
+      "NSUN4"
+    ]
+  },
+  {
+    "id": "CPX-889",
+    "name": "NONO-PSPC1 RNA-binding complex",
+    "genes": [
+      "NONO",
+      "PSPC1"
+    ]
+  },
+  {
+    "id": "CPX-891",
+    "name": "DSIF transcription elongation factor complex",
+    "genes": [
+      "SUPT4H1",
+      "SUPT5H"
+    ]
+  },
+  {
+    "id": "CPX-903",
+    "name": "TFTC histone acetylation complex",
+    "genes": [
+      "ATXN7L3",
+      "ENY2",
+      "KAT2A",
+      "TADA3",
+      "TAF10",
+      "TAF12",
+      "TAF2",
+      "TAF4",
+      "TAF5",
+      "TAF5L",
+      "TAF6",
+      "TAF7",
+      "TRRAP"
+    ]
+  },
+  {
+    "id": "CPX-914",
+    "name": "Casein kinase II complex, CSNK2A1 variant",
+    "genes": [
+      "CSNK2A1",
+      "CSNK2B"
+    ]
+  },
+  {
+    "id": "CPX-915",
+    "name": "General transcription factor complex TFIID",
+    "genes": [
+      "TAF1",
+      "TAF10",
+      "TAF11",
+      "TAF12",
+      "TAF13",
+      "TAF2",
+      "TAF3",
+      "TAF4",
+      "TAF5",
+      "TAF6",
+      "TAF7",
+      "TAF8",
+      "TBP"
+    ]
+  },
+  {
+    "id": "CPX-922",
+    "name": "MBD3/NuRD nucleosome remodeling and deacetylase complex",
+    "genes": [
+      "CHD4",
+      "GATAD2A",
+      "MTA2",
+      "RBBP4",
+      "RBBP7"
+    ]
+  },
+  {
+    "id": "CPX-930",
+    "name": "General transcription factor complex TFIID, TAF4B variant",
+    "genes": [
+      "TAF1",
+      "TAF10",
+      "TAF11",
+      "TAF12",
+      "TAF13",
+      "TAF2",
+      "TAF3",
+      "TAF5",
+      "TAF6",
+      "TAF7",
+      "TAF8",
+      "TBP"
+    ]
+  },
+  {
+    "id": "CPX-937",
+    "name": "CSL-NOTCH1-MAML transcriptional activation complex",
+    "genes": [
+      "MAML1",
+      "RBPJ"
+    ]
+  },
+  {
+    "id": "CPX-941",
+    "name": "mRNA cleavage factor I(m) complex, CPSF6 variant",
+    "genes": [
+      "CPSF6",
+      "NUDT21"
+    ]
+  },
+  {
+    "id": "CPX-951",
+    "name": "mRNA cleavage factor I(m) complex, CPSF7 variant",
+    "genes": [
+      "CPSF7",
+      "NUDT21"
+    ]
+  },
+  {
+    "id": "CPX-955",
+    "name": "BRCC E3 ubiquitin ligase complex",
+    "genes": [
+      "BARD1",
+      "BRCA1",
+      "BRCA2",
+      "RAD51"
+    ]
+  },
+  {
+    "id": "CPX-974",
+    "name": "SRCAP chromatin remodeling complex",
+    "genes": [
+      "ACTL6A",
+      "ACTR6",
+      "DMAP1",
+      "RUVBL1",
+      "RUVBL2",
+      "SRCAP",
+      "VPS72",
+      "YEATS4",
+      "ZNHIT1"
+    ]
+  },
+  {
+    "id": "CPX-978",
+    "name": "NuA4 histone acetyltransferase complex",
+    "genes": [
+      "ACTB",
+      "ACTL6A",
+      "BRD8",
+      "DMAP1",
+      "EP400",
+      "EPC1",
+      "EPC2",
+      "ING3",
+      "KAT5",
+      "MBTD1",
+      "MEAF6",
+      "MORF4L1",
+      "MRGBP",
+      "RUVBL1",
+      "RUVBL2",
+      "TRRAP",
+      "VPS72",
+      "YEATS4"
+    ]
+  },
+  {
+    "id": "CPX-979",
+    "name": "Condensin I complex",
+    "genes": [
+      "NCAPD2",
+      "NCAPG",
+      "NCAPH",
+      "SMC2",
+      "SMC4"
+    ]
+  },
+  {
+    "id": "CPX-985",
+    "name": "Condensin II complex",
+    "genes": [
+      "NCAPD3",
+      "NCAPG2",
+      "NCAPH2",
+      "SMC2",
+      "SMC4"
+    ]
+  },
+  {
+    "id": "CPX-989",
+    "name": "PCAF histone acetylase complex",
+    "genes": [
+      "TADA2A",
+      "TADA3",
+      "TAF10",
+      "TAF12",
+      "TAF5L",
+      "TAF6L",
+      "TRRAP"
+    ]
+  },
+  {
+    "id": "CPX-994",
+    "name": "DNA polymerase zeta complex",
+    "genes": [
+      "MAD2L2",
+      "POLD2",
+      "POLD3",
+      "REV3L"
+    ]
+  },
+  {
+    "id": "CPX-997",
+    "name": "GCN5-containing ATAC complex",
+    "genes": [
+      "DR1",
+      "KAT14",
+      "KAT2A",
+      "SGF29",
+      "TADA2A",
+      "TADA3",
+      "WDR5",
+      "YEATS2",
+      "ZZZ3"
+    ]
+  },
+  {
+    "id": "CPX-1004",
+    "name": "PCAF-containing ATAC complex",
+    "genes": [
+      "DR1",
+      "KAT14",
+      "SGF29",
+      "TADA2A",
+      "TADA3",
+      "WDR5",
+      "YEATS2",
+      "ZZZ3"
+    ]
+  },
+  {
+    "id": "CPX-1027",
+    "name": "Importin complex, KPNA2 variant",
+    "genes": [
+      "KPNA2",
+      "KPNB1"
+    ]
+  },
+  {
+    "id": "CPX-1032",
+    "name": "Importin complex, Snurportin variant",
+    "genes": [
+      "KPNB1",
+      "SNUPN"
+    ]
+  },
+  {
+    "id": "CPX-1064",
+    "name": "Importin complex, KPNA6 variant",
+    "genes": [
+      "KPNA6",
+      "KPNB1"
+    ]
+  },
+  {
+    "id": "CPX-1074",
+    "name": "SF1-U2AF65 splicing factor complex",
+    "genes": [
+      "SF1",
+      "U2AF2"
+    ]
+  },
+  {
+    "id": "CPX-1076",
+    "name": "mCRD-poly(A)-bridging complex",
+    "genes": [
+      "CSDE1",
+      "HNRNPD",
+      "PABPC1",
+      "SYNCRIP"
+    ]
+  },
+  {
+    "id": "CPX-1080",
+    "name": "CRD-mediated mRNA stability complex",
+    "genes": [
+      "DHX9",
+      "HNRNPU",
+      "SYNCRIP",
+      "YBX1"
+    ]
+  },
+  {
+    "id": "CPX-1099",
+    "name": "B-WICH chromatin remodelling complex",
+    "genes": [
+      "BAZ1B",
+      "DDX21",
+      "DEK",
+      "MYBBP1A",
+      "SF3B1",
+      "SMARCA5"
+    ]
+  },
+  {
+    "id": "CPX-1159",
+    "name": "CPAP-STIL complex",
+    "genes": [
+      "SASS6",
+      "STIL"
+    ]
+  },
+  {
+    "id": "CPX-1161",
+    "name": "CEP192-PLK4 complex",
+    "genes": [
+      "CEP192",
+      "PLK4"
+    ]
+  },
+  {
+    "id": "CPX-1163",
+    "name": "WASH complex, variant WASHC1/WASHC2C",
+    "genes": [
+      "WASHC2C",
+      "WASHC3",
+      "WASHC4",
+      "WASHC5"
+    ]
+  },
+  {
+    "id": "CPX-1164",
+    "name": "SWI/SNF ATP-dependent chromatin remodeling complex, ACTL6A-ARID1A-SMARCA2 variant",
+    "genes": [
+      "ACTB",
+      "ACTL6A",
+      "ARID1A",
+      "SMARCB1",
+      "SMARCC1",
+      "SMARCD1",
+      "SMARCD2",
+      "SMARCD3",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1168",
+    "name": "WASH complex, variant WASH2P/WASHC2C",
+    "genes": [
+      "WASHC2C",
+      "WASHC3",
+      "WASHC4",
+      "WASHC5"
+    ]
+  },
+  {
+    "id": "CPX-1169",
+    "name": "WASH complex, variant WASH3P/WASHC2C",
+    "genes": [
+      "WASHC2C",
+      "WASHC3",
+      "WASHC4",
+      "WASHC5"
+    ]
+  },
+  {
+    "id": "CPX-1170",
+    "name": "WASH complex, variant WASH4P/WASHC2C",
+    "genes": [
+      "WASHC2C",
+      "WASHC3",
+      "WASHC4",
+      "WASHC5"
+    ]
+  },
+  {
+    "id": "CPX-1171",
+    "name": "WASH complex, variant WASH6P/WASHC2C",
+    "genes": [
+      "WASHC2C",
+      "WASHC3",
+      "WASHC4",
+      "WASHC5"
+    ]
+  },
+  {
+    "id": "CPX-1172",
+    "name": "WASH complex, variant WASHC1/WASHC2A",
+    "genes": [
+      "WASHC3",
+      "WASHC4",
+      "WASHC5"
+    ]
+  },
+  {
+    "id": "CPX-1173",
+    "name": "WASH complex, variant WASH2P/WASHC2A",
+    "genes": [
+      "WASHC3",
+      "WASHC4",
+      "WASHC5"
+    ]
+  },
+  {
+    "id": "CPX-1174",
+    "name": "WASH complex, variant WASH3P/WASHC2A",
+    "genes": [
+      "WASHC3",
+      "WASHC4",
+      "WASHC5"
+    ]
+  },
+  {
+    "id": "CPX-1175",
+    "name": "WASH complex, variant WASH4P/WASHC2A",
+    "genes": [
+      "WASHC3",
+      "WASHC4",
+      "WASHC5"
+    ]
+  },
+  {
+    "id": "CPX-1176",
+    "name": "WASH complex, variant WASH6P/WASHC2A",
+    "genes": [
+      "WASHC3",
+      "WASHC4",
+      "WASHC5"
+    ]
+  },
+  {
+    "id": "CPX-1194",
+    "name": "Muscle cell-specific SWI/SNF ATP-dependent chromatin remodeling complex, ACTL6A-ARID1A-SMARCA2 variant",
+    "genes": [
+      "ACTB",
+      "ACTL6A",
+      "ARID1A",
+      "SMARCB1",
+      "SMARCC1",
+      "SMARCD1",
+      "SMARCD2",
+      "SMARCD3",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1195",
+    "name": "Embryonic stem cell-specific SWI/SNF ATP-dependent chromatin remodeling complex",
+    "genes": [
+      "ACTB",
+      "ACTL6A",
+      "ARID1A",
+      "DPF2",
+      "SMARCA4",
+      "SMARCB1",
+      "SMARCC1",
+      "SMARCD1",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1196",
+    "name": "Polybromo-associated SWI/SNF ATP-dependent chromatin remodeling complex, ACTL6B variant",
+    "genes": [
+      "ACTB",
+      "ARID2",
+      "BRD7",
+      "PBRM1",
+      "SMARCA4",
+      "SMARCB1",
+      "SMARCC1",
+      "SMARCD1",
+      "SMARCD2",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1199",
+    "name": "Polybromo-associated SWI/SNF ATP-dependent chromatin remodeling complex, ACTL6A variant",
+    "genes": [
+      "ACTB",
+      "ACTL6A",
+      "ARID2",
+      "BRD7",
+      "PBRM1",
+      "SMARCA4",
+      "SMARCB1",
+      "SMARCC1",
+      "SMARCD1",
+      "SMARCD2",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1201",
+    "name": "Neural progenitor-specific SWI/SNF ATP-dependent chromatin remodeling complex, ARID1A-SMARCA2 variant",
+    "genes": [
+      "ACTB",
+      "ACTL6A",
+      "ARID1A",
+      "SMARCB1",
+      "SMARCC1",
+      "SMARCD1",
+      "SMARCD3",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1202",
+    "name": "Neuron-specific SWI/SNF ATP-dependent chromatin remodeling complex, ARID1A-SMARCA2 variant",
+    "genes": [
+      "ACTB",
+      "ARID1A",
+      "SMARCB1",
+      "SMARCC1",
+      "SMARCD1",
+      "SMARCD3",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1203",
+    "name": "Brain-specific SWI/SNF ATP-dependent chromatin remodeling complex, ARID1A-SMARCA2 variant",
+    "genes": [
+      "ACTB",
+      "ARID1A",
+      "SMARCB1",
+      "SMARCD2",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1204",
+    "name": "SWI/SNF ATP-dependent chromatin remodeling complex, ACTL6A-ARID1A-SMARCA4 variant",
+    "genes": [
+      "ACTB",
+      "ACTL6A",
+      "ARID1A",
+      "SMARCA4",
+      "SMARCB1",
+      "SMARCC1",
+      "SMARCD1",
+      "SMARCD2",
+      "SMARCD3",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1205",
+    "name": "SWI/SNF ATP-dependent chromatin remodeling complex, ACTL6A-ARID1B-SMARCA2 variant",
+    "genes": [
+      "ACTB",
+      "ACTL6A",
+      "SMARCB1",
+      "SMARCC1",
+      "SMARCD1",
+      "SMARCD2",
+      "SMARCD3",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1206",
+    "name": "SWI/SNF ATP-dependent chromatin remodeling complex, ACTL6A-ARID1B-SMARCA4 variant",
+    "genes": [
+      "ACTB",
+      "ACTL6A",
+      "SMARCA4",
+      "SMARCB1",
+      "SMARCC1",
+      "SMARCD1",
+      "SMARCD2",
+      "SMARCD3",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1207",
+    "name": "SWI/SNF ATP-dependent chromatin remodeling complex, ACTL6B-ARID1A-SMARCA2 variant",
+    "genes": [
+      "ACTB",
+      "ARID1A",
+      "SMARCB1",
+      "SMARCC1",
+      "SMARCD1",
+      "SMARCD2",
+      "SMARCD3",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1209",
+    "name": "SWI/SNF ATP-dependent chromatin remodeling complex, ACTL6B-ARID1A-SMARCA4 variant",
+    "genes": [
+      "ACTB",
+      "ARID1A",
+      "SMARCA4",
+      "SMARCB1",
+      "SMARCC1",
+      "SMARCD1",
+      "SMARCD2",
+      "SMARCD3",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1210",
+    "name": "SWI/SNF ATP-dependent chromatin remodeling complex, ACTL6B-ARID1B-SMARCA2 variant",
+    "genes": [
+      "ACTB",
+      "SMARCB1",
+      "SMARCC1",
+      "SMARCD1",
+      "SMARCD2",
+      "SMARCD3",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1211",
+    "name": "SWI/SNF ATP-dependent chromatin remodeling complex, ACTL6B-ARID1B-SMARCA4 variant",
+    "genes": [
+      "ACTB",
+      "SMARCA4",
+      "SMARCB1",
+      "SMARCC1",
+      "SMARCD1",
+      "SMARCD2",
+      "SMARCD3",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1212",
+    "name": "Neural progenitor-specific SWI/SNF ATP-dependent chromatin remodeling complex, ARID1A-SMARCA4 variant",
+    "genes": [
+      "ACTB",
+      "ACTL6A",
+      "ARID1A",
+      "SMARCA4",
+      "SMARCB1",
+      "SMARCC1",
+      "SMARCD1",
+      "SMARCD3",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1213",
+    "name": "Neural progenitor-specific SWI/SNF ATP-dependent chromatin remodeling complex, ARID1B-SMARCA2 variant",
+    "genes": [
+      "ACTB",
+      "ACTL6A",
+      "SMARCB1",
+      "SMARCC1",
+      "SMARCD1",
+      "SMARCD3",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1215",
+    "name": "Neural progenitor-specific SWI/SNF ATP-dependent chromatin remodeling complex, ARID1B-SMARCA4 variant",
+    "genes": [
+      "ACTB",
+      "ACTL6A",
+      "SMARCA4",
+      "SMARCB1",
+      "SMARCC1",
+      "SMARCD1",
+      "SMARCD3",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1216",
+    "name": "Neuron-specific SWI/SNF ATP-dependent chromatin remodeling complex, ARID1A-SMARCA4 variant",
+    "genes": [
+      "ACTB",
+      "ARID1A",
+      "SMARCA4",
+      "SMARCB1",
+      "SMARCC1",
+      "SMARCD1",
+      "SMARCD3",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1217",
+    "name": "Neuron-specific SWI/SNF ATP-dependent chromatin remodeling complex, ARID1B-SMARCA2 variant",
+    "genes": [
+      "ACTB",
+      "SMARCB1",
+      "SMARCC1",
+      "SMARCD1",
+      "SMARCD3",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1218",
+    "name": "Neuron-specific SWI/SNF ATP-dependent chromatin remodeling complex, ARID1B-SMARCA4 variant",
+    "genes": [
+      "ACTB",
+      "SMARCA4",
+      "SMARCB1",
+      "SMARCC1",
+      "SMARCD1",
+      "SMARCD3",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1219",
+    "name": "Brain-specific SWI/SNF ATP-dependent chromatin remodeling complex, ARID1A-SMARCA4 variant",
+    "genes": [
+      "ACTB",
+      "ARID1A",
+      "SMARCA4",
+      "SMARCB1",
+      "SMARCD2",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1220",
+    "name": "Brain-specific SWI/SNF ATP-dependent chromatin remodeling complex, ARID1B-SMARCA2 variant",
+    "genes": [
+      "ACTB",
+      "SMARCB1",
+      "SMARCD2",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1221",
+    "name": "Brain-specific SWI/SNF ATP-dependent chromatin remodeling complex, ARID1B-SMARCA4 variant",
+    "genes": [
+      "ACTB",
+      "SMARCA4",
+      "SMARCB1",
+      "SMARCD2",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1222",
+    "name": "Muscle cell-specific SWI/SNF ATP-dependent chromatin remodeling complex, ACTL6A-ARID1A-SMARCA4 variant",
+    "genes": [
+      "ACTB",
+      "ACTL6A",
+      "ARID1A",
+      "SMARCA4",
+      "SMARCB1",
+      "SMARCC1",
+      "SMARCD1",
+      "SMARCD2",
+      "SMARCD3",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1223",
+    "name": "Muscle cell-specific SWI/SNF ATP-dependent chromatin remodeling complex, ACTL6A-ARID1B-SMARCA2 variant",
+    "genes": [
+      "ACTB",
+      "ACTL6A",
+      "SMARCB1",
+      "SMARCC1",
+      "SMARCD1",
+      "SMARCD2",
+      "SMARCD3",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1224",
+    "name": "Muscle cell-specific SWI/SNF ATP-dependent chromatin remodeling complex, ACTL6A-ARID1B-SMARCA4 variant",
+    "genes": [
+      "ACTB",
+      "ACTL6A",
+      "SMARCA4",
+      "SMARCB1",
+      "SMARCC1",
+      "SMARCD1",
+      "SMARCD2",
+      "SMARCD3",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1225",
+    "name": "Muscle cell-specific SWI/SNF ATP-dependent chromatin remodeling complex, ACTL6B-ARID1A-SMARCA2 variant",
+    "genes": [
+      "ACTB",
+      "ARID1A",
+      "SMARCB1",
+      "SMARCC1",
+      "SMARCD1",
+      "SMARCD2",
+      "SMARCD3",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1226",
+    "name": "Muscle cell-specific SWI/SNF ATP-dependent chromatin remodeling complex, ACTL6B-ARID1A-SMARCA4 variant",
+    "genes": [
+      "ACTB",
+      "ARID1A",
+      "SMARCA4",
+      "SMARCB1",
+      "SMARCC1",
+      "SMARCD1",
+      "SMARCD2",
+      "SMARCD3",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1227",
+    "name": "Muscle cell-specific SWI/SNF ATP-dependent chromatin remodeling complex, ACTL6B-ARID1B-SMARCA2 variant",
+    "genes": [
+      "ACTB",
+      "SMARCB1",
+      "SMARCC1",
+      "SMARCD1",
+      "SMARCD2",
+      "SMARCD3",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1228",
+    "name": "Muscle cell-specific SWI/SNF ATP-dependent chromatin remodeling complex, ACTL6B-ARID1B-SMARCA4 variant",
+    "genes": [
+      "ACTB",
+      "SMARCA4",
+      "SMARCB1",
+      "SMARCC1",
+      "SMARCD1",
+      "SMARCD2",
+      "SMARCD3",
+      "SMARCE1"
+    ]
+  },
+  {
+    "id": "CPX-1299",
+    "name": "CEP152-PLK4 complex",
+    "genes": [
+      "CEP152",
+      "PLK4"
+    ]
+  },
+  {
+    "id": "CPX-1427",
+    "name": "Nuclear cap-binding complex",
+    "genes": [
+      "NCBP1",
+      "NCBP2"
+    ]
+  },
+  {
+    "id": "CPX-3301",
+    "name": "BTR double Holliday Junction dissolution complex",
+    "genes": [
+      "BLM",
+      "RMI1",
+      "RMI2",
+      "TOP3A"
+    ]
+  },
+  {
+    "id": "CPX-3481",
+    "name": "Shieldin complex",
+    "genes": [
+      "MAD2L2",
+      "SHLD1"
+    ]
+  },
+  {
+    "id": "CPX-3622",
+    "name": "ATR-ATRIP DNA damage-sensing kinase complex",
+    "genes": [
+      "ATR",
+      "ATRIP"
+    ]
+  },
+  {
+    "id": "CPX-3624",
+    "name": "Alternative nuclear cap-binding complex",
+    "genes": [
+      "NCBP1",
+      "NCBP3"
+    ]
+  },
+  {
+    "id": "CPX-1605",
+    "name": "WMM N6-adenosine-methyltransferase complex",
+    "genes": [
+      "CBLL1",
+      "VIRMA",
+      "WTAP",
+      "ZC3H13"
+    ]
+  },
+  {
+    "id": "CPX-3642",
+    "name": "CoQ biosynthetic complex",
+    "genes": [
+      "COQ3",
+      "COQ4",
+      "COQ5",
+      "COQ6",
+      "COQ7"
+    ]
+  },
+  {
+    "id": "CPX-3946",
+    "name": "Mitotic Checkpoint Complex",
+    "genes": [
+      "BUB1B",
+      "BUB3",
+      "CDC20",
+      "MAD2L1"
+    ]
+  },
+  {
+    "id": "CPX-4084",
+    "name": "GBAF (SWI/SNF) ATP-dependent chromatin remodeling complex, ACTL6A-BICRA-SMARCA2 variant",
+    "genes": [
+      "ACTB",
+      "ACTL6A",
+      "BICRA",
+      "BRD9",
+      "SMARCC1",
+      "SMARCD1",
+      "SS18"
+    ]
+  },
+  {
+    "id": "CPX-4203",
+    "name": "GBAF (SWI/SNF) ATP-dependent chromatin remodeling complex, ACTL6A-BICRAL-SMARCA2 variant",
+    "genes": [
+      "ACTB",
+      "ACTL6A",
+      "BRD9",
+      "SMARCC1",
+      "SMARCD1",
+      "SS18"
+    ]
+  },
+  {
+    "id": "CPX-4206",
+    "name": "GBAF (SWI/SNF) ATP-dependent chromatin remodeling complex, ACTL6A-BICRA-SMARCA4 variant",
+    "genes": [
+      "ACTB",
+      "ACTL6A",
+      "BICRA",
+      "BRD9",
+      "SMARCA4",
+      "SMARCC1",
+      "SMARCD1",
+      "SS18"
+    ]
+  },
+  {
+    "id": "CPX-4207",
+    "name": "GBAF (SWI/SNF) ATP-dependent chromatin remodeling complex, ACTL6A-BICRAL-SMARCA4 variant",
+    "genes": [
+      "ACTB",
+      "ACTL6A",
+      "BRD9",
+      "SMARCA4",
+      "SMARCC1",
+      "SMARCD1",
+      "SS18"
+    ]
+  },
+  {
+    "id": "CPX-4223",
+    "name": "GBAF (SWI/SNF) ATP-dependent chromatin remodeling complex, ACTL6B-BICRA-SMARCA2 variant",
+    "genes": [
+      "ACTB",
+      "BICRA",
+      "BRD9",
+      "SMARCC1",
+      "SMARCD1",
+      "SS18"
+    ]
+  },
+  {
+    "id": "CPX-4224",
+    "name": "GBAF (SWI/SNF) ATP-dependent chromatin remodeling complex, ACTL6B-BICRAL-SMARCA2 variant",
+    "genes": [
+      "ACTB",
+      "BRD9",
+      "SMARCC1",
+      "SMARCD1",
+      "SS18"
+    ]
+  },
+  {
+    "id": "CPX-4225",
+    "name": "GBAF (SWI/SNF) ATP-dependent chromatin remodeling complex, ACTL6B-BICRA-SMARCA4 variant",
+    "genes": [
+      "ACTB",
+      "BICRA",
+      "BRD9",
+      "SMARCA4",
+      "SMARCC1",
+      "SMARCD1",
+      "SS18"
+    ]
+  },
+  {
+    "id": "CPX-4226",
+    "name": "GBAF (SWI/SNF) ATP-dependent chromatin remodeling complex, ACTL6B-BICRAL-SMARCA4 variant",
+    "genes": [
+      "ACTB",
+      "BRD9",
+      "SMARCA4",
+      "SMARCC1",
+      "SMARCD1",
+      "SS18"
+    ]
+  },
+  {
+    "id": "CPX-4402",
+    "name": "mTORC2 complex",
+    "genes": [
+      "MAPKAP1",
+      "MLST8",
+      "MTOR",
+      "RICTOR"
+    ]
+  },
+  {
+    "id": "CPX-4426",
+    "name": "BRCA1-B complex",
+    "genes": [
+      "BRIP1",
+      "TOPBP1"
+    ]
+  },
+  {
+    "id": "CPX-4442",
+    "name": "MRN double-strand break repair complex",
+    "genes": [
+      "MRE11",
+      "RAD50"
+    ]
+  },
+  {
+    "id": "CPX-4562",
+    "name": "PPP1CA-PPP1R15A protein phosphatase 1 complex",
+    "genes": [
+      "PPP1CA",
+      "PPP1R15A"
+    ]
+  },
+  {
+    "id": "CPX-4741",
+    "name": "Ragulator complex",
+    "genes": [
+      "LAMTOR1",
+      "LAMTOR2",
+      "LAMTOR3",
+      "LAMTOR4",
+      "LAMTOR5"
+    ]
+  },
+  {
+    "id": "CPX-873",
+    "name": "Nuclear pore complex",
+    "genes": [
+      "AAAS",
+      "AHCTF1",
+      "GLE1",
+      "NDC1",
+      "NUP107",
+      "NUP133",
+      "NUP153",
+      "NUP155",
+      "NUP160",
+      "NUP188",
+      "NUP205",
+      "NUP214",
+      "NUP35",
+      "NUP37",
+      "NUP43",
+      "NUP50",
+      "NUP54",
+      "NUP58",
+      "NUP62",
+      "NUP85",
+      "NUP88",
+      "NUP93",
+      "RAE1",
+      "RANBP2",
+      "SEC13",
+      "SEH1L",
+      "TPR"
+    ]
+  },
+  {
+    "id": "CPX-4943",
+    "name": "Exocyst, EXOC6 variant",
+    "genes": [
+      "EXOC1",
+      "EXOC2",
+      "EXOC3",
+      "EXOC4",
+      "EXOC5",
+      "EXOC7",
+      "EXOC8"
+    ]
+  },
+  {
+    "id": "CPX-4944",
+    "name": "Exocyst, EXOC6B variant",
+    "genes": [
+      "EXOC1",
+      "EXOC2",
+      "EXOC3",
+      "EXOC4",
+      "EXOC5",
+      "EXOC7",
+      "EXOC8"
+    ]
+  },
+  {
+    "id": "CPX-5025",
+    "name": "Dynein-1 complex, variant 1",
+    "genes": [
+      "DYNC1H1",
+      "DYNC1I2",
+      "DYNC1LI2",
+      "DYNLL1",
+      "DYNLRB1",
+      "DYNLT1"
+    ]
+  },
+  {
+    "id": "CPX-5029",
+    "name": "BORC complex",
+    "genes": [
+      "BORCS5",
+      "BORCS7",
+      "BORCS8",
+      "KXD1"
+    ]
+  },
+  {
+    "id": "CPX-5047",
+    "name": "Ubiquitous AP-1 Adaptor complex, sigma1a variant",
+    "genes": [
+      "AP1G1",
+      "AP1M1"
+    ]
+  },
+  {
+    "id": "CPX-5048",
+    "name": "Ubiquitous AP-1 Adaptor complex, sigma1b variant",
+    "genes": [
+      "AP1G1",
+      "AP1M1"
+    ]
+  },
+  {
+    "id": "CPX-5049",
+    "name": "Ubiquitous AP-1 Adaptor complex, sigma1c variant",
+    "genes": [
+      "AP1G1",
+      "AP1M1"
+    ]
+  },
+  {
+    "id": "CPX-5051",
+    "name": "Ubiquitous AP-3 Adaptor complex, sigma3a variant",
+    "genes": [
+      "AP3B1",
+      "AP3D1"
+    ]
+  },
+  {
+    "id": "CPX-5052",
+    "name": "Ubiquitous AP-3 Adaptor complex, sigma3b variant",
+    "genes": [
+      "AP3B1",
+      "AP3D1"
+    ]
+  },
+  {
+    "id": "CPX-1750",
+    "name": "Collagen type XI trimer variant 1",
+    "genes": [
+      "COL11A2",
+      "COL2A1"
+    ]
+  },
+  {
+    "id": "CPX-5149",
+    "name": "AP-2 Adaptor complex, alpha1 variant",
+    "genes": [
+      "AP2M1",
+      "AP2S1"
+    ]
+  },
+  {
+    "id": "CPX-5150",
+    "name": "AP-2 Adaptor complex, alpha2 variant",
+    "genes": [
+      "AP2M1",
+      "AP2S1"
+    ]
+  },
+  {
+    "id": "CPX-5225",
+    "name": "28S mitochondrial small ribosomal subunit",
+    "genes": [
+      "AURKAIP1",
+      "CHCHD1",
+      "DAP3",
+      "MRPS10",
+      "MRPS11",
+      "MRPS12",
+      "MRPS14",
+      "MRPS15",
+      "MRPS16",
+      "MRPS17",
+      "MRPS18B",
+      "MRPS18C",
+      "MRPS2",
+      "MRPS21",
+      "MRPS22",
+      "MRPS23",
+      "MRPS24",
+      "MRPS25",
+      "MRPS26",
+      "MRPS27",
+      "MRPS28",
+      "MRPS31",
+      "MRPS33",
+      "MRPS34",
+      "MRPS35",
+      "MRPS5",
+      "MRPS6",
+      "MRPS7",
+      "MRPS9",
+      "PTCD3"
+    ]
+  },
+  {
+    "id": "CPX-5226",
+    "name": "39S mitochondrial large ribosomal subunit",
+    "genes": [
+      "GADD45GIP1",
+      "MRPL1",
+      "MRPL10",
+      "MRPL11",
+      "MRPL12",
+      "MRPL13",
+      "MRPL14",
+      "MRPL15",
+      "MRPL16",
+      "MRPL17",
+      "MRPL18",
+      "MRPL19",
+      "MRPL2",
+      "MRPL20",
+      "MRPL21",
+      "MRPL22",
+      "MRPL23",
+      "MRPL24",
+      "MRPL27",
+      "MRPL28",
+      "MRPL3",
+      "MRPL30",
+      "MRPL32",
+      "MRPL33",
+      "MRPL34",
+      "MRPL35",
+      "MRPL36",
+      "MRPL37",
+      "MRPL38",
+      "MRPL39",
+      "MRPL4",
+      "MRPL40",
+      "MRPL41",
+      "MRPL42",
+      "MRPL43",
+      "MRPL44",
+      "MRPL46",
+      "MRPL47",
+      "MRPL48",
+      "MRPL49",
+      "MRPL50",
+      "MRPL51",
+      "MRPL52",
+      "MRPL53",
+      "MRPL54",
+      "MRPL55",
+      "MRPL57",
+      "MRPL58",
+      "MRPL9",
+      "MRPS18A",
+      "MRPS30"
+    ]
+  },
+  {
+    "id": "CPX-5633",
+    "name": "AMPK complex, alpha1-beta1-gamma1 variant",
+    "genes": [
+      "PRKAA1",
+      "PRKAB1"
+    ]
+  },
+  {
+    "id": "CPX-5634",
+    "name": "Eukaryotic translation initiation factor 4F, EIF4A2 and EIF4G1 variant",
+    "genes": [
+      "EIF4E",
+      "EIF4G1"
+    ]
+  },
+  {
+    "id": "CPX-5635",
+    "name": "Eukaryotic translation initiation factor 4F, EIF4A1 and EIF4G3 variant",
+    "genes": [
+      "EIF4A1",
+      "EIF4E"
+    ]
+  },
+  {
+    "id": "CPX-5642",
+    "name": "Kinetochore SKA complex",
+    "genes": [
+      "SKA1",
+      "SKA2",
+      "SKA3"
+    ]
+  },
+  {
+    "id": "CPX-5643",
+    "name": "Kinetochore MIS12 complex",
+    "genes": [
+      "DSN1",
+      "MIS12",
+      "NSL1",
+      "PMF1-BGLAP"
+    ]
+  },
+  {
+    "id": "CPX-5644",
+    "name": "Kinetochore KNL1 complex",
+    "genes": [
+      "KNL1",
+      "ZWINT"
+    ]
+  },
+  {
+    "id": "CPX-5646",
+    "name": "Kinetochore CCAN complex",
+    "genes": [
+      "CENPC",
+      "CENPH",
+      "CENPI",
+      "CENPK",
+      "CENPL",
+      "CENPM",
+      "CENPN",
+      "CENPO",
+      "CENPP",
+      "CENPT",
+      "CENPW",
+      "CENPX"
+    ]
+  },
+  {
+    "id": "CPX-5647",
+    "name": "CENP-A nucleosome complex",
+    "genes": [
+      "CENPA",
+      "H2AC8",
+      "H2BC11",
+      "H4C2"
+    ]
+  },
+  {
+    "id": "CPX-5661",
+    "name": "Keratin-8 - Keratin-18 dimer complex",
+    "genes": [
+      "KRT18",
+      "KRT8"
+    ]
+  },
+  {
+    "id": "CPX-5668",
+    "name": "Nucleosome, variant H3.2-H2A.2-H2B.1",
+    "genes": [
+      "H2AC8",
+      "H2BC11",
+      "H3C15",
+      "H4C2"
+    ]
+  },
+  {
+    "id": "CPX-5670",
+    "name": "Nucleosome, variant H3.1-H2A.Z-H2B.1",
+    "genes": [
+      "H2AZ1",
+      "H2BC11",
+      "H3C8",
+      "H4C2"
+    ]
+  },
+  {
+    "id": "CPX-5671",
+    "name": "Nucleosome, variant H3.1-H2A.V-H2B.1",
+    "genes": [
+      "H2BC11",
+      "H3C8",
+      "H4C2"
+    ]
+  },
+  {
+    "id": "CPX-1796",
+    "name": "Integrin alphav-beta5 complex",
+    "genes": [
+      "ITGAV",
+      "ITGB5"
+    ]
+  },
+  {
+    "id": "CPX-1797",
+    "name": "Integrin alpha3-beta1 complex",
+    "genes": [
+      "ITGA3",
+      "ITGB1"
+    ]
+  },
+  {
+    "id": "CPX-5786",
+    "name": "AMPK complex, alpha1-beta1-gamma2 variant",
+    "genes": [
+      "PRKAA1",
+      "PRKAB1"
+    ]
+  },
+  {
+    "id": "CPX-5791",
+    "name": "AMPK complex, alpha1-beta2-gamma1 variant",
+    "genes": [
+      "PRKAA1",
+      "PRKAB2"
+    ]
+  },
+  {
+    "id": "CPX-5824",
+    "name": "NineTeen Core complex",
+    "genes": [
+      "BCAS2",
+      "CDC5L",
+      "CTNNBL1",
+      "HSPA8",
+      "PLRG1",
+      "PRPF19"
+    ]
+  },
+  {
+    "id": "CPX-5841",
+    "name": "AMPK complex, alpha1-beta2-gamma3 variant",
+    "genes": [
+      "PRKAA1",
+      "PRKAB2"
+    ]
+  },
+  {
+    "id": "CPX-5842",
+    "name": "AMPK complex, alpha1-beta1-gamma3 variant",
+    "genes": [
+      "PRKAA1",
+      "PRKAB1"
+    ]
+  },
+  {
+    "id": "CPX-5846",
+    "name": "AMPK complex, alpha1-beta2-gamma2 variant",
+    "genes": [
+      "PRKAA1",
+      "PRKAB2"
+    ]
+  },
+  {
+    "id": "CPX-5848",
+    "name": "Endoplasmic reticulum membrane complex, EMC8 variant",
+    "genes": [
+      "EMC1",
+      "EMC2",
+      "EMC3",
+      "EMC4",
+      "EMC6",
+      "EMC7",
+      "MMGT1"
+    ]
+  },
+  {
+    "id": "CPX-5850",
+    "name": "Histone-lysine N-methyltransferase complex, KMT2A variant",
+    "genes": [
+      "ASH2L",
+      "DPY30",
+      "HCFC1",
+      "KMT2A",
+      "MEN1",
+      "RBBP5",
+      "WDR5"
+    ]
+  },
+  {
+    "id": "CPX-5881",
+    "name": "Endoplasmic reticulum membrane complex, EMC9 variant",
+    "genes": [
+      "EMC1",
+      "EMC2",
+      "EMC3",
+      "EMC4",
+      "EMC6",
+      "EMC7",
+      "MMGT1"
+    ]
+  },
+  {
+    "id": "CPX-1802",
+    "name": "Integrin alpha4-beta1 complex",
+    "genes": [
+      "ITGA4",
+      "ITGB1"
+    ]
+  },
+  {
+    "id": "CPX-1816",
+    "name": "Integrin alpha9-beta1 complex",
+    "genes": [
+      "ITGA9",
+      "ITGB1"
+    ]
+  },
+  {
+    "id": "CPX-1819",
+    "name": "Integrin alphav-beta1 complex",
+    "genes": [
+      "ITGAV",
+      "ITGB1"
+    ]
+  },
+  {
+    "id": "CPX-5980",
+    "name": "Phosphatidylinositol 3-kinase complex class IA, p110delta/p85beta",
+    "genes": [
+      "PIK3CD",
+      "PIK3R2"
+    ]
+  },
+  {
+    "id": "CPX-5986",
+    "name": "Phosphatidylinositol 3-kinase complex class IB, p110gamma/p101",
+    "genes": [
+      "PIK3CG",
+      "PIK3R5"
+    ]
+  },
+  {
+    "id": "CPX-5989",
+    "name": "Nuclear mitotic cohesin complex, STAG1 variant",
+    "genes": [
+      "RAD21",
+      "SMC1A",
+      "SMC3"
+    ]
+  },
+  {
+    "id": "CPX-5991",
+    "name": "Nuclear mitotic cohesin complex, STAG2 variant",
+    "genes": [
+      "RAD21",
+      "SMC1A",
+      "SMC3",
+      "STAG2"
+    ]
+  },
+  {
+    "id": "CPX-5992",
+    "name": "SMC5-SMC6 SUMO ligase complex, EID3 variant",
+    "genes": [
+      "NSMCE1",
+      "NSMCE2",
+      "NSMCE3",
+      "SLF2",
+      "SMC5",
+      "SMC6"
+    ]
+  },
+  {
+    "id": "CPX-5993",
+    "name": "26S proteasome complex",
+    "genes": [
+      "ADRM1",
+      "PSMA1",
+      "PSMA2",
+      "PSMA3",
+      "PSMA4",
+      "PSMA5",
+      "PSMA6",
+      "PSMA7",
+      "PSMB1",
+      "PSMB2",
+      "PSMB3",
+      "PSMB4",
+      "PSMB5",
+      "PSMB6",
+      "PSMB7",
+      "PSMC1",
+      "PSMC2",
+      "PSMC3",
+      "PSMC4",
+      "PSMC5",
+      "PSMC6",
+      "PSMD1",
+      "PSMD11",
+      "PSMD12",
+      "PSMD13",
+      "PSMD14",
+      "PSMD2",
+      "PSMD3",
+      "PSMD4",
+      "PSMD6",
+      "PSMD7",
+      "PSMD8"
+    ]
+  },
+  {
+    "id": "CPX-6017",
+    "name": "RZZ complex",
+    "genes": [
+      "KNTC1",
+      "ZW10",
+      "ZWILCH"
+    ]
+  },
+  {
+    "id": "CPX-6030",
+    "name": "Chaperonin-containing T-complex",
+    "genes": [
+      "CCT2",
+      "CCT3",
+      "CCT4",
+      "CCT5",
+      "CCT6A",
+      "CCT7",
+      "CCT8",
+      "TCP1"
+    ]
+  },
+  {
+    "id": "CPX-6031",
+    "name": "Survival motor neuron complex",
+    "genes": [
+      "DDX20",
+      "GEMIN2",
+      "GEMIN4",
+      "GEMIN5",
+      "GEMIN6",
+      "GEMIN7",
+      "GEMIN8",
+      "SMN2",
+      "STRAP"
+    ]
+  },
+  {
+    "id": "CPX-6033",
+    "name": "Sm complex",
+    "genes": [
+      "SNRPB",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG"
+    ]
+  },
+  {
+    "id": "CPX-6036",
+    "name": "Eukaryotic translation initiation factor 3 complex",
+    "genes": [
+      "EIF3A",
+      "EIF3B",
+      "EIF3C",
+      "EIF3D",
+      "EIF3E",
+      "EIF3F",
+      "EIF3G",
+      "EIF3H",
+      "EIF3I",
+      "EIF3J",
+      "EIF3K",
+      "EIF3L",
+      "EIF3M"
+    ]
+  },
+  {
+    "id": "CPX-6045",
+    "name": "STAT5A/STAT5B complex",
+    "genes": [
+      "STAT5A",
+      "STAT5B"
+    ]
+  },
+  {
+    "id": "CPX-6086",
+    "name": "SMC5-SMC6 SUMO ligase complex, NSE4EA variant",
+    "genes": [
+      "NSMCE1",
+      "NSMCE2",
+      "NSMCE3",
+      "NSMCE4A",
+      "SLF2",
+      "SMC5",
+      "SMC6"
+    ]
+  },
+  {
+    "id": "CPX-6093",
+    "name": "TP53-MDM2-MDM4 transcription regulation complex",
+    "genes": [
+      "MDM2",
+      "MDM4"
+    ]
+  },
+  {
+    "id": "CPX-6121",
+    "name": "TOM40 mitochondrial outer membrane translocase complex",
+    "genes": [
+      "TOMM20",
+      "TOMM22",
+      "TOMM40",
+      "TOMM70"
+    ]
+  },
+  {
+    "id": "CPX-6123",
+    "name": "Mitochondrial respiratory chain complex IV",
+    "genes": [
+      "COX4I1",
+      "COX5A",
+      "COX5B",
+      "COX6A1",
+      "COX6B1",
+      "COX6C",
+      "COX7B",
+      "COX7C"
+    ]
+  },
+  {
+    "id": "CPX-6125",
+    "name": "TIM9-TIM10 mitochondrial intermembrane space protein transporter complex",
+    "genes": [
+      "TIMM10",
+      "TIMM9"
+    ]
+  },
+  {
+    "id": "CPX-6126",
+    "name": "TIM9-TIM10-TIM10B mitochondrial intermembrane space protein transporter complex",
+    "genes": [
+      "TIMM10",
+      "TIMM9"
+    ]
+  },
+  {
+    "id": "CPX-6129",
+    "name": "TIM23 mitochondrial inner membrane pre-sequence translocase complex, TIM17A variant",
+    "genes": [
+      "DNAJC19",
+      "GRPEL1",
+      "HSPA9",
+      "PAM16",
+      "ROMO1",
+      "TIMM17A",
+      "TIMM23",
+      "TIMM44",
+      "TIMM50"
+    ]
+  },
+  {
+    "id": "CPX-6130",
+    "name": "TIM23 mitochondrial inner membrane pre-sequence translocase complex, TIM17B variant",
+    "genes": [
+      "DNAJC19",
+      "GRPEL1",
+      "HSPA9",
+      "PAM16",
+      "ROMO1",
+      "TIMM23",
+      "TIMM44",
+      "TIMM50"
+    ]
+  },
+  {
+    "id": "CPX-6131",
+    "name": "TIM8A-TIM13 mitochondrial intermembrane space protein transporter complex",
+    "genes": [
+      "TIMM13",
+      "TIMM8A"
+    ]
+  },
+  {
+    "id": "CPX-6132",
+    "name": "TIM8B-TIM13 mitochondrial intermembrane space protein transporter complex",
+    "genes": [
+      "TIMM13",
+      "TIMM8B"
+    ]
+  },
+  {
+    "id": "CPX-6141",
+    "name": "MICOS mitochondrial contact site and cristae organizing system complex",
+    "genes": [
+      "CHCHD3",
+      "IMMT",
+      "MICOS10",
+      "MICOS13"
+    ]
+  },
+  {
+    "id": "CPX-6142",
+    "name": "TSC1-TSC2 complex",
+    "genes": [
+      "TSC1",
+      "TSC2"
+    ]
+  },
+  {
+    "id": "CPX-6143",
+    "name": "R2TP core co-chaperone complex",
+    "genes": [
+      "PIH1D1",
+      "RPAP3",
+      "RUVBL1",
+      "RUVBL2"
+    ]
+  },
+  {
+    "id": "CPX-6144",
+    "name": "Prefoldin co-chaperone complex, URI1 variant",
+    "genes": [
+      "PDRG1",
+      "PFDN2",
+      "PFDN6",
+      "URI1",
+      "UXT"
+    ]
+  },
+  {
+    "id": "CPX-6148",
+    "name": "TTT complex",
+    "genes": [
+      "TELO2",
+      "TTI1",
+      "TTI2"
+    ]
+  },
+  {
+    "id": "CPX-6149",
+    "name": "Prefoldin co-chaperone complex",
+    "genes": [
+      "PFDN1",
+      "PFDN2",
+      "PFDN4",
+      "PFDN5",
+      "PFDN6",
+      "VBP1"
+    ]
+  },
+  {
+    "id": "CPX-6150",
+    "name": "R2SP co-chaperone complex",
+    "genes": [
+      "RUVBL1",
+      "RUVBL2"
+    ]
+  },
+  {
+    "id": "CPX-6151",
+    "name": "Mitochondrial proton-transporting ATP synthase complex",
+    "genes": [
+      "ATP5F1A",
+      "ATP5F1B",
+      "ATP5F1C",
+      "ATP5F1D",
+      "ATP5F1E",
+      "ATP5MC1",
+      "ATP5ME",
+      "ATP5MF",
+      "ATP5MG",
+      "ATP5MGL",
+      "ATP5PB",
+      "ATP5PD",
+      "ATP5PF",
+      "ATP5PO"
+    ]
+  },
+  {
+    "id": "CPX-6152",
+    "name": "R2SD co-chaperone complex",
+    "genes": [
+      "DNAAF2",
+      "RUVBL1",
+      "RUVBL2"
+    ]
+  },
+  {
+    "id": "CPX-6153",
+    "name": "R2T co-chaperone complex",
+    "genes": [
+      "RUVBL1",
+      "RUVBL2"
+    ]
+  },
+  {
+    "id": "CPX-6155",
+    "name": "Mitochondrial ribonuclease P complex",
+    "genes": [
+      "HSD17B10",
+      "PRORP",
+      "TRMT10C"
+    ]
+  },
+  {
+    "id": "CPX-6161",
+    "name": "Mitochondrial tRNA:m(1)R9 methyltransferase complex",
+    "genes": [
+      "HSD17B10",
+      "TRMT10C"
+    ]
+  },
+  {
+    "id": "CPX-1829",
+    "name": "Checkpoint clamp complex",
+    "genes": [
+      "HUS1",
+      "RAD1",
+      "RAD9A"
+    ]
+  },
+  {
+    "id": "CPX-6174",
+    "name": "Mitochondrial glutamyl-tRNA(Gln) amidotransferase complex",
+    "genes": [
+      "GATB",
+      "GATC",
+      "QRSL1"
+    ]
+  },
+  {
+    "id": "CPX-6177",
+    "name": "Mitochondrial endopeptidase ClpXP complex",
+    "genes": [
+      "CLPP",
+      "CLPX"
+    ]
+  },
+  {
+    "id": "CPX-6186",
+    "name": "Scribble cell polarity complex, DLG4-LLGL2-SCRIB variant",
+    "genes": [
+      "DLG4",
+      "SCRIB"
+    ]
+  },
+  {
+    "id": "CPX-6187",
+    "name": "Scribble cell polarity complex, DLG5-LLGL2-SCRIB variant",
+    "genes": [
+      "DLG5",
+      "SCRIB"
+    ]
+  },
+  {
+    "id": "CPX-6188",
+    "name": "Scribble cell polarity complex, DLG5-LLGL1-SCRIB variant",
+    "genes": [
+      "DLG5",
+      "SCRIB"
+    ]
+  },
+  {
+    "id": "CPX-6189",
+    "name": "Scribble cell polarity complex, DLG4-LLGL1-SCRIB variant",
+    "genes": [
+      "DLG4",
+      "SCRIB"
+    ]
+  },
+  {
+    "id": "CPX-6193",
+    "name": "PAR cell polarity complex, PARD6B-PRKCI variant",
+    "genes": [
+      "PARD3",
+      "PARD6B"
+    ]
+  },
+  {
+    "id": "CPX-6195",
+    "name": "PAR cell polarity complex, PARD6G-PRKCZ variant",
+    "genes": [
+      "PARD3",
+      "PRKCZ"
+    ]
+  },
+  {
+    "id": "CPX-6196",
+    "name": "PAR cell polarity complex, PARD6B-PRKCZ variant",
+    "genes": [
+      "PARD3",
+      "PARD6B",
+      "PRKCZ"
+    ]
+  },
+  {
+    "id": "CPX-6197",
+    "name": "PAR cell polarity complex, PARD6A-PRKCZ variant",
+    "genes": [
+      "PARD3",
+      "PRKCZ"
+    ]
+  },
+  {
+    "id": "CPX-6199",
+    "name": "COG tethering complex",
+    "genes": [
+      "COG1",
+      "COG2",
+      "COG3",
+      "COG4",
+      "COG5",
+      "COG6",
+      "COG7",
+      "COG8"
+    ]
+  },
+  {
+    "id": "CPX-6201",
+    "name": "NRZ tethering complex",
+    "genes": [
+      "NBAS",
+      "RINT1",
+      "ZW10"
+    ]
+  },
+  {
+    "id": "CPX-6207",
+    "name": "EARP tethering complex",
+    "genes": [
+      "VPS51",
+      "VPS52",
+      "VPS53"
+    ]
+  },
+  {
+    "id": "CPX-6208",
+    "name": "GARP tethering complex",
+    "genes": [
+      "VPS51",
+      "VPS52",
+      "VPS53",
+      "VPS54"
+    ]
+  },
+  {
+    "id": "CPX-6212",
+    "name": "HOPS tethering complex",
+    "genes": [
+      "VPS16",
+      "VPS18",
+      "VPS33A",
+      "VPS39",
+      "VPS41"
+    ]
+  },
+  {
+    "id": "CPX-6213",
+    "name": "CORVET tethering complex",
+    "genes": [
+      "TGFBRAP1",
+      "VPS16",
+      "VPS18",
+      "VPS33A",
+      "VPS8"
+    ]
+  },
+  {
+    "id": "CPX-6227",
+    "name": "GATOR2 complex",
+    "genes": [
+      "MIOS",
+      "SEC13",
+      "SEH1L",
+      "WDR24",
+      "WDR59"
+    ]
+  },
+  {
+    "id": "CPX-6243",
+    "name": "Mitochondrial processing peptidase complex",
+    "genes": [
+      "PMPCA",
+      "PMPCB"
+    ]
+  },
+  {
+    "id": "CPX-6263",
+    "name": "Fanconi anemia ubiquitin ligase complex",
+    "genes": [
+      "FAAP100",
+      "FAAP20",
+      "FANCA",
+      "FANCC",
+      "FANCE",
+      "FANCF",
+      "FANCG",
+      "FANCL"
+    ]
+  },
+  {
+    "id": "CPX-6264",
+    "name": "Fanconi anemia ID complex",
+    "genes": [
+      "FANCD2",
+      "FANCI"
+    ]
+  },
+  {
+    "id": "CPX-6266",
+    "name": "Fanconi anemia FANCM-FAAP24-MHF anchoring complex",
+    "genes": [
+      "CENPX",
+      "FAAP24",
+      "FANCM"
+    ]
+  },
+  {
+    "id": "CPX-6267",
+    "name": "NELF negative elongation factor complex",
+    "genes": [
+      "NELFA",
+      "NELFB",
+      "NELFCD",
+      "NELFE"
+    ]
+  },
+  {
+    "id": "CPX-6268",
+    "name": "Dolichol-phosphate mannosyltransferase complex",
+    "genes": [
+      "DPM1",
+      "DPM2",
+      "DPM3"
+    ]
+  },
+  {
+    "id": "CPX-6269",
+    "name": "tRNA (adenine(58)-N(1))-methyltransferase complex",
+    "genes": [
+      "TRMT6",
+      "TRMT61A"
+    ]
+  },
+  {
+    "id": "CPX-6270",
+    "name": "NatB N-alpha-acetyltransferase complex",
+    "genes": [
+      "NAA20",
+      "NAA25"
+    ]
+  },
+  {
+    "id": "CPX-6271",
+    "name": "NatA N-alpha-acetyltransferase complex, NAA10-NAA15 variant",
+    "genes": [
+      "NAA10",
+      "NAA15"
+    ]
+  },
+  {
+    "id": "CPX-6275",
+    "name": "NatC N-alpha-acetyltransferase complex",
+    "genes": [
+      "NAA30",
+      "NAA35",
+      "NAA38"
+    ]
+  },
+  {
+    "id": "CPX-1842",
+    "name": "PPP4C-PPP4R1 protein phosphatase 4 complex",
+    "genes": [
+      "PPP4C",
+      "PPP4R1"
+    ]
+  },
+  {
+    "id": "CPX-1843",
+    "name": "PPP4C-PPP4R2-PPP4R3A protein phosphatase 4 complex",
+    "genes": [
+      "PPP4C",
+      "PPP4R2",
+      "PPP4R3A"
+    ]
+  },
+  {
+    "id": "CPX-1844",
+    "name": "PPP4C-PPP4R2-PPP4R3B protein phosphatase 4 complex",
+    "genes": [
+      "PPP4C",
+      "PPP4R2"
+    ]
+  },
+  {
+    "id": "CPX-1847",
+    "name": "HAUS complex",
+    "genes": [
+      "HAUS1",
+      "HAUS2",
+      "HAUS3",
+      "HAUS4",
+      "HAUS5",
+      "HAUS6",
+      "HAUS7",
+      "HAUS8"
+    ]
+  },
+  {
+    "id": "CPX-5223",
+    "name": "40S cytosolic small ribosomal subunit",
+    "genes": [
+      "FAU",
+      "RACK1",
+      "RPS10",
+      "RPS11",
+      "RPS12",
+      "RPS13",
+      "RPS14",
+      "RPS15",
+      "RPS15A",
+      "RPS16",
+      "RPS17",
+      "RPS18",
+      "RPS19",
+      "RPS2",
+      "RPS20",
+      "RPS21",
+      "RPS23",
+      "RPS24",
+      "RPS25",
+      "RPS26",
+      "RPS27A",
+      "RPS28",
+      "RPS29",
+      "RPS3",
+      "RPS3A",
+      "RPS5",
+      "RPS6",
+      "RPS7",
+      "RPS8",
+      "RPS9",
+      "RPSA"
+    ]
+  },
+  {
+    "id": "CPX-6322",
+    "name": "Mitochondrial complex I intermediate assembly (MCIA) complex",
+    "genes": [
+      "ACAD9",
+      "ECSIT",
+      "NDUFAF1"
+    ]
+  },
+  {
+    "id": "CPX-1860",
+    "name": "Anaphase-promoting core complex",
+    "genes": [
+      "ANAPC1",
+      "ANAPC10",
+      "ANAPC11",
+      "ANAPC13",
+      "ANAPC15",
+      "ANAPC2",
+      "ANAPC4",
+      "ANAPC5",
+      "ANAPC7",
+      "CDC16",
+      "CDC23",
+      "CDC26",
+      "CDC27"
+    ]
+  },
+  {
+    "id": "CPX-1870",
+    "name": "COP9 signalosome variant 1",
+    "genes": [
+      "COPS2",
+      "COPS3",
+      "COPS4",
+      "COPS5",
+      "COPS6",
+      "COPS8",
+      "GPS1"
+    ]
+  },
+  {
+    "id": "CPX-6411",
+    "name": "tRNA-splicing ligase complex",
+    "genes": [
+      "DDX1",
+      "FAM98B",
+      "RTCB",
+      "RTRAF",
+      "ZBTB8OS"
+    ]
+  },
+  {
+    "id": "CPX-6461",
+    "name": "RFX gene regulatory complex",
+    "genes": [
+      "RFX5",
+      "RFXANK"
+    ]
+  },
+  {
+    "id": "CPX-6464",
+    "name": "GET complex",
+    "genes": [
+      "CAMLG",
+      "GET1",
+      "GET3"
+    ]
+  },
+  {
+    "id": "CPX-1871",
+    "name": "COP9 signalosome variant 2",
+    "genes": [
+      "COPS2",
+      "COPS3",
+      "COPS4",
+      "COPS5",
+      "COPS6",
+      "COPS8",
+      "GPS1"
+    ]
+  },
+  {
+    "id": "CPX-6502",
+    "name": "Glycosylphosphatidylinositol-N-acetylglucosaminyltransferase complex",
+    "genes": [
+      "DPM2",
+      "PIGH",
+      "PIGQ"
+    ]
+  },
+  {
+    "id": "CPX-6523",
+    "name": "bZIP transcription factor complex, ATF4-BATF2",
+    "genes": [
+      "ATF4",
+      "BATF2"
+    ]
+  },
+  {
+    "id": "CPX-6525",
+    "name": "bZIP transcription factor complex, ATF4-CEBPA",
+    "genes": [
+      "ATF4",
+      "CEBPA"
+    ]
+  },
+  {
+    "id": "CPX-6526",
+    "name": "bZIP transcription factor complex, ATF4-CEBPB",
+    "genes": [
+      "ATF4",
+      "CEBPB"
+    ]
+  },
+  {
+    "id": "CPX-6528",
+    "name": "bZIP transcription factor complex, ATF4-CEBPD",
+    "genes": [
+      "ATF4",
+      "CEBPD"
+    ]
+  },
+  {
+    "id": "CPX-6529",
+    "name": "bZIP transcription factor complex, ATF4-CEBPE",
+    "genes": [
+      "ATF4",
+      "CEBPE"
+    ]
+  },
+  {
+    "id": "CPX-6543",
+    "name": "bZIP transcription factor complex, ATF4-DDIT3",
+    "genes": [
+      "ATF4",
+      "DDIT3"
+    ]
+  },
+  {
+    "id": "CPX-6562",
+    "name": "bZIP transcription factor complex, ATF4-JUN",
+    "genes": [
+      "ATF4",
+      "JUN"
+    ]
+  },
+  {
+    "id": "CPX-6563",
+    "name": "bZIP transcription factor complex, ATF4-JUNB",
+    "genes": [
+      "ATF4",
+      "JUNB"
+    ]
+  },
+  {
+    "id": "CPX-6565",
+    "name": "bZIP transcription factor complex, ATF4-FOSL1",
+    "genes": [
+      "ATF4",
+      "FOSL1"
+    ]
+  },
+  {
+    "id": "CPX-6568",
+    "name": "bZIP transcription factor complex, ATF4-NFE2",
+    "genes": [
+      "ATF4",
+      "NFE2"
+    ]
+  },
+  {
+    "id": "CPX-6570",
+    "name": "bZIP transcription factor complex, ATF4-NFE2L2",
+    "genes": [
+      "ATF4",
+      "NFE2L2"
+    ]
+  },
+  {
+    "id": "CPX-6572",
+    "name": "bZIP transcription factor complex, ATF4-NFE2L3",
+    "genes": [
+      "ATF4",
+      "NFE2L3"
+    ]
+  },
+  {
+    "id": "CPX-6586",
+    "name": "bZIP transcription factor complex, ATF5-CEBPA",
+    "genes": [
+      "ATF5",
+      "CEBPA"
+    ]
+  },
+  {
+    "id": "CPX-6589",
+    "name": "bZIP transcription factor complex, ATF5-CEBPE",
+    "genes": [
+      "ATF5",
+      "CEBPE"
+    ]
+  },
+  {
+    "id": "CPX-6663",
+    "name": "Serine palmitoyltransferase complex, SPTLC1-SPTLC2-SPTSSA variant",
+    "genes": [
+      "SPTLC1",
+      "SPTLC2",
+      "SPTSSA"
+    ]
+  },
+  {
+    "id": "CPX-4747",
+    "name": "E3 ligase (RANBP2) complex",
+    "genes": [
+      "RANBP2",
+      "RANGAP1",
+      "UBE2I"
+    ]
+  },
+  {
+    "id": "CPX-6664",
+    "name": "Serine palmitoyltransferase complex, SPTLC1-SPTLC2-SPTSSB variant",
+    "genes": [
+      "SPTLC1",
+      "SPTLC2"
+    ]
+  },
+  {
+    "id": "CPX-6665",
+    "name": "Serine palmitoyltransferase complex, SPTLC1-SPTLC3-SPTSSA variant",
+    "genes": [
+      "SPTLC1",
+      "SPTSSA"
+    ]
+  },
+  {
+    "id": "CPX-6701",
+    "name": "Dehydrodolichyl diphosphate synthase complex",
+    "genes": [
+      "DHDDS",
+      "NUS1"
+    ]
+  },
+  {
+    "id": "CPX-6741",
+    "name": "CD8alpha-beta complex",
+    "genes": [
+      "CD8A",
+      "CD8B"
+    ]
+  },
+  {
+    "id": "CPX-900",
+    "name": "SAGA complex, KAT2A variant",
+    "genes": [
+      "ATXN7L3",
+      "ENY2",
+      "KAT2A",
+      "SF3B3",
+      "SF3B5",
+      "SGF29",
+      "SUPT20H",
+      "SUPT7L",
+      "TADA1",
+      "TADA2B",
+      "TADA3",
+      "TAF10",
+      "TAF12",
+      "TAF5L",
+      "TAF6L",
+      "TRRAP"
+    ]
+  },
+  {
+    "id": "CPX-3321",
+    "name": "SIN3A histone deacetylase complex",
+    "genes": [
+      "ARID4B",
+      "BRMS1",
+      "RBBP4",
+      "RBBP7",
+      "SAP130",
+      "SIN3A",
+      "SUDS3"
+    ]
+  },
+  {
+    "id": "CPX-3323",
+    "name": "SIN3A histone deacetylase complex, ES cell-specific variant",
+    "genes": [
+      "ARID4B",
+      "BRMS1",
+      "OGT",
+      "RBBP4",
+      "RBBP7",
+      "SAP130",
+      "SIN3A",
+      "SINHCAF",
+      "SUDS3"
+    ]
+  },
+  {
+    "id": "CPX-3322",
+    "name": "SIN3B histone deacetylase complex",
+    "genes": [
+      "ARID4B",
+      "BRMS1",
+      "RBBP4",
+      "RBBP7",
+      "SAP130",
+      "SUDS3"
+    ]
+  },
+  {
+    "id": "CPX-6802",
+    "name": "SAGA complex, KAT2B variant",
+    "genes": [
+      "ATXN7L3",
+      "ENY2",
+      "SF3B3",
+      "SF3B5",
+      "SGF29",
+      "SUPT20H",
+      "SUPT7L",
+      "TADA1",
+      "TADA2B",
+      "TADA3",
+      "TAF10",
+      "TAF12",
+      "TAF5L",
+      "TAF6L",
+      "TRRAP"
+    ]
+  },
+  {
+    "id": "CPX-6822",
+    "name": "Glucosidase II complex",
+    "genes": [
+      "GANAB",
+      "PRKCSH"
+    ]
+  },
+  {
+    "id": "CPX-6861",
+    "name": "BOLA2-GLRX3 iron-sulfur cluster assembly complex",
+    "genes": [
+      "BOLA2B",
+      "GLRX3"
+    ]
+  },
+  {
+    "id": "CPX-5641",
+    "name": "Mitochondrial NIAUFX iron-sulfur cluster assembly complex",
+    "genes": [
+      "FDX2",
+      "FXN",
+      "ISCU",
+      "LYRM4",
+      "NDUFAB1",
+      "NFS1"
+    ]
+  },
+  {
+    "id": "CPX-4749",
+    "name": "TRAPP II complex, TRAPPC2 variant",
+    "genes": [
+      "TRAPPC1",
+      "TRAPPC2L",
+      "TRAPPC3",
+      "TRAPPC4",
+      "TRAPPC5"
+    ]
+  },
+  {
+    "id": "CPX-6902",
+    "name": "TRAPP II complex, TRAPPC2B variant",
+    "genes": [
+      "TRAPPC1",
+      "TRAPPC2B",
+      "TRAPPC2L",
+      "TRAPPC3",
+      "TRAPPC4",
+      "TRAPPC5"
+    ]
+  },
+  {
+    "id": "CPX-4750",
+    "name": "TRAPP III complex, TRAPPC2 variant",
+    "genes": [
+      "TRAPPC1",
+      "TRAPPC11",
+      "TRAPPC2L",
+      "TRAPPC3",
+      "TRAPPC4",
+      "TRAPPC5",
+      "TRAPPC6A",
+      "TRAPPC8"
+    ]
+  },
+  {
+    "id": "CPX-6903",
+    "name": "TRAPP III complex, TRAPPC2B variant",
+    "genes": [
+      "TRAPPC1",
+      "TRAPPC11",
+      "TRAPPC2B",
+      "TRAPPC2L",
+      "TRAPPC3",
+      "TRAPPC4",
+      "TRAPPC5",
+      "TRAPPC6A",
+      "TRAPPC8"
+    ]
+  },
+  {
+    "id": "CPX-6904",
+    "name": "Vacuolar proton translocating ATPase complex, ATP6V0A2 variant",
+    "genes": [
+      "ATP6AP1",
+      "ATP6AP2",
+      "ATP6V0A2",
+      "ATP6V0B",
+      "ATP6V0C",
+      "ATP6V1A",
+      "ATP6V1D",
+      "ATP6V1F",
+      "ATP6V1H",
+      "RNASEK"
+    ]
+  },
+  {
+    "id": "CPX-6905",
+    "name": "Vacuolar proton translocating ATPase complex, ATP6V0A3 variant",
+    "genes": [
+      "ATP6AP1",
+      "ATP6AP2",
+      "ATP6V0B",
+      "ATP6V0C",
+      "ATP6V1A",
+      "ATP6V1D",
+      "ATP6V1F",
+      "ATP6V1H",
+      "RNASEK"
+    ]
+  },
+  {
+    "id": "CPX-6912",
+    "name": "Vacuolar proton translocating ATPase complex, ATP6V0A4 variant",
+    "genes": [
+      "ATP6AP1",
+      "ATP6AP2",
+      "ATP6V0B",
+      "ATP6V0C",
+      "ATP6V1A",
+      "ATP6V1D",
+      "ATP6V1F",
+      "ATP6V1H",
+      "RNASEK"
+    ]
+  },
+  {
+    "id": "CPX-7020",
+    "name": "PAT intramembrane chaperone complex",
+    "genes": [
+      "CCDC47",
+      "WDR83OS"
+    ]
+  },
+  {
+    "id": "CPX-7061",
+    "name": "bZIP transcription factor complex, BATF2-JUNB",
+    "genes": [
+      "BATF2",
+      "JUNB"
+    ]
+  },
+  {
+    "id": "CPX-7062",
+    "name": "Histone-lysine N-methyltransferase complex, KMT2B variant",
+    "genes": [
+      "ASH2L",
+      "DPY30",
+      "HCFC1",
+      "KMT2B",
+      "MEN1",
+      "RBBP5",
+      "WDR5"
+    ]
+  },
+  {
+    "id": "CPX-7063",
+    "name": "bZIP transcription factor complex, BATF2-JUN",
+    "genes": [
+      "BATF2",
+      "JUN"
+    ]
+  },
+  {
+    "id": "CPX-7064",
+    "name": "bZIP transcription factor complex, BATF2-DDIT3",
+    "genes": [
+      "BATF2",
+      "DDIT3"
+    ]
+  },
+  {
+    "id": "CPX-7065",
+    "name": "bZIP transcription factor complex, BATF2-CEBPA",
+    "genes": [
+      "BATF2",
+      "CEBPA"
+    ]
+  },
+  {
+    "id": "CPX-7067",
+    "name": "bZIP transcription factor complex, BATF2-CEBPE",
+    "genes": [
+      "BATF2",
+      "CEBPE"
+    ]
+  },
+  {
+    "id": "CPX-7068",
+    "name": "bZIP transcription factor complex, BATF2-DBP",
+    "genes": [
+      "BATF2",
+      "DBP"
+    ]
+  },
+  {
+    "id": "CPX-7085",
+    "name": "bZIP transcription factor complex, BATF2-MAFF",
+    "genes": [
+      "BATF2",
+      "MAFF"
+    ]
+  },
+  {
+    "id": "CPX-7091",
+    "name": "Histone-lysine N-methyltransferase complex, KMT2C variant",
+    "genes": [
+      "ASH2L",
+      "DPY30",
+      "PAGR1",
+      "PAXIP1",
+      "RBBP5",
+      "WDR5"
+    ]
+  },
+  {
+    "id": "CPX-7104",
+    "name": "Histone-lysine N-methyltransferase complex, KMT2D variant",
+    "genes": [
+      "ASH2L",
+      "DPY30",
+      "KMT2D",
+      "PAGR1",
+      "PAXIP1",
+      "RBBP5",
+      "WDR5"
+    ]
+  },
+  {
+    "id": "CPX-7110",
+    "name": "Histone-lysine N-methyltransferase complex, SET1A variant",
+    "genes": [
+      "ASH2L",
+      "CXXC1",
+      "DPY30",
+      "HCFC1",
+      "RBBP5",
+      "SETD1A",
+      "WDR5",
+      "WDR82"
+    ]
+  },
+  {
+    "id": "CPX-7111",
+    "name": "Histone-lysine N-methyltransferase complex, SET1B variant",
+    "genes": [
+      "ASH2L",
+      "BOD1L1",
+      "CXXC1",
+      "DPY30",
+      "HCFC1",
+      "RBBP5",
+      "SETD1B",
+      "WDR5",
+      "WDR82"
+    ]
+  },
+  {
+    "id": "CPX-7146",
+    "name": "ESCRT-I complex, VPS37A-MVB12B variant",
+    "genes": [
+      "TSG101",
+      "VPS28",
+      "VPS37A"
+    ]
+  },
+  {
+    "id": "CPX-7147",
+    "name": "ESCRT-I complex, VPS37C-MVB12A variant",
+    "genes": [
+      "MVB12A",
+      "TSG101",
+      "VPS28",
+      "VPS37C"
+    ]
+  },
+  {
+    "id": "CPX-7148",
+    "name": "ESCRT-I complex, VPS37D-MVB12A variant",
+    "genes": [
+      "MVB12A",
+      "TSG101",
+      "VPS28"
+    ]
+  },
+  {
+    "id": "CPX-7162",
+    "name": "ESCRT-I complex, VPS37A-MVB12A variant",
+    "genes": [
+      "MVB12A",
+      "TSG101",
+      "VPS28",
+      "VPS37A"
+    ]
+  },
+  {
+    "id": "CPX-7164",
+    "name": "ESCRT-I complex, VPS37B-MVB12B variant",
+    "genes": [
+      "TSG101",
+      "VPS28",
+      "VPS37B"
+    ]
+  },
+  {
+    "id": "CPX-7166",
+    "name": "ESCRT-I complex, VPS37C-MVB12B variant",
+    "genes": [
+      "TSG101",
+      "VPS28",
+      "VPS37C"
+    ]
+  },
+  {
+    "id": "CPX-7167",
+    "name": "ESCRT-I complex, VPS37D-MVB12B variant",
+    "genes": [
+      "TSG101",
+      "VPS28"
+    ]
+  },
+  {
+    "id": "CPX-7181",
+    "name": "ESCRT-I complex, VPS37A-UBAP1 variant",
+    "genes": [
+      "TSG101",
+      "UBAP1",
+      "VPS28",
+      "VPS37A"
+    ]
+  },
+  {
+    "id": "CPX-7201",
+    "name": "ESCRT-I complex, VPS37B-UBAP1 variant",
+    "genes": [
+      "TSG101",
+      "UBAP1",
+      "VPS28",
+      "VPS37B"
+    ]
+  },
+  {
+    "id": "CPX-7202",
+    "name": "ESCRT-I complex, VPS37C-UBAP1 variant",
+    "genes": [
+      "TSG101",
+      "UBAP1",
+      "VPS28",
+      "VPS37C"
+    ]
+  },
+  {
+    "id": "CPX-7203",
+    "name": "ESCRT-I complex, VPS37D-UBAP1 variant",
+    "genes": [
+      "TSG101",
+      "UBAP1",
+      "VPS28"
+    ]
+  },
+  {
+    "id": "CPX-7205",
+    "name": "Signal peptidase complex, SEC11C variant",
+    "genes": [
+      "SPCS2",
+      "SPCS3"
+    ]
+  },
+  {
+    "id": "CPX-7241",
+    "name": "Mitochondrial transcription initiation complex",
+    "genes": [
+      "POLRMT",
+      "TFAM",
+      "TFB2M"
+    ]
+  },
+  {
+    "id": "CPX-1877",
+    "name": "LUBAC ubiquitin ligase complex",
+    "genes": [
+      "RBCK1",
+      "RNF31"
+    ]
+  },
+  {
+    "id": "CPX-1878",
+    "name": "Replication protein A complex, RPA2 variant",
+    "genes": [
+      "RPA1",
+      "RPA2",
+      "RPA3"
+    ]
+  },
+  {
+    "id": "CPX-1879",
+    "name": "Replication protein A complex, RPA4 variant",
+    "genes": [
+      "RPA1",
+      "RPA3"
+    ]
+  },
+  {
+    "id": "CPX-1880",
+    "name": "Nuclear origin recognition complex",
+    "genes": [
+      "ORC1",
+      "ORC2",
+      "ORC3",
+      "ORC4",
+      "ORC5",
+      "ORC6"
+    ]
+  },
+  {
+    "id": "CPX-7261",
+    "name": "TREX transcription-export complex, DX39A variant",
+    "genes": [
+      "ALYREF",
+      "CHTOP",
+      "DDX39A",
+      "ERH",
+      "NCBP3",
+      "SARNP",
+      "THOC1",
+      "THOC2",
+      "THOC3",
+      "THOC5",
+      "THOC6",
+      "THOC7",
+      "ZC3H11A"
+    ]
+  },
+  {
+    "id": "CPX-7281",
+    "name": "TREX-2 transcription-export complex, CETN3 variant",
+    "genes": [
+      "ENY2",
+      "MCM3AP",
+      "PCID2"
+    ]
+  },
+  {
+    "id": "CPX-7341",
+    "name": "RNA decapping and exonuclease complex, DCP1B variant",
+    "genes": [
+      "DDX6",
+      "EDC4",
+      "XRN1"
+    ]
+  },
+  {
+    "id": "CPX-6082",
+    "name": "Nuclear meiotic cohesin complex, RAD21 variant",
+    "genes": [
+      "RAD21",
+      "SMC3",
+      "STAG3"
+    ]
+  },
+  {
+    "id": "CPX-7441",
+    "name": "Nuclear meiotic cohesin complex, RAD21L1 variant",
+    "genes": [
+      "SMC3",
+      "STAG3"
+    ]
+  },
+  {
+    "id": "CPX-7442",
+    "name": "Nuclear meiotic cohesin complex, REC8 variant",
+    "genes": [
+      "REC8",
+      "SMC3",
+      "STAG3"
+    ]
+  },
+  {
+    "id": "CPX-7461",
+    "name": "DREAM transcriptional repressor complex, RBL2 variant",
+    "genes": [
+      "LIN37",
+      "LIN52",
+      "LIN54",
+      "LIN9",
+      "RBBP4",
+      "TFDP1"
+    ]
+  },
+  {
+    "id": "CPX-7462",
+    "name": "Myb-MuvB-FOXM1 transcriptional activation complex",
+    "genes": [
+      "FOXM1",
+      "LIN37",
+      "LIN52",
+      "LIN54",
+      "LIN9",
+      "MYBL2",
+      "RBBP4"
+    ]
+  },
+  {
+    "id": "CPX-7481",
+    "name": "DNA-directed RNA polymerase II complex",
+    "genes": [
+      "POLR2A",
+      "POLR2B",
+      "POLR2C",
+      "POLR2D",
+      "POLR2E",
+      "POLR2F",
+      "POLR2G",
+      "POLR2H",
+      "POLR2I",
+      "POLR2J",
+      "POLR2K",
+      "POLR2L"
+    ]
+  },
+  {
+    "id": "CPX-7482",
+    "name": "DNA-directed RNA polymerase III complex, POLR3GL variant",
+    "genes": [
+      "CRCP",
+      "POLR1C",
+      "POLR2E",
+      "POLR2F",
+      "POLR2H",
+      "POLR2K",
+      "POLR2L",
+      "POLR3A",
+      "POLR3B",
+      "POLR3C",
+      "POLR3D",
+      "POLR3E",
+      "POLR3F",
+      "POLR3H",
+      "POLR3K"
+    ]
+  },
+  {
+    "id": "CPX-7519",
+    "name": "Polycomb repressive complex 1, RING2-PCGF2-CBX2-PHC1 variant",
+    "genes": [
+      "PCGF2",
+      "PHC1"
+    ]
+  },
+  {
+    "id": "CPX-7524",
+    "name": "Polycomb repressive complex 1, RING2-PCGF2-CBX4-PHC1 variant",
+    "genes": [
+      "PCGF2",
+      "PHC1"
+    ]
+  },
+  {
+    "id": "CPX-7527",
+    "name": "Polycomb repressive complex 1, RING2-PCGF2-CBX6-PHC1 variant",
+    "genes": [
+      "PCGF2",
+      "PHC1"
+    ]
+  },
+  {
+    "id": "CPX-7530",
+    "name": "Polycomb repressive complex 1, RING2-PCGF2-CBX7-PHC1 variant",
+    "genes": [
+      "PCGF2",
+      "PHC1"
+    ]
+  },
+  {
+    "id": "CPX-7533",
+    "name": "Polycomb repressive complex 1, RING2-PCGF2-CBX8-PHC1 variant",
+    "genes": [
+      "PCGF2",
+      "PHC1"
+    ]
+  },
+  {
+    "id": "CPX-7561",
+    "name": "Non-canonical polycomb repressive complex 1.1, RING1-PCGF1-YAF2 variant",
+    "genes": [
+      "KDM2B",
+      "SKP1",
+      "YAF2"
+    ]
+  },
+  {
+    "id": "CPX-265",
+    "name": "Telomerase holoenzyme complex",
+    "genes": [
+      "DKC1",
+      "GAR1",
+      "NHP2",
+      "NOP10",
+      "TERT",
+      "WRAP53"
+    ]
+  },
+  {
+    "id": "CPX-5183",
+    "name": "60S cytosolic large ribosomal subunit",
+    "genes": [
+      "RPL10",
+      "RPL10A",
+      "RPL11",
+      "RPL12",
+      "RPL13",
+      "RPL13A",
+      "RPL14",
+      "RPL15",
+      "RPL17",
+      "RPL18",
+      "RPL18A",
+      "RPL19",
+      "RPL23",
+      "RPL23A",
+      "RPL24",
+      "RPL27",
+      "RPL27A",
+      "RPL28",
+      "RPL29",
+      "RPL3",
+      "RPL30",
+      "RPL31",
+      "RPL32",
+      "RPL34",
+      "RPL35",
+      "RPL35A",
+      "RPL36",
+      "RPL37",
+      "RPL37A",
+      "RPL38",
+      "RPL39",
+      "RPL4",
+      "RPL41",
+      "RPL5",
+      "RPL6",
+      "RPL7",
+      "RPL7A",
+      "RPL8",
+      "RPL9",
+      "RPLP0",
+      "RPLP1",
+      "RPLP2",
+      "UBA52"
+    ]
+  },
+  {
+    "id": "CPX-7664",
+    "name": "60S cytosolic large ribosomal subunit, testis-specific variant",
+    "genes": [
+      "RPL10A",
+      "RPL11",
+      "RPL12",
+      "RPL13",
+      "RPL13A",
+      "RPL14",
+      "RPL15",
+      "RPL17",
+      "RPL18",
+      "RPL18A",
+      "RPL19",
+      "RPL23",
+      "RPL23A",
+      "RPL24",
+      "RPL27",
+      "RPL27A",
+      "RPL28",
+      "RPL29",
+      "RPL3",
+      "RPL30",
+      "RPL31",
+      "RPL32",
+      "RPL34",
+      "RPL35",
+      "RPL35A",
+      "RPL36",
+      "RPL37",
+      "RPL37A",
+      "RPL38",
+      "RPL39L",
+      "RPL4",
+      "RPL41",
+      "RPL5",
+      "RPL6",
+      "RPL7",
+      "RPL7A",
+      "RPL8",
+      "RPL9",
+      "RPLP0",
+      "RPLP1",
+      "RPLP2",
+      "UBA52"
+    ]
+  },
+  {
+    "id": "CPX-7665",
+    "name": "60S cytosolic large ribosomal subunit, striated muscle variant",
+    "genes": [
+      "RPL10",
+      "RPL10A",
+      "RPL11",
+      "RPL12",
+      "RPL13",
+      "RPL13A",
+      "RPL14",
+      "RPL15",
+      "RPL17",
+      "RPL18",
+      "RPL18A",
+      "RPL19",
+      "RPL23",
+      "RPL23A",
+      "RPL24",
+      "RPL27",
+      "RPL27A",
+      "RPL28",
+      "RPL29",
+      "RPL30",
+      "RPL31",
+      "RPL32",
+      "RPL34",
+      "RPL35",
+      "RPL35A",
+      "RPL36",
+      "RPL36A",
+      "RPL37",
+      "RPL37A",
+      "RPL38",
+      "RPL39",
+      "RPL4",
+      "RPL41",
+      "RPL5",
+      "RPL6",
+      "RPL7",
+      "RPL7A",
+      "RPL8",
+      "RPL9",
+      "RPLP0",
+      "RPLP1",
+      "RPLP2",
+      "UBA52"
+    ]
+  },
+  {
+    "id": "CPX-7728",
+    "name": "RB1-E2F3-DP1 transcriptional repressor complex",
+    "genes": [
+      "E2F3",
+      "TFDP1"
+    ]
+  },
+  {
+    "id": "CPX-7747",
+    "name": "SCF E3 ubiquitin ligase complex, FBXW2 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7761",
+    "name": "SCF E3 ubiquitin ligase complex, FBXW4 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7762",
+    "name": "SCF E3 ubiquitin ligase complex, FBXW5 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7763",
+    "name": "SCF E3 ubiquitin ligase complex, FBXW7 variant",
+    "genes": [
+      "CUL1",
+      "FBXW7",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7764",
+    "name": "SFPQ-PSPC1 RNA-binding complex",
+    "genes": [
+      "PSPC1",
+      "SFPQ"
+    ]
+  },
+  {
+    "id": "CPX-7765",
+    "name": "SFPQ-NONO RNA-binding complex",
+    "genes": [
+      "NONO",
+      "SFPQ"
+    ]
+  },
+  {
+    "id": "CPX-7784",
+    "name": "SCF E3 ubiquitin ligase complex, FBXW8-CUL7 variant",
+    "genes": [
+      "CUL1",
+      "CUL7",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7785",
+    "name": "SCF E3 ubiquitin ligase complex, FBXW9 variant",
+    "genes": [
+      "CUL1",
+      "FBXW9",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7786",
+    "name": "SCF E3 ubiquitin ligase complex, FBXW10 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7803",
+    "name": "COPI vesicle coat complex, COPG1-COPZ1 variant",
+    "genes": [
+      "ARCN1",
+      "COPA",
+      "COPB1",
+      "COPB2",
+      "COPE",
+      "COPG1",
+      "COPZ1"
+    ]
+  },
+  {
+    "id": "CPX-7821",
+    "name": "SCF E3 ubiquitin ligase complex, FBXW11 variant",
+    "genes": [
+      "CUL1",
+      "FBXW11",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7822",
+    "name": "SCF E3 ubiquitin ligase complex, FBXW12 variant",
+    "genes": [
+      "CUL1",
+      "FBXW12",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7842",
+    "name": "Retromer complex, VPS26A variant",
+    "genes": [
+      "VPS26A",
+      "VPS29",
+      "VPS35"
+    ]
+  },
+  {
+    "id": "CPX-7843",
+    "name": "Retromer complex, VPS26B variant",
+    "genes": [
+      "VPS29",
+      "VPS35"
+    ]
+  },
+  {
+    "id": "CPX-7846",
+    "name": "SCF E3 ubiquitin ligase complex, CCNF variant",
+    "genes": [
+      "CCNF",
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7847",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO2 variant",
+    "genes": [
+      "CUL1",
+      "FBXO2",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7849",
+    "name": "2-(3-amino-3-carboxypropyl)histidine synthase complex",
+    "genes": [
+      "DPH1",
+      "DPH2"
+    ]
+  },
+  {
+    "id": "CPX-7881",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO3 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7882",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO4 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7901",
+    "name": "GID E3 ubiquitin ligase complex, RMND5B-RANBP9 variant",
+    "genes": [
+      "MAEA",
+      "WDR26",
+      "YPEL5"
+    ]
+  },
+  {
+    "id": "CPX-7902",
+    "name": "GID E3 ubiquitin ligase complex, RMND5A-RANBP10 variant",
+    "genes": [
+      "MAEA",
+      "RANBP10",
+      "RMND5A",
+      "WDR26",
+      "YPEL5"
+    ]
+  },
+  {
+    "id": "CPX-7903",
+    "name": "GID E3 ubiquitin ligase complex, RMND5B-RANBP10 variant",
+    "genes": [
+      "MAEA",
+      "RANBP10",
+      "WDR26",
+      "YPEL5"
+    ]
+  },
+  {
+    "id": "CPX-7904",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO5 variant",
+    "genes": [
+      "CUL1",
+      "FBXO5",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7905",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO6 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7906",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO7 variant",
+    "genes": [
+      "CUL1",
+      "FBXO7",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7921",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO8 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7922",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO9 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7923",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO10 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7924",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO11 variant",
+    "genes": [
+      "CUL1",
+      "FBXO11",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7925",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO15 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7926",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO16 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7927",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO17 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7928",
+    "name": "SCF E3 ubiquitin ligase complex, FBH1 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7929",
+    "name": "SCF E3 ubiquitin ligase complex, LMO7 variant",
+    "genes": [
+      "CUL1",
+      "LMO7",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7930",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO21 variant",
+    "genes": [
+      "CUL1",
+      "FBXO21",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7931",
+    "name": "DNA replication factor C complex, RAD17 variant",
+    "genes": [
+      "RAD17",
+      "RFC2",
+      "RFC3",
+      "RFC4",
+      "RFC5"
+    ]
+  },
+  {
+    "id": "CPX-7962",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO22 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7963",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO24 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7965",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO25 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7966",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO27 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7967",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO28 variant",
+    "genes": [
+      "CUL1",
+      "FBXO28",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7968",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO30 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7969",
+    "name": "COPI vesicle coat complex, COPG2-COPZ1 variant",
+    "genes": [
+      "ARCN1",
+      "COPA",
+      "COPB1",
+      "COPB2",
+      "COPE",
+      "COPZ1"
+    ]
+  },
+  {
+    "id": "CPX-7970",
+    "name": "COPI vesicle coat complex, COPG1-COPZ2 variant",
+    "genes": [
+      "ARCN1",
+      "COPA",
+      "COPB1",
+      "COPB2",
+      "COPE",
+      "COPG1"
+    ]
+  },
+  {
+    "id": "CPX-7971",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO31 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7972",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO32 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7973",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO33 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7975",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO34 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7976",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO36 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7977",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO38 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7978",
+    "name": "RNA polymerase I selectivity factor 1 complex",
+    "genes": [
+      "TAF1A",
+      "TAF1B",
+      "TAF1C",
+      "TAF1D",
+      "TBP"
+    ]
+  },
+  {
+    "id": "CPX-7979",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO39 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7981",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO40 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7982",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO41 variant",
+    "genes": [
+      "CUL1",
+      "FBXO41",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-7983",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO42 variant",
+    "genes": [
+      "CUL1",
+      "FBXO42",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-8002",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO43 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-8003",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO44 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-8005",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO46 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-8006",
+    "name": "SCF E3 ubiquitin ligase complex, FBXO47 variant",
+    "genes": [
+      "CUL1",
+      "FBXO47",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-8007",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL1 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8021",
+    "name": "BOS complex, NOMO1 variant",
+    "genes": [
+      "NCLN",
+      "TMEM147"
+    ]
+  },
+  {
+    "id": "CPX-8022",
+    "name": "BOS complex, NOMO2 variant",
+    "genes": [
+      "NCLN",
+      "TMEM147"
+    ]
+  },
+  {
+    "id": "CPX-8023",
+    "name": "BOS complex, NOMO3 variant",
+    "genes": [
+      "NCLN",
+      "NOMO3",
+      "TMEM147"
+    ]
+  },
+  {
+    "id": "CPX-8025",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL2 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8041",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL3 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8061",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL4 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8063",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL5 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8064",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL6 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8065",
+    "name": "Intron-binding complex",
+    "genes": [
+      "AQR",
+      "ISY1-RAB43",
+      "PPIE",
+      "XAB2",
+      "ZNF830"
+    ]
+  },
+  {
+    "id": "CPX-8070",
+    "name": "SCC2-SCC4 cohesin loader complex",
+    "genes": [
+      "MAU2",
+      "NIPBL"
+    ]
+  },
+  {
+    "id": "CPX-8073",
+    "name": "SEC61 protein-conducting channel complex, SEC1A1 variant",
+    "genes": [
+      "SEC61A1",
+      "SEC61B",
+      "SEC61G"
+    ]
+  },
+  {
+    "id": "CPX-8081",
+    "name": "Rixosome RNA degradation complex",
+    "genes": [
+      "LAS1L",
+      "MDN1",
+      "NOL9",
+      "PELP1",
+      "TEX10",
+      "WDR18"
+    ]
+  },
+  {
+    "id": "CPX-8083",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL9 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8084",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL7 variant",
+    "genes": [
+      "CUL3",
+      "KLHL7",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8085",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL8 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8087",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL10 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8088",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL11 variant",
+    "genes": [
+      "CUL3",
+      "KLHL11",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8089",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL12 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8090",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL13 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8091",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL14 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8096",
+    "name": "VCP-NPL4-UFD1-FAF1 AAA ATPase complex",
+    "genes": [
+      "NPLOC4",
+      "UFD1",
+      "VCP"
+    ]
+  },
+  {
+    "id": "CPX-8097",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL15 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8101",
+    "name": "VCP-NPL4-UFD1-UBXN7 AAA ATPase complex",
+    "genes": [
+      "NPLOC4",
+      "UFD1",
+      "VCP"
+    ]
+  },
+  {
+    "id": "CPX-8102",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL16 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8103",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL17 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8104",
+    "name": "VCP-NPL4-UFD1-FAF2 AAA ATPase complex",
+    "genes": [
+      "FAF2",
+      "NPLOC4",
+      "UFD1",
+      "VCP"
+    ]
+  },
+  {
+    "id": "CPX-8105",
+    "name": "VCP-NPL4-UFD1-UBXN1 AAA ATPase complex",
+    "genes": [
+      "NPLOC4",
+      "UBXN1",
+      "UFD1",
+      "VCP"
+    ]
+  },
+  {
+    "id": "CPX-8106",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL18 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8107",
+    "name": "CRL3 E3 ubiquitin ligase complex, KEAP1 variant",
+    "genes": [
+      "CUL3",
+      "KEAP1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8108",
+    "name": "SCF E3 ubiquitin ligase complex, TSPAN17 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-8109",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL20 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8110",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL21 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8122",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL22 variant",
+    "genes": [
+      "CUL3",
+      "KLHL22",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8123",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL23 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8125",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL24 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8126",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL25 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8130",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL26 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8131",
+    "name": "CRL3 E3 ubiquitin ligase complex, IPP variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8132",
+    "name": "VCP-VCPIP1 AAA ATPase complex",
+    "genes": [
+      "VCP",
+      "VCPIP1"
+    ]
+  },
+  {
+    "id": "CPX-8134",
+    "name": "VCP-AMFR AAA ATPase complex",
+    "genes": [
+      "AMFR",
+      "VCP"
+    ]
+  },
+  {
+    "id": "CPX-8135",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL28 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8147",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL29 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8148",
+    "name": "PRMT5 methylosome complex, RIOK1 variant",
+    "genes": [
+      "PRMT5",
+      "RIOK1",
+      "WDR77"
+    ]
+  },
+  {
+    "id": "CPX-8149",
+    "name": "PRMT5 methylosome complex, COPR5 variant",
+    "genes": [
+      "PRMT5",
+      "WDR77"
+    ]
+  },
+  {
+    "id": "CPX-8150",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL30 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8151",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL31 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8163",
+    "name": "Radial spoke complex, ciliiar variant",
+    "genes": [
+      "NME5",
+      "ROPN1L",
+      "RSPH4A"
+    ]
+  },
+  {
+    "id": "CPX-8164",
+    "name": "Radial spoke complex, flagellar variant",
+    "genes": [
+      "NME5",
+      "ROPN1L"
+    ]
+  },
+  {
+    "id": "CPX-8169",
+    "name": "SEC61 protein-conducting channel complex, SEC1A2 variant",
+    "genes": [
+      "SEC61A2",
+      "SEC61B",
+      "SEC61G"
+    ]
+  },
+  {
+    "id": "CPX-8173",
+    "name": "PSMG1-PSMG2 proteasomal chaperone complex",
+    "genes": [
+      "PSMG1",
+      "PSMG2"
+    ]
+  },
+  {
+    "id": "CPX-8174",
+    "name": "PSMG3-PSMG4 proteasomal chaperone complex",
+    "genes": [
+      "PSMG3",
+      "PSMG4"
+    ]
+  },
+  {
+    "id": "CPX-8175",
+    "name": "SLX1-SLX4 structure-specific endonuclease complex",
+    "genes": [
+      "SLX1A",
+      "SLX4"
+    ]
+  },
+  {
+    "id": "CPX-8185",
+    "name": "LAT1-4F2 heteromeric amino acid transporter complex",
+    "genes": [
+      "SLC3A2",
+      "SLC7A5"
+    ]
+  },
+  {
+    "id": "CPX-8201",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL32 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8202",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL34 variant",
+    "genes": [
+      "CUL3",
+      "KLHL34",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8221",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL35 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8222",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL36 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8241",
+    "name": "CRL3 E3 ubiquitin ligase complex, ENC1 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8242",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL38 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8261",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL40 variant",
+    "genes": [
+      "CUL3",
+      "KLHL40",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8262",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL41 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8263",
+    "name": "CRL3 E3 ubiquitin ligase complex, KLHL42 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8302",
+    "name": "ABCB10-ABCB7-FECH ABC transporter",
+    "genes": [
+      "ABCB10",
+      "ABCB7",
+      "FECH"
+    ]
+  },
+  {
+    "id": "CPX-8304",
+    "name": "UFM1 ribosome E3 ligase complex",
+    "genes": [
+      "DDRGK1",
+      "UFL1"
+    ]
+  },
+  {
+    "id": "CPX-8307",
+    "name": "EXT1-EXT2 heparan sulfate biosynthesis complex",
+    "genes": [
+      "EXT1",
+      "EXT2"
+    ]
+  },
+  {
+    "id": "CPX-8343",
+    "name": "Eukaryotic translation initiation factor 2B complex",
+    "genes": [
+      "EIF2B1",
+      "EIF2B2",
+      "EIF2B3",
+      "EIF2B4",
+      "EIF2B5"
+    ]
+  },
+  {
+    "id": "CPX-8344",
+    "name": "BRE1 E3 ubiquitin ligase complex",
+    "genes": [
+      "RNF20",
+      "RNF40"
+    ]
+  },
+  {
+    "id": "CPX-8570",
+    "name": "VCP-DERL1 AAA ATPase complex",
+    "genes": [
+      "DERL1",
+      "VCP"
+    ]
+  },
+  {
+    "id": "CPX-8601",
+    "name": "STRIPAK complex, STRIP2-STRN3 variant",
+    "genes": [
+      "MOB4",
+      "PPP2CA",
+      "PPP2R1A",
+      "STRN3"
+    ]
+  },
+  {
+    "id": "CPX-8604",
+    "name": "STRIPAK complex, STRIP1-STRN variant",
+    "genes": [
+      "MOB4",
+      "PPP2CA",
+      "PPP2R1A",
+      "STRIP1",
+      "STRN"
+    ]
+  },
+  {
+    "id": "CPX-8605",
+    "name": "STRIPAK complex, STRIP2-STRN variant",
+    "genes": [
+      "MOB4",
+      "PPP2CA",
+      "PPP2R1A",
+      "STRN"
+    ]
+  },
+  {
+    "id": "CPX-8606",
+    "name": "STRIPAK complex, STRIP1-STRN4 variant",
+    "genes": [
+      "MOB4",
+      "PPP2CA",
+      "PPP2R1A",
+      "STRIP1",
+      "STRN4"
+    ]
+  },
+  {
+    "id": "CPX-8607",
+    "name": "STRIPAK complex, STRIP2-STRN4 variant",
+    "genes": [
+      "MOB4",
+      "PPP2CA",
+      "PPP2R1A",
+      "STRN4"
+    ]
+  },
+  {
+    "id": "CPX-8623",
+    "name": "miRNA RISC complex, TNRC6A variant",
+    "genes": [
+      "AGO1",
+      "AGO2",
+      "TNRC6A"
+    ]
+  },
+  {
+    "id": "CPX-134",
+    "name": "RISC-loading complex, TARBP2 variant",
+    "genes": [
+      "DICER1",
+      "TARBP2"
+    ]
+  },
+  {
+    "id": "CPX-1072",
+    "name": "RISC-loading complex, PRKRA variant",
+    "genes": [
+      "DICER1",
+      "PRKRA"
+    ]
+  },
+  {
+    "id": "CPX-8624",
+    "name": "miRNA RISC complex, TNRC6B variant",
+    "genes": [
+      "AGO1",
+      "AGO2"
+    ]
+  },
+  {
+    "id": "CPX-8625",
+    "name": "miRNA RISC complex, TNRC6C variant",
+    "genes": [
+      "AGO1",
+      "AGO2"
+    ]
+  },
+  {
+    "id": "CPX-8637",
+    "name": "SNAPc snRNA activating protein complex",
+    "genes": [
+      "SNAPC1",
+      "SNAPC2",
+      "SNAPC3",
+      "SNAPC4",
+      "SNAPC5"
+    ]
+  },
+  {
+    "id": "CPX-8725",
+    "name": "Cav1.1 voltage-gated calcium channel complex, CACNA2D1-CACNB3-CACNG1 variant",
+    "genes": [
+      "CACNA1S",
+      "CACNB3"
+    ]
+  },
+  {
+    "id": "CPX-8738",
+    "name": "Oligosaccharyltransferase complex B, TUCS3 variant",
+    "genes": [
+      "DAD1",
+      "DDOST",
+      "OST4",
+      "RPN1",
+      "RPN2",
+      "STT3B",
+      "TMEM258"
+    ]
+  },
+  {
+    "id": "CPX-5622",
+    "name": "Oligosaccharyltransferase complex B, MAGT1 variant",
+    "genes": [
+      "DAD1",
+      "DDOST",
+      "OST4",
+      "RPN1",
+      "RPN2",
+      "STT3B",
+      "TMEM258"
+    ]
+  },
+  {
+    "id": "CPX-5621",
+    "name": "Oligosaccharyltransferase complex A",
+    "genes": [
+      "DAD1",
+      "DDOST",
+      "KRTCAP2",
+      "OST4",
+      "OSTC",
+      "RPN1",
+      "RPN2",
+      "STT3A",
+      "TMEM258"
+    ]
+  },
+  {
+    "id": "CPX-8742",
+    "name": "Cav1.1 voltage-gated calcium channel complex, CACNA2D2-CACNB3-CACNG1 variant",
+    "genes": [
+      "CACNA1S",
+      "CACNB3"
+    ]
+  },
+  {
+    "id": "CPX-8764",
+    "name": "Cav1.1 voltage-gated calcium channel complex, CACNA2D3-CACNB3-CACNG1 variant",
+    "genes": [
+      "CACNA1S",
+      "CACNB3"
+    ]
+  },
+  {
+    "id": "CPX-8772",
+    "name": "Cav1.1 voltage-gated calcium channel complex, CACNA2D4-CACNB3-CACNG1 variant",
+    "genes": [
+      "CACNA1S",
+      "CACNB3"
+    ]
+  },
+  {
+    "id": "CPX-8781",
+    "name": "mRNA cap guanine-N7 methyltransferase complex",
+    "genes": [
+      "RAMAC",
+      "RNMT"
+    ]
+  },
+  {
+    "id": "CPX-8782",
+    "name": "VCP-DERL2 AAA ATPase complex",
+    "genes": [
+      "DERL2",
+      "VCP"
+    ]
+  },
+  {
+    "id": "CPX-8806",
+    "name": "20S proteasome complex",
+    "genes": [
+      "PSMA1",
+      "PSMA2",
+      "PSMA3",
+      "PSMA4",
+      "PSMA5",
+      "PSMA6",
+      "PSMA7",
+      "PSMB1",
+      "PSMB2",
+      "PSMB3",
+      "PSMB4",
+      "PSMB5",
+      "PSMB6",
+      "PSMB7"
+    ]
+  },
+  {
+    "id": "CPX-8808",
+    "name": "Peroxisomal receptor export module complex",
+    "genes": [
+      "PEX1",
+      "PEX26",
+      "PEX6"
+    ]
+  },
+  {
+    "id": "CPX-8841",
+    "name": "PA200-20S single-capped proteasome",
+    "genes": [
+      "PSMA1",
+      "PSMA2",
+      "PSMA3",
+      "PSMA4",
+      "PSMA5",
+      "PSMA6",
+      "PSMA7",
+      "PSMB1",
+      "PSMB2",
+      "PSMB3",
+      "PSMB4",
+      "PSMB5",
+      "PSMB6",
+      "PSMB7"
+    ]
+  },
+  {
+    "id": "CPX-8842",
+    "name": "PA28-alphabeta double-capped 20S proteasome complex",
+    "genes": [
+      "PSMA1",
+      "PSMA2",
+      "PSMA3",
+      "PSMA4",
+      "PSMA5",
+      "PSMA6",
+      "PSMA7",
+      "PSMB1",
+      "PSMB2",
+      "PSMB3",
+      "PSMB4",
+      "PSMB5",
+      "PSMB6",
+      "PSMB7",
+      "PSME1",
+      "PSME2"
+    ]
+  },
+  {
+    "id": "CPX-8916",
+    "name": "CRL3 E3 ubiquitin ligase complex, SPOP-SPOPL variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8917",
+    "name": "CRL3 E3 ubiquitin ligase complex, SPOPL variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8918",
+    "name": "CRL3 E3 ubiquitin ligase complex, KBTBD2 variant",
+    "genes": [
+      "CUL3",
+      "KBTBD2",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8927",
+    "name": "CRL3 E3 ubiquitin ligase complex, KBTBD4 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8935",
+    "name": "CRL3 E3 ubiquitin ligase complex, KBTBD6-KBTBD7 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8940",
+    "name": "Ribosome biogenesis complex",
+    "genes": [
+      "NOLC1",
+      "TCOF1"
+    ]
+  },
+  {
+    "id": "CPX-8941",
+    "name": "CRL3 E3 ubiquitin ligase complex, KBTBD8 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8942",
+    "name": "CRL3 E3 ubiquitin ligase complex, KBTBD3 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-8943",
+    "name": "CoREST transcriptional corepressor complex, RCOR1-HDAC1 variant",
+    "genes": [
+      "KDM1A",
+      "RCOR1"
+    ]
+  },
+  {
+    "id": "CPX-8964",
+    "name": "19S proteasome regulatory complex",
+    "genes": [
+      "ADRM1",
+      "PSMC1",
+      "PSMC2",
+      "PSMC3",
+      "PSMC4",
+      "PSMC5",
+      "PSMC6",
+      "PSMD1",
+      "PSMD11",
+      "PSMD12",
+      "PSMD13",
+      "PSMD14",
+      "PSMD2",
+      "PSMD3",
+      "PSMD4",
+      "PSMD6",
+      "PSMD7",
+      "PSMD8"
+    ]
+  },
+  {
+    "id": "CPX-9001",
+    "name": "PA28-gamma single-capped 20S proteasome complex",
+    "genes": [
+      "PSMA1",
+      "PSMA2",
+      "PSMA3",
+      "PSMA4",
+      "PSMA5",
+      "PSMA6",
+      "PSMA7",
+      "PSMB1",
+      "PSMB2",
+      "PSMB3",
+      "PSMB4",
+      "PSMB5",
+      "PSMB6",
+      "PSMB7",
+      "PSME3"
+    ]
+  },
+  {
+    "id": "CPX-9002",
+    "name": "PA28-alphabeta single-capped 20S proteasome complex",
+    "genes": [
+      "PSMA1",
+      "PSMA2",
+      "PSMA3",
+      "PSMA4",
+      "PSMA5",
+      "PSMA6",
+      "PSMA7",
+      "PSMB1",
+      "PSMB2",
+      "PSMB3",
+      "PSMB4",
+      "PSMB5",
+      "PSMB6",
+      "PSMB7",
+      "PSME1",
+      "PSME2"
+    ]
+  },
+  {
+    "id": "CPX-9003",
+    "name": "20S immunoproteasome complex",
+    "genes": [
+      "PSMA1",
+      "PSMA2",
+      "PSMA3",
+      "PSMA4",
+      "PSMA5",
+      "PSMA6",
+      "PSMA7",
+      "PSMB1",
+      "PSMB2",
+      "PSMB3",
+      "PSMB4"
+    ]
+  },
+  {
+    "id": "CPX-9004",
+    "name": "20S thymoproteasome complex",
+    "genes": [
+      "PSMA1",
+      "PSMA2",
+      "PSMA3",
+      "PSMA4",
+      "PSMA5",
+      "PSMA6",
+      "PSMA7",
+      "PSMB1",
+      "PSMB2",
+      "PSMB3",
+      "PSMB4"
+    ]
+  },
+  {
+    "id": "CPX-9021",
+    "name": "20S spermatoproteasome complex",
+    "genes": [
+      "PSMA1",
+      "PSMA2",
+      "PSMA3",
+      "PSMA4",
+      "PSMA5",
+      "PSMA6",
+      "PSMB1",
+      "PSMB2",
+      "PSMB3",
+      "PSMB4",
+      "PSMB5",
+      "PSMB6",
+      "PSMB7"
+    ]
+  },
+  {
+    "id": "CPX-9022",
+    "name": "PA28-gamma double-capped 20S proteasome complex",
+    "genes": [
+      "PSMA1",
+      "PSMA2",
+      "PSMA3",
+      "PSMA4",
+      "PSMA5",
+      "PSMA6",
+      "PSMA7",
+      "PSMB1",
+      "PSMB2",
+      "PSMB3",
+      "PSMB4",
+      "PSMB5",
+      "PSMB6",
+      "PSMB7",
+      "PSME3"
+    ]
+  },
+  {
+    "id": "CPX-9061",
+    "name": "Mitochondrial 2-oxoglutarate dehydrogenase complex",
+    "genes": [
+      "DLD",
+      "DLST",
+      "OGDH"
+    ]
+  },
+  {
+    "id": "CPX-9063",
+    "name": "PA200-20S-PA200 double-capped proteasome complex",
+    "genes": [
+      "PSMA1",
+      "PSMA2",
+      "PSMA3",
+      "PSMA4",
+      "PSMA5",
+      "PSMA6",
+      "PSMA7",
+      "PSMB1",
+      "PSMB2",
+      "PSMB3",
+      "PSMB4",
+      "PSMB5",
+      "PSMB6",
+      "PSMB7"
+    ]
+  },
+  {
+    "id": "CPX-9065",
+    "name": "CoREST transcriptional corepressor complex, RCOR1-HDAC2 variant",
+    "genes": [
+      "KDM1A",
+      "RCOR1"
+    ]
+  },
+  {
+    "id": "CPX-9066",
+    "name": "CoREST transcriptional corepressor complex, RCOR2-HDAC1 variant",
+    "genes": [
+      "KDM1A",
+      "RCOR2"
+    ]
+  },
+  {
+    "id": "CPX-9067",
+    "name": "CoREST transcriptional corepressor complex, RCOR2-HDAC2 variant",
+    "genes": [
+      "KDM1A",
+      "RCOR2"
+    ]
+  },
+  {
+    "id": "CPX-9081",
+    "name": "CRL3 E3 ubiquitin ligase complex, KBTBD13 variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-9082",
+    "name": "19S-20S-PA28-alphabeta hybrid proteasome complex",
+    "genes": [
+      "ADRM1",
+      "PSMA1",
+      "PSMA2",
+      "PSMA3",
+      "PSMA4",
+      "PSMA5",
+      "PSMA6",
+      "PSMA7",
+      "PSMB1",
+      "PSMB2",
+      "PSMB3",
+      "PSMB4",
+      "PSMB5",
+      "PSMB6",
+      "PSMB7",
+      "PSMC1",
+      "PSMC2",
+      "PSMC3",
+      "PSMC4",
+      "PSMC5",
+      "PSMC6",
+      "PSMD1",
+      "PSMD11",
+      "PSMD12",
+      "PSMD13",
+      "PSMD14",
+      "PSMD2",
+      "PSMD3",
+      "PSMD4",
+      "PSMD6",
+      "PSMD7",
+      "PSMD8",
+      "PSME1",
+      "PSME2"
+    ]
+  },
+  {
+    "id": "CPX-9085",
+    "name": "19S-20S-PA28-gamma hybrid proteasome complex",
+    "genes": [
+      "ADRM1",
+      "PSMA1",
+      "PSMA2",
+      "PSMA3",
+      "PSMA4",
+      "PSMA5",
+      "PSMA6",
+      "PSMA7",
+      "PSMB1",
+      "PSMB2",
+      "PSMB3",
+      "PSMB4",
+      "PSMB5",
+      "PSMB6",
+      "PSMB7",
+      "PSMC1",
+      "PSMC2",
+      "PSMC3",
+      "PSMC4",
+      "PSMC5",
+      "PSMC6",
+      "PSMD1",
+      "PSMD11",
+      "PSMD12",
+      "PSMD13",
+      "PSMD14",
+      "PSMD2",
+      "PSMD3",
+      "PSMD4",
+      "PSMD6",
+      "PSMD7",
+      "PSMD8",
+      "PSME3"
+    ]
+  },
+  {
+    "id": "CPX-9086",
+    "name": "30S proteasome complex",
+    "genes": [
+      "ADRM1",
+      "PSMA1",
+      "PSMA2",
+      "PSMA3",
+      "PSMA4",
+      "PSMA5",
+      "PSMA6",
+      "PSMA7",
+      "PSMB1",
+      "PSMB2",
+      "PSMB3",
+      "PSMB4",
+      "PSMB5",
+      "PSMB6",
+      "PSMB7",
+      "PSMC1",
+      "PSMC2",
+      "PSMC3",
+      "PSMC4",
+      "PSMC5",
+      "PSMC6",
+      "PSMD1",
+      "PSMD11",
+      "PSMD12",
+      "PSMD13",
+      "PSMD14",
+      "PSMD2",
+      "PSMD3",
+      "PSMD4",
+      "PSMD6",
+      "PSMD7",
+      "PSMD8"
+    ]
+  },
+  {
+    "id": "CPX-9141",
+    "name": "Silencing factor of the integrated stress response complex",
+    "genes": [
+      "KCMF1",
+      "UBR4"
+    ]
+  },
+  {
+    "id": "CPX-9381",
+    "name": "USP12-DMWD deubiquitinase complex",
+    "genes": [
+      "DMWD",
+      "WDR48"
+    ]
+  },
+  {
+    "id": "CPX-9442",
+    "name": "USP1-UAF1 deubiquitinase complex",
+    "genes": [
+      "USP1",
+      "WDR48"
+    ]
+  },
+  {
+    "id": "CPX-9481",
+    "name": "ALYREF-binding exon junction complex",
+    "genes": [
+      "ALYREF",
+      "EIF4A3",
+      "MAGOH",
+      "RBM8A"
+    ]
+  },
+  {
+    "id": "CPX-10021",
+    "name": "Peroxisomal PEX13-PEX14 docking complex",
+    "genes": [
+      "PEX13",
+      "PEX14"
+    ]
+  },
+  {
+    "id": "CPX-10304",
+    "name": "ILK-PINCH-Parvin complex, LIMS1-PARVA variant",
+    "genes": [
+      "ILK",
+      "LIMS1"
+    ]
+  },
+  {
+    "id": "CPX-10312",
+    "name": "ILK-PINCH-Parvin complex, LIMS1-PARVB variant",
+    "genes": [
+      "ILK",
+      "LIMS1"
+    ]
+  },
+  {
+    "id": "CPX-11548",
+    "name": "DBF4-dependent CDC7 kinase complex",
+    "genes": [
+      "CDC7",
+      "DBF4"
+    ]
+  },
+  {
+    "id": "CPX-11549",
+    "name": "Huntingtin-HAP40 endosomal complex",
+    "genes": [
+      "F8A3",
+      "HTT"
+    ]
+  },
+  {
+    "id": "CPX-12100",
+    "name": "METTL15-RBFA mitochondrial metabolism regulatory complex",
+    "genes": [
+      "METTL15",
+      "RBFA"
+    ]
+  },
+  {
+    "id": "CPX-12385",
+    "name": "Separase-Securin complex",
+    "genes": [
+      "ESPL1",
+      "PTTG1"
+    ]
+  },
+  {
+    "id": "CPX-17570",
+    "name": "DENR-MCTS1, translation reinitiation complex",
+    "genes": [
+      "DENR",
+      "MCTS1"
+    ]
+  },
+  {
+    "id": "CPX-19841",
+    "name": "CEP63-CEP152, centriole duplication regulatory complex",
+    "genes": [
+      "CEP152",
+      "CEP63"
+    ]
+  },
+  {
+    "id": "CPX-20753",
+    "name": "Chromosomal passenger complex, AURKC variant",
+    "genes": [
+      "BIRC5",
+      "CDCA8",
+      "INCENP"
+    ]
+  },
+  {
+    "id": "CPX-21210",
+    "name": "Methyltransferase complex, METTL3-METTL14",
+    "genes": [
+      "METTL14",
+      "METTL3"
+    ]
+  },
+  {
+    "id": "CPX-21824",
+    "name": "CCS-SOD1, oxidative stress response complex",
+    "genes": [
+      "CCS",
+      "SOD1"
+    ]
+  },
+  {
+    "id": "CPX-25521",
+    "name": "RIC1-RGP1 guanyl-nucleotide exchange factor complex",
+    "genes": [
+      "RGP1",
+      "RIC1"
+    ]
+  },
+  {
+    "id": "CPX-25716",
+    "name": "SHOC2-MRAS-PPP1CA complex",
+    "genes": [
+      "PPP1CA",
+      "SHOC2"
+    ]
+  },
+  {
+    "id": "CPX-25719",
+    "name": "SHOC2-MRAS-PPP1CB complex",
+    "genes": [
+      "PPP1CB",
+      "SHOC2"
+    ]
+  },
+  {
+    "id": "CPX-25720",
+    "name": "SHOC2-MRAS-PPP1CC complex",
+    "genes": [
+      "PPP1CC",
+      "SHOC2"
+    ]
+  },
+  {
+    "id": "CPX-25721",
+    "name": "SREBP-SCAP transcription regulator complex, SREBF2 variant",
+    "genes": [
+      "SCAP",
+      "SREBF2"
+    ]
+  },
+  {
+    "id": "CPX-8828",
+    "name": "sTNF-TNR1A receptor-ligand core complex, BIRC2 variant",
+    "genes": [
+      "BIRC2",
+      "TRAF2"
+    ]
+  },
+  {
+    "id": "CPX-8932",
+    "name": "mTNF-TNR1A receptor-ligand core complex, BIRC2 variant",
+    "genes": [
+      "BIRC2",
+      "TRAF2"
+    ]
+  },
+  {
+    "id": "CPX-8933",
+    "name": "mTNF-TNR1B receptor-ligand core complex, BIRC2 variant",
+    "genes": [
+      "BIRC2",
+      "TRAF2"
+    ]
+  },
+  {
+    "id": "CPX-25745",
+    "name": "SREBP-SCAP transcription regulator complex, SREBF1 variant",
+    "genes": [
+      "SCAP",
+      "SREBF1"
+    ]
+  },
+  {
+    "id": "CPX-25754",
+    "name": "Nucleosome complex, H2A type 1 variant",
+    "genes": [
+      "H2AC17",
+      "H2BC11",
+      "H3C8",
+      "H4C2"
+    ]
+  },
+  {
+    "id": "CPX-25755",
+    "name": "Hexasome complex",
+    "genes": [
+      "H2BC7",
+      "H3C8",
+      "H4C2"
+    ]
+  },
+  {
+    "id": "CPX-25767",
+    "name": "Prefoldin co-chaperone complex",
+    "genes": [
+      "PDRG1",
+      "PFDN1",
+      "PFDN2",
+      "PFDN5",
+      "PFDN6",
+      "VBP1"
+    ]
+  },
+  {
+    "id": "CPX-25786",
+    "name": "SNARE priming complex STX17-SNAP29-YKT6",
+    "genes": [
+      "SNAP29",
+      "YKT6"
+    ]
+  },
+  {
+    "id": "CPX-26028",
+    "name": "Mitochondrial CCA tRNA nucleotidyltransferase 1 complex",
+    "genes": [
+      "HSD17B10",
+      "TRMT10C",
+      "TRNT1"
+    ]
+  },
+  {
+    "id": "CPX-26030",
+    "name": "DNA replication factor C complex, ATAD5 variant",
+    "genes": [
+      "ATAD5",
+      "RFC2",
+      "RFC3",
+      "RFC4",
+      "RFC5"
+    ]
+  },
+  {
+    "id": "CPX-26352",
+    "name": "Dynactin complex",
+    "genes": [
+      "ACTB",
+      "ACTR10",
+      "ACTR1A",
+      "DCTN1",
+      "DCTN2",
+      "DCTN3",
+      "DCTN4",
+      "DCTN5",
+      "DCTN6"
+    ]
+  },
+  {
+    "id": "CPX-26353",
+    "name": "SHOC2-HRAS-PPP1CA complex",
+    "genes": [
+      "HRAS",
+      "PPP1CA",
+      "SHOC2"
+    ]
+  },
+  {
+    "id": "CPX-26354",
+    "name": "SHOC2-NRAS-PPP1CA complex",
+    "genes": [
+      "NRAS",
+      "PPP1CA",
+      "SHOC2"
+    ]
+  },
+  {
+    "id": "CPX-26355",
+    "name": "SHOC2-KRAS-PPP1CA complex",
+    "genes": [
+      "KRAS",
+      "PPP1CA",
+      "SHOC2"
+    ]
+  },
+  {
+    "id": "CPX-26356",
+    "name": "DNA replication factor C complex, CHTF18 variant",
+    "genes": [
+      "CHTF18",
+      "CHTF8",
+      "DSCC1",
+      "RFC2",
+      "RFC3",
+      "RFC4",
+      "RFC5"
+    ]
+  },
+  {
+    "id": "CPX-26357",
+    "name": "Dynein-2 complex, light-chain variant 1",
+    "genes": [
+      "DYNLL1",
+      "DYNLRB1",
+      "DYNLT1"
+    ]
+  },
+  {
+    "id": "CPX-26360",
+    "name": "Dynein-2 complex, light-chain variant 2",
+    "genes": [
+      "DYNLRB1",
+      "DYNLT1"
+    ]
+  },
+  {
+    "id": "CPX-26362",
+    "name": "Dynein-2 complex, light-chain variant 4",
+    "genes": [
+      "DYNLL1",
+      "DYNLRB1"
+    ]
+  },
+  {
+    "id": "CPX-26363",
+    "name": "Dynein-2 complex, light-chain variant 5",
+    "genes": [
+      "DYNLL1",
+      "DYNLT1"
+    ]
+  },
+  {
+    "id": "CPX-26367",
+    "name": "Dynein-1 complex, variant 2",
+    "genes": [
+      "DYNC1H1",
+      "DYNC1I2",
+      "DYNC1LI1",
+      "DYNLL1",
+      "DYNLRB1",
+      "DYNLT1"
+    ]
+  },
+  {
+    "id": "CPX-26369",
+    "name": "Dynein-1 complex, variant 3",
+    "genes": [
+      "DYNC1H1",
+      "DYNC1LI2",
+      "DYNLL1",
+      "DYNLRB1",
+      "DYNLT1"
+    ]
+  },
+  {
+    "id": "CPX-26370",
+    "name": "Dynein-1 complex, variant 4",
+    "genes": [
+      "DYNC1H1",
+      "DYNC1LI1",
+      "DYNLL1",
+      "DYNLRB1",
+      "DYNLT1"
+    ]
+  },
+  {
+    "id": "CPX-26371",
+    "name": "Dynein-1 complex, variant 5",
+    "genes": [
+      "DYNC1H1",
+      "DYNC1LI2",
+      "DYNLL1",
+      "DYNLT1"
+    ]
+  },
+  {
+    "id": "CPX-26372",
+    "name": "Dynein-1 complex, variant 6",
+    "genes": [
+      "DYNC1H1",
+      "DYNC1LI1",
+      "DYNLL1",
+      "DYNLT1"
+    ]
+  },
+  {
+    "id": "CPX-26373",
+    "name": "Dynein-1 complex, variant 7",
+    "genes": [
+      "DYNC1H1",
+      "DYNC1I2",
+      "DYNC1LI2",
+      "DYNLL1",
+      "DYNLT1"
+    ]
+  },
+  {
+    "id": "CPX-26374",
+    "name": "Dynein-1 complex, variant 8",
+    "genes": [
+      "DYNC1H1",
+      "DYNC1I2",
+      "DYNC1LI1",
+      "DYNLL1",
+      "DYNLT1"
+    ]
+  },
+  {
+    "id": "CPX-26377",
+    "name": "Box C/D snoRNA-Guided RNP methyltransferase complex, FBLL1 variant",
+    "genes": [
+      "NOP56",
+      "NOP58",
+      "SNU13"
+    ]
+  },
+  {
+    "id": "CPX-26378",
+    "name": "Dynein-1 complex, variant 9",
+    "genes": [
+      "DYNC1H1",
+      "DYNC1LI2",
+      "DYNLRB1",
+      "DYNLT1"
+    ]
+  },
+  {
+    "id": "CPX-26379",
+    "name": "Dynein-1 complex, variant 10",
+    "genes": [
+      "DYNC1H1",
+      "DYNC1LI1",
+      "DYNLRB1",
+      "DYNLT1"
+    ]
+  },
+  {
+    "id": "CPX-26380",
+    "name": "Dynein-1 complex, variant 11",
+    "genes": [
+      "DYNC1H1",
+      "DYNC1I2",
+      "DYNC1LI2",
+      "DYNLRB1",
+      "DYNLT1"
+    ]
+  },
+  {
+    "id": "CPX-26381",
+    "name": "Dynein-1 complex, variant 12",
+    "genes": [
+      "DYNC1H1",
+      "DYNC1I2",
+      "DYNC1LI1",
+      "DYNLRB1",
+      "DYNLT1"
+    ]
+  },
+  {
+    "id": "CPX-26382",
+    "name": "Dynein-1 complex, variant 13",
+    "genes": [
+      "DYNC1H1",
+      "DYNC1LI2",
+      "DYNLRB1"
+    ]
+  },
+  {
+    "id": "CPX-26383",
+    "name": "Dynein-1 complex, variant 14",
+    "genes": [
+      "DYNC1H1",
+      "DYNC1LI1",
+      "DYNLRB1"
+    ]
+  },
+  {
+    "id": "CPX-26384",
+    "name": "Dynein-1 complex, variant 15",
+    "genes": [
+      "DYNC1H1",
+      "DYNC1I2",
+      "DYNC1LI2",
+      "DYNLRB1"
+    ]
+  },
+  {
+    "id": "CPX-26385",
+    "name": "Dynein-1 complex, variant 16",
+    "genes": [
+      "DYNC1H1",
+      "DYNC1I2",
+      "DYNC1LI1",
+      "DYNLRB1"
+    ]
+  },
+  {
+    "id": "CPX-26388",
+    "name": "DAXX-ATRX histone H3-specific chaperone complex",
+    "genes": [
+      "ATRX",
+      "DAXX"
+    ]
+  },
+  {
+    "id": "CPX-6441",
+    "name": "Integrator core complex",
+    "genes": [
+      "INTS1",
+      "INTS10",
+      "INTS11",
+      "INTS12",
+      "INTS13",
+      "INTS14",
+      "INTS2",
+      "INTS3",
+      "INTS4",
+      "INTS5",
+      "INTS6",
+      "INTS7",
+      "INTS8",
+      "INTS9"
+    ]
+  },
+  {
+    "id": "CPX-26393",
+    "name": "Integrator-PP2A complex",
+    "genes": [
+      "INTS1",
+      "INTS10",
+      "INTS11",
+      "INTS12",
+      "INTS13",
+      "INTS14",
+      "INTS2",
+      "INTS3",
+      "INTS4",
+      "INTS5",
+      "INTS6",
+      "INTS7",
+      "INTS8",
+      "INTS9",
+      "PPP2CA",
+      "PPP2R1A"
+    ]
+  },
+  {
+    "id": "CPX-26396",
+    "name": "PtdIns(3,5)P2 regulatory complex",
+    "genes": [
+      "FIG4",
+      "VAC14"
+    ]
+  },
+  {
+    "id": "CPX-26415",
+    "name": "U6 small nuclear ribonucleoprotein complex",
+    "genes": [
+      "LSM2",
+      "LSM3",
+      "LSM4",
+      "LSM5",
+      "LSM6",
+      "LSM7",
+      "LSM8",
+      "SART3"
+    ]
+  },
+  {
+    "id": "CPX-26416",
+    "name": "Gamma tubulin ring complex",
+    "genes": [
+      "ACTB",
+      "MZT1",
+      "MZT2A",
+      "TUBG1",
+      "TUBGCP2",
+      "TUBGCP3",
+      "TUBGCP4",
+      "TUBGCP5",
+      "TUBGCP6"
+    ]
+  },
+  {
+    "id": "CPX-26417",
+    "name": "U4 small nuclear ribonucleoprotein complex",
+    "genes": [
+      "PRPF3",
+      "PRPF4",
+      "SNRPB",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG",
+      "SNU13"
+    ]
+  },
+  {
+    "id": "CPX-26421",
+    "name": "U5 small nuclear ribonucleoprotein complete complex",
+    "genes": [
+      "CD2BP2",
+      "DDX23",
+      "EFTUD2",
+      "PRPF6",
+      "PRPF8",
+      "SNRNP200",
+      "SNRNP40",
+      "SNRPB",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG"
+    ]
+  },
+  {
+    "id": "CPX-26423",
+    "name": "Box C/D snoRNA-guided RNP methyltransferase complex, FBL variant",
+    "genes": [
+      "FBL",
+      "NOP56",
+      "NOP58",
+      "SNU13"
+    ]
+  },
+  {
+    "id": "CPX-2391",
+    "name": "U4/U6.U5 small nuclear ribonucleoprotein complex",
+    "genes": [
+      "DDX23",
+      "EFTUD2",
+      "LSM2",
+      "LSM3",
+      "LSM4",
+      "LSM5",
+      "LSM6",
+      "LSM7",
+      "LSM8",
+      "PRPF3",
+      "PRPF31",
+      "PRPF4",
+      "PRPF6",
+      "PRPF8",
+      "RBM42",
+      "SART1",
+      "SNRNP200",
+      "SNRNP27",
+      "SNRNP40",
+      "SNRPB",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG",
+      "SNU13",
+      "TXNL4A",
+      "USP39"
+    ]
+  },
+  {
+    "id": "CPX-26429",
+    "name": "Major Spliceosomal Pre-B complex",
+    "genes": [
+      "PHF5A",
+      "SF3A1",
+      "SF3A2",
+      "SF3A3",
+      "SF3B1",
+      "SF3B2",
+      "SF3B3",
+      "SF3B4",
+      "SF3B5",
+      "SF3B6",
+      "SNRNP70",
+      "SNRPA",
+      "SNRPA1",
+      "SNRPB",
+      "SNRPB2",
+      "SNRPC",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG"
+    ]
+  },
+  {
+    "id": "CPX-26435",
+    "name": "Major Spliceosomal B complex",
+    "genes": [
+      "DDX23",
+      "EFTUD2",
+      "LSM2",
+      "LSM3",
+      "LSM4",
+      "LSM5",
+      "LSM6",
+      "LSM7",
+      "LSM8",
+      "PRPF3",
+      "PRPF31",
+      "PRPF4",
+      "PRPF6",
+      "PRPF8",
+      "RBM42",
+      "SART1",
+      "SF3A1",
+      "SF3A2",
+      "SF3A3",
+      "SF3B1",
+      "SF3B2",
+      "SF3B3",
+      "SF3B4",
+      "SF3B5",
+      "SF3B6",
+      "SNRNP200",
+      "SNRNP27",
+      "SNRNP40",
+      "SNRPA1",
+      "SNRPB",
+      "SNRPB2",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG",
+      "SNU13",
+      "TXNL4A",
+      "USP39"
+    ]
+  },
+  {
+    "id": "CPX-26441",
+    "name": "Major Spliceosomal Pre-B-act complex",
+    "genes": [
+      "AQR",
+      "BUD31",
+      "CDC5L",
+      "CRNKL1",
+      "EFTUD2",
+      "KIN",
+      "PHF5A",
+      "PLRG1",
+      "PPIE",
+      "PPIL2",
+      "PRPF8",
+      "RBM22",
+      "SF3A1",
+      "SF3A2",
+      "SF3A3",
+      "SF3B1",
+      "SF3B2",
+      "SF3B3",
+      "SF3B4",
+      "SF3B5",
+      "SF3B6",
+      "SNRNP200",
+      "SNRNP40",
+      "SNRPA1",
+      "SNRPB",
+      "SNRPB2",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG",
+      "SNW1",
+      "SRRM1",
+      "XAB2"
+    ]
+  },
+  {
+    "id": "CPX-26447",
+    "name": "Retention and splicing complex",
+    "genes": [
+      "BUD13",
+      "RBMX2",
+      "SNIP1"
+    ]
+  },
+  {
+    "id": "CPX-26448",
+    "name": "Major Spliceosomal B-act-I complex",
+    "genes": [
+      "AQR",
+      "BUD31",
+      "CDC5L",
+      "CRNKL1",
+      "CWC22",
+      "EFTUD2",
+      "PHF5A",
+      "PLRG1",
+      "PPIE",
+      "PPIL2",
+      "PRPF8",
+      "RBM22",
+      "RNF113A",
+      "SF3A1",
+      "SF3A2",
+      "SF3A3",
+      "SF3B1",
+      "SF3B2",
+      "SF3B3",
+      "SF3B4",
+      "SF3B5",
+      "SF3B6",
+      "SNRNP200",
+      "SNRNP40",
+      "SNRPA1",
+      "SNRPB",
+      "SNRPB2",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG",
+      "SNW1",
+      "SRRM1",
+      "SRRM2",
+      "XAB2"
+    ]
+  },
+  {
+    "id": "CPX-26450",
+    "name": "Major Spliceosomal B-act-II complex",
+    "genes": [
+      "AQR",
+      "BUD31",
+      "CDC5L",
+      "CRNKL1",
+      "CWC22",
+      "DHX16",
+      "EFTUD2",
+      "PHF5A",
+      "PLRG1",
+      "PPIE",
+      "PPIL1",
+      "PPIL2",
+      "PPIL4",
+      "PRPF8",
+      "RBM22",
+      "RNF113A",
+      "SF3A1",
+      "SF3A2",
+      "SF3A3",
+      "SF3B1",
+      "SF3B2",
+      "SF3B3",
+      "SF3B4",
+      "SF3B5",
+      "SNRNP200",
+      "SNRNP40",
+      "SNRPA1",
+      "SNRPB",
+      "SNRPB2",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG",
+      "SNW1",
+      "SRRM2",
+      "XAB2"
+    ]
+  },
+  {
+    "id": "CPX-26451",
+    "name": "Major Spliceosomal B-act-III complex",
+    "genes": [
+      "AQR",
+      "BCAS2",
+      "BUD31",
+      "CDC40",
+      "CDC5L",
+      "CRNKL1",
+      "CWC22",
+      "DHX16",
+      "EFTUD2",
+      "PHF5A",
+      "PLRG1",
+      "PPIE",
+      "PPIL1",
+      "PPIL2",
+      "PPIL4",
+      "PRPF19",
+      "PRPF8",
+      "RBM22",
+      "RNF113A",
+      "SF3A1",
+      "SF3A2",
+      "SF3A3",
+      "SF3B1",
+      "SF3B2",
+      "SF3B3",
+      "SF3B4",
+      "SF3B5",
+      "SNRNP200",
+      "SNRNP40",
+      "SNRPA1",
+      "SNRPB",
+      "SNRPB2",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG",
+      "SNW1",
+      "SRRM2",
+      "XAB2"
+    ]
+  },
+  {
+    "id": "CPX-26454",
+    "name": "Major Spliceosomal B-act-IV complex",
+    "genes": [
+      "AQR",
+      "BCAS2",
+      "BUD31",
+      "CDC40",
+      "CDC5L",
+      "CRNKL1",
+      "CWC22",
+      "DHX16",
+      "EFTUD2",
+      "PHF5A",
+      "PLRG1",
+      "PPIE",
+      "PPIL1",
+      "PPIL4",
+      "PRPF19",
+      "PRPF8",
+      "RBM22",
+      "RNF113A",
+      "SF3A3",
+      "SF3B1",
+      "SF3B2",
+      "SF3B3",
+      "SF3B4",
+      "SF3B5",
+      "SNRNP40",
+      "SNRPA1",
+      "SNRPB",
+      "SNRPB2",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG",
+      "SNW1",
+      "SRRM2",
+      "SYF2",
+      "XAB2"
+    ]
+  },
+  {
+    "id": "CPX-1908",
+    "name": "BBSome complex",
+    "genes": [
+      "BBS1",
+      "BBS9"
+    ]
+  },
+  {
+    "id": "CPX-1917",
+    "name": "Phosphatidylinositol 3-kinase complex class IA, p110alpha/p85beta",
+    "genes": [
+      "PIK3CA",
+      "PIK3R2"
+    ]
+  },
+  {
+    "id": "CPX-26458",
+    "name": "Major Spliceosomal Post-B-act complex",
+    "genes": [
+      "AQR",
+      "BCAS2",
+      "BUD31",
+      "CDC40",
+      "CDC5L",
+      "CRNKL1",
+      "CWC22",
+      "DHX16",
+      "EFTUD2",
+      "PHF5A",
+      "PLRG1",
+      "PPIE",
+      "PPIL1",
+      "PPIL4",
+      "PRPF19",
+      "PRPF8",
+      "RBM22",
+      "SF3B1",
+      "SF3B2",
+      "SF3B3",
+      "SF3B4",
+      "SF3B5",
+      "SNRNP40",
+      "SNRPA1",
+      "SNRPB",
+      "SNRPB2",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG",
+      "SNW1",
+      "SRRM2",
+      "SYF2",
+      "XAB2"
+    ]
+  },
+  {
+    "id": "CPX-26463",
+    "name": "Major Spliceosomal C complex",
+    "genes": [
+      "AQR",
+      "BCAS2",
+      "BUD31",
+      "CDC40",
+      "CDC5L",
+      "CRNKL1",
+      "CWC22",
+      "CWC25",
+      "DHX38",
+      "EFTUD2",
+      "FRG1",
+      "ISY1-RAB43",
+      "PLRG1",
+      "PPIE",
+      "PPIL1",
+      "PPWD1",
+      "PRPF19",
+      "PRPF8",
+      "RBM22",
+      "SNRNP200",
+      "SNRNP40",
+      "SNRPA1",
+      "SNRPB",
+      "SNRPB2",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG",
+      "SNW1",
+      "SRRM2",
+      "SYF2",
+      "WDR70",
+      "XAB2",
+      "YJU2"
+    ]
+  },
+  {
+    "id": "CPX-26465",
+    "name": "Major Spliceosomal Pre-C*-I complex",
+    "genes": [
+      "AQR",
+      "BCAS2",
+      "BUD31",
+      "CASC3",
+      "CDC40",
+      "CDC5L",
+      "CRNKL1",
+      "CWC22",
+      "DHX8",
+      "EFTUD2",
+      "EIF4A3",
+      "MAGOH",
+      "PLRG1",
+      "PPIE",
+      "PPIL1",
+      "PRPF19",
+      "PRPF8",
+      "RBM22",
+      "RBM8A",
+      "SNRNP40",
+      "SNRPA1",
+      "SNRPB",
+      "SNRPB2",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG",
+      "SNW1",
+      "SRRM2",
+      "SYF2",
+      "XAB2"
+    ]
+  },
+  {
+    "id": "CPX-26466",
+    "name": "Sodium/proton exchanger complex, NHE3-CHP1 variant",
+    "genes": [
+      "CHP1",
+      "SLC9A3"
+    ]
+  },
+  {
+    "id": "CPX-26467",
+    "name": "Major Spliceosomal Pre-C*-II complex",
+    "genes": [
+      "AQR",
+      "BCAS2",
+      "BUD31",
+      "CACTIN",
+      "CASC3",
+      "CDC40",
+      "CDC5L",
+      "CRNKL1",
+      "CWC22",
+      "DHX8",
+      "EFTUD2",
+      "EIF4A3",
+      "FAM32A",
+      "MAGOH",
+      "PLRG1",
+      "PPIE",
+      "PPIL1",
+      "PRKRIP1",
+      "PRPF19",
+      "PRPF8",
+      "RBM22",
+      "RBM8A",
+      "SLU7",
+      "SNRNP40",
+      "SNRPA1",
+      "SNRPB",
+      "SNRPB2",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG",
+      "SNW1",
+      "SRRM2",
+      "SYF2",
+      "XAB2"
+    ]
+  },
+  {
+    "id": "CPX-26472",
+    "name": "Major Spliceosomal C* complex",
+    "genes": [
+      "AQR",
+      "BCAS2",
+      "BUD31",
+      "CACTIN",
+      "CASC3",
+      "CDC40",
+      "CDC5L",
+      "CRNKL1",
+      "CWC22",
+      "DHX8",
+      "EFTUD2",
+      "EIF4A3",
+      "FAM32A",
+      "MAGOH",
+      "NKAP",
+      "PLRG1",
+      "PPIE",
+      "PPIL1",
+      "PRKRIP1",
+      "PRPF19",
+      "PRPF8",
+      "RBM22",
+      "RBM8A",
+      "SLU7",
+      "SNRNP200",
+      "SNRNP40",
+      "SNRPA1",
+      "SNRPB",
+      "SNRPB2",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG",
+      "SNW1",
+      "SRRM2",
+      "SYF2",
+      "XAB2"
+    ]
+  },
+  {
+    "id": "CPX-26479",
+    "name": "Major Post-catalytic P Spliceosome complex",
+    "genes": [
+      "AQR",
+      "BCAS2",
+      "BUD31",
+      "CASC3",
+      "CDC40",
+      "CDC5L",
+      "CRNKL1",
+      "CWC22",
+      "DHX8",
+      "EFTUD2",
+      "EIF4A3",
+      "MAGOH",
+      "PLRG1",
+      "PPIE",
+      "PPIL1",
+      "PRKRIP1",
+      "PRPF19",
+      "PRPF8",
+      "RBM22",
+      "RBM8A",
+      "SLU7",
+      "SNRNP200",
+      "SNRNP40",
+      "SNRPA1",
+      "SNRPB",
+      "SNRPB2",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG",
+      "SNW1",
+      "SRRM2",
+      "SYF2",
+      "XAB2"
+    ]
+  },
+  {
+    "id": "CPX-26480",
+    "name": "Intron Lariat Spliceosome, type 1 complex",
+    "genes": [
+      "AQR",
+      "BCAS2",
+      "BUD31",
+      "CDC40",
+      "CDC5L",
+      "CRNKL1",
+      "CWF19L2",
+      "EFTUD2",
+      "PLRG1",
+      "PPIE",
+      "PPIL1",
+      "PRPF19",
+      "PRPF8",
+      "RBM22",
+      "SNRNP40",
+      "SNRPA1",
+      "SNRPB",
+      "SNRPB2",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG",
+      "SNW1",
+      "SYF2",
+      "XAB2"
+    ]
+  },
+  {
+    "id": "CPX-26481",
+    "name": "Intron Lariat Spliceosome, type 2 complex",
+    "genes": [
+      "AQR",
+      "BCAS2",
+      "BUD31",
+      "CDC40",
+      "CDC5L",
+      "CRNKL1",
+      "CWF19L2",
+      "DHX15",
+      "EFTUD2",
+      "PLRG1",
+      "PPIE",
+      "PPIL1",
+      "PRPF19",
+      "PRPF8",
+      "RBM22",
+      "SNRNP40",
+      "SNRPA1",
+      "SNRPB",
+      "SNRPB2",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG",
+      "SNW1",
+      "SYF2",
+      "XAB2"
+    ]
+  },
+  {
+    "id": "CPX-1921",
+    "name": "U2 small nuclear ribonucleoprotein auxiliary factor complex",
+    "genes": [
+      "U2AF1",
+      "U2AF2"
+    ]
+  },
+  {
+    "id": "CPX-26485",
+    "name": "U11 small nuclear ribonucleoprotein complex",
+    "genes": [
+      "PDCD7",
+      "SNRNP25",
+      "SNRNP35",
+      "SNRNP48",
+      "SNRPB",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG",
+      "ZMAT5"
+    ]
+  },
+  {
+    "id": "CPX-26487",
+    "name": "U12 small nuclear ribonucleoprotein complex",
+    "genes": [
+      "SCNM1",
+      "SNRPB",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG"
+    ]
+  },
+  {
+    "id": "CPX-26489",
+    "name": "U11/U12 di-small nuclear ribonucleoprotein complex",
+    "genes": [
+      "PDCD7",
+      "RNPC3",
+      "SF3B1",
+      "SF3B2",
+      "SF3B3",
+      "SF3B4",
+      "SF3B5",
+      "SF3B6",
+      "SNRNP25",
+      "SNRNP35",
+      "SNRNP48",
+      "SNRPB",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG",
+      "ZCRB1",
+      "ZMAT5",
+      "ZRSR2"
+    ]
+  },
+  {
+    "id": "CPX-26495",
+    "name": "U4atac small nuclear ribonucleoprotein complex",
+    "genes": [
+      "PRPF3",
+      "PRPF4",
+      "SNRPB",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG",
+      "SNU13"
+    ]
+  },
+  {
+    "id": "CPX-26499",
+    "name": "U6atac small nuclear ribonucleoprotein complex",
+    "genes": [
+      "LSM2",
+      "LSM3",
+      "LSM4",
+      "LSM5",
+      "LSM6",
+      "LSM7",
+      "LSM8",
+      "SART3"
+    ]
+  },
+  {
+    "id": "CPX-26502",
+    "name": "U4atac/U6atac.U5 small nuclear ribonucleoprotein complex",
+    "genes": [
+      "DDX23",
+      "EFTUD2",
+      "LSM2",
+      "LSM3",
+      "LSM4",
+      "LSM5",
+      "LSM6",
+      "LSM7",
+      "LSM8",
+      "PRPF3",
+      "PRPF31",
+      "PRPF4",
+      "PRPF6",
+      "PRPF8",
+      "SART1",
+      "SNRNP200",
+      "SNRNP40",
+      "SNRPB",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG",
+      "SNU13",
+      "TXNL4B",
+      "USP39"
+    ]
+  },
+  {
+    "id": "CPX-26506",
+    "name": "Minor Spliceosomal Pre-B complex",
+    "genes": [
+      "DDX23",
+      "EFTUD2",
+      "PDCD7",
+      "PRPF3",
+      "PRPF31",
+      "PRPF4",
+      "PRPF6",
+      "PRPF8",
+      "SART1",
+      "SNRNP200",
+      "SNRNP25",
+      "SNRNP35",
+      "SNRNP40",
+      "SNRNP48",
+      "SNRPB",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG",
+      "SNU13",
+      "TXNL4B",
+      "USP39",
+      "ZMAT5"
+    ]
+  },
+  {
+    "id": "CPX-26509",
+    "name": "Minor Spliceosomal B-act complex",
+    "genes": [
+      "ARMC7",
+      "CDC5L",
+      "CRIPT",
+      "CRNKL1",
+      "CWC22",
+      "DHX16",
+      "EFTUD2",
+      "GPKOW",
+      "PLRG1",
+      "PPIL2",
+      "PRPF8",
+      "RBM48",
+      "RNF113A",
+      "SCNM1",
+      "SNRNP200",
+      "SNRNP40",
+      "SNRPB",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG",
+      "SNW1",
+      "SRRM1",
+      "SRRM2"
+    ]
+  },
+  {
+    "id": "CPX-26511",
+    "name": "Protein geranylgeranyltransferase type III complex",
+    "genes": [
+      "PTAR1",
+      "RABGGTB"
+    ]
+  },
+  {
+    "id": "CPX-26518",
+    "name": "RUNX-CBFB transcription factor complex, RUNX1 variant",
+    "genes": [
+      "CBFB",
+      "RUNX1"
+    ]
+  },
+  {
+    "id": "CPX-26519",
+    "name": "RUNX-CBFB transcription factor complex, RUNX2 variant",
+    "genes": [
+      "CBFB",
+      "RUNX2"
+    ]
+  },
+  {
+    "id": "CPX-26524",
+    "name": "SNARE complex STX4-SNAP29-SEC22b",
+    "genes": [
+      "SNAP29",
+      "STX4"
+    ]
+  },
+  {
+    "id": "CPX-26536",
+    "name": "Serine/threonine-protein phosphatase 2A complex, B56 alpha variant",
+    "genes": [
+      "PPP2CA",
+      "PPP2R1A"
+    ]
+  },
+  {
+    "id": "CPX-2876",
+    "name": "Ribonuclease MRP complex",
+    "genes": [
+      "POP1",
+      "POP4",
+      "POP5",
+      "POP7",
+      "RPP14",
+      "RPP30",
+      "RPP38",
+      "RPP40"
+    ]
+  },
+  {
+    "id": "CPX-26550",
+    "name": "Centriole forming tubulin complex",
+    "genes": [
+      "TEDC1",
+      "TEDC2",
+      "TUBD1",
+      "TUBE1"
+    ]
+  },
+  {
+    "id": "CPX-26552",
+    "name": "U5 small nuclear ribonucleoprotein complex, AAR2 variant",
+    "genes": [
+      "EFTUD2",
+      "PRPF8",
+      "SNRNP200",
+      "SNRPB",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG"
+    ]
+  },
+  {
+    "id": "CPX-26553",
+    "name": "LSM2-8 complex",
+    "genes": [
+      "LSM2",
+      "LSM3",
+      "LSM4",
+      "LSM5",
+      "LSM6",
+      "LSM7",
+      "LSM8"
+    ]
+  },
+  {
+    "id": "CPX-26554",
+    "name": "LSM1-7 complex",
+    "genes": [
+      "LSM2",
+      "LSM3",
+      "LSM4",
+      "LSM5",
+      "LSM6",
+      "LSM7"
+    ]
+  },
+  {
+    "id": "CPX-26558",
+    "name": "LSM1-7, PATL1 complex",
+    "genes": [
+      "LSM2",
+      "LSM3",
+      "LSM4",
+      "LSM5",
+      "LSM6",
+      "LSM7"
+    ]
+  },
+  {
+    "id": "CPX-26562",
+    "name": "Anamorsin-NDOR1 complex",
+    "genes": [
+      "CIAPIN1",
+      "NDOR1"
+    ]
+  },
+  {
+    "id": "CPX-26564",
+    "name": "Serine/threonine-protein phosphatase 2A complex, B56 delta variant",
+    "genes": [
+      "PPP2CA",
+      "PPP2R1A"
+    ]
+  },
+  {
+    "id": "CPX-26565",
+    "name": "Serine/threonine-protein phosphatase 2A complex, B56 epsilon variant",
+    "genes": [
+      "PPP2CA",
+      "PPP2R1A"
+    ]
+  },
+  {
+    "id": "CPX-26568",
+    "name": "Translation elongation factor 1, eEF1B complex",
+    "genes": [
+      "EEF1B2",
+      "EEF1G"
+    ]
+  },
+  {
+    "id": "CPX-26569",
+    "name": "HIR histone chaperone complex, UBN1 variant",
+    "genes": [
+      "CABIN1",
+      "HIRA"
+    ]
+  },
+  {
+    "id": "CPX-26574",
+    "name": "HIR histone chaperone complex, UBN2 variant",
+    "genes": [
+      "CABIN1",
+      "HIRA"
+    ]
+  },
+  {
+    "id": "CPX-26579",
+    "name": "Pelota-HBS1L ribosome dissociation complex",
+    "genes": [
+      "HBS1L",
+      "PELO"
+    ]
+  },
+  {
+    "id": "CPX-26586",
+    "name": "Serine/threonine-protein phosphatase 2A complex, B55 beta variant",
+    "genes": [
+      "PPP2CA",
+      "PPP2R1A"
+    ]
+  },
+  {
+    "id": "CPX-26587",
+    "name": "Serine/threonine-protein phosphatase 2A complex, B55 gamma variant",
+    "genes": [
+      "PPP2CA",
+      "PPP2R1A"
+    ]
+  },
+  {
+    "id": "CPX-2716",
+    "name": "Eukaryotic translation initiation factor 2 complex",
+    "genes": [
+      "EIF2S1",
+      "EIF2S2",
+      "EIF2S3"
+    ]
+  },
+  {
+    "id": "CPX-1941",
+    "name": "Exon junction core complex, MAGOH variant",
+    "genes": [
+      "CASC3",
+      "EIF4A3",
+      "MAGOH",
+      "RBM8A"
+    ]
+  },
+  {
+    "id": "CPX-1942",
+    "name": "Exon junction subcomplex MAGOH-Y14",
+    "genes": [
+      "MAGOH",
+      "RBM8A"
+    ]
+  },
+  {
+    "id": "CPX-1949",
+    "name": "Elongator holoenzyme complex",
+    "genes": [
+      "ELP1",
+      "ELP2",
+      "ELP3",
+      "ELP4",
+      "ELP5",
+      "ELP6"
+    ]
+  },
+  {
+    "id": "CPX-1956",
+    "name": "CCAAT-binding factor complex",
+    "genes": [
+      "NFYA",
+      "NFYB",
+      "NFYC"
+    ]
+  },
+  {
+    "id": "CPX-26599",
+    "name": "Nuclear histone-HAT1-associated multichaperone complex, ASF1B variant",
+    "genes": [
+      "ASF1B",
+      "RBBP7"
+    ]
+  },
+  {
+    "id": "CPX-26601",
+    "name": "Nuclear histone-HAT1-associated multichaperone complex, ASF1A variant",
+    "genes": [
+      "ASF1A",
+      "RBBP7"
+    ]
+  },
+  {
+    "id": "CPX-26612",
+    "name": "Cytosolic ASF1A-IPO4 histone H3-H4 chaperone-importin complex",
+    "genes": [
+      "ASF1A",
+      "IPO4"
+    ]
+  },
+  {
+    "id": "CPX-26613",
+    "name": "Cytosolic ASF1B-IPO4 histone H3-H4 chaperone-importin complex",
+    "genes": [
+      "ASF1B",
+      "IPO4"
+    ]
+  },
+  {
+    "id": "CPX-26656",
+    "name": "Luminal surveillance complex",
+    "genes": [
+      "SEL1L",
+      "SYVN1"
+    ]
+  },
+  {
+    "id": "CPX-26660",
+    "name": "GTPase KRAS - Son of sevenless homolog 1 complex",
+    "genes": [
+      "KRAS",
+      "SOS1"
+    ]
+  },
+  {
+    "id": "CPX-12912",
+    "name": "BCAR1-CRK-SH2D3C, focal adhesion regulator complex",
+    "genes": [
+      "BCAR1",
+      "CRK"
+    ]
+  },
+  {
+    "id": "CPX-15113",
+    "name": "cFLIP-CASP8-FADD complex",
+    "genes": [
+      "CFLAR",
+      "FADD"
+    ]
+  },
+  {
+    "id": "CPX-15604",
+    "name": "VCP-remodelling complex",
+    "genes": [
+      "ASPSCR1",
+      "VCP"
+    ]
+  },
+  {
+    "id": "CPX-26693",
+    "name": "KRAS-RAF1, MAPK-cascade signal initiation complex",
+    "genes": [
+      "KRAS",
+      "RAF1"
+    ]
+  },
+  {
+    "id": "CPX-26696",
+    "name": "SMG5-SMG7, nonsense-mediated decay complex",
+    "genes": [
+      "SMG5",
+      "SMG7"
+    ]
+  },
+  {
+    "id": "CPX-26697",
+    "name": "UPF core mRNA surveillance complex, UPF3A variant",
+    "genes": [
+      "UPF1",
+      "UPF2",
+      "UPF3A"
+    ]
+  },
+  {
+    "id": "CPX-26698",
+    "name": "UPF core mRNA surveillance complex, UPF3B variant",
+    "genes": [
+      "UPF1",
+      "UPF2"
+    ]
+  },
+  {
+    "id": "CPX-26706",
+    "name": "CLTA-CLTC-CKAP5-TACC3, mitotic spindle organizing complex",
+    "genes": [
+      "CKAP5",
+      "TACC3"
+    ]
+  },
+  {
+    "id": "CPX-26710",
+    "name": "Clathrin, endocytosis-mediating complex, CLTB variant",
+    "genes": [
+      "CLTB",
+      "CLTC"
+    ]
+  },
+  {
+    "id": "CPX-26711",
+    "name": "CLTB-CLTC-CKAP5-TACC3, mitotic spindle organizing complex",
+    "genes": [
+      "CKAP5",
+      "TACC3"
+    ]
+  },
+  {
+    "id": "CPX-6124",
+    "name": "TIM22 mitochondrial inner membrane twin-pore carrier translocase complex",
+    "genes": [
+      "TIMM10",
+      "TIMM22",
+      "TIMM29",
+      "TIMM9"
+    ]
+  },
+  {
+    "id": "CPX-1969",
+    "name": "Cyclin C-CDK8 complex",
+    "genes": [
+      "CCNC",
+      "CDK8"
+    ]
+  },
+  {
+    "id": "CPX-1971",
+    "name": "E2F1-DP1 transcription factor complex",
+    "genes": [
+      "E2F1",
+      "TFDP1"
+    ]
+  },
+  {
+    "id": "CPX-1973",
+    "name": "E2F3-DP1 transcription factor complex",
+    "genes": [
+      "E2F3",
+      "TFDP1"
+    ]
+  },
+  {
+    "id": "CPX-26726",
+    "name": "Clathrin, endocytosis-mediating complex, CLTA-CLTB mixed lattice variant",
+    "genes": [
+      "CLTB",
+      "CLTC"
+    ]
+  },
+  {
+    "id": "CPX-1993",
+    "name": "Ku70:Ku80 complex",
+    "genes": [
+      "XRCC5",
+      "XRCC6"
+    ]
+  },
+  {
+    "id": "CPX-2004",
+    "name": "Cyclin A2-CDK1 complex",
+    "genes": [
+      "CCNA2",
+      "CDK1"
+    ]
+  },
+  {
+    "id": "CPX-2006",
+    "name": "Cyclin A2-CDK2 complex",
+    "genes": [
+      "CCNA2",
+      "CDK2"
+    ]
+  },
+  {
+    "id": "CPX-2007",
+    "name": "Cyclin B1-CDK1 complex",
+    "genes": [
+      "CCNB1",
+      "CDK1"
+    ]
+  },
+  {
+    "id": "CPX-2010",
+    "name": "Cyclin D1-CDK4 complex",
+    "genes": [
+      "CCND1",
+      "CDK4"
+    ]
+  },
+  {
+    "id": "CPX-2011",
+    "name": "Cyclin D2-CDK4 complex",
+    "genes": [
+      "CCND2",
+      "CDK4"
+    ]
+  },
+  {
+    "id": "CPX-2012",
+    "name": "Cyclin D3-CDK4 complex",
+    "genes": [
+      "CCND3",
+      "CDK4"
+    ]
+  },
+  {
+    "id": "CPX-2013",
+    "name": "Cyclin D3-CDK6 complex",
+    "genes": [
+      "CCND3",
+      "CDK6"
+    ]
+  },
+  {
+    "id": "CPX-2014",
+    "name": "Cyclin D1-CDK6 complex",
+    "genes": [
+      "CCND1",
+      "CDK6"
+    ]
+  },
+  {
+    "id": "CPX-2087",
+    "name": "DNA polymerase alpha:primase complex",
+    "genes": [
+      "POLA1",
+      "POLA2",
+      "PRIM1"
+    ]
+  },
+  {
+    "id": "CPX-2093",
+    "name": "Mitochondrial DNA polymerase gamma complex",
+    "genes": [
+      "POLG",
+      "POLG2"
+    ]
+  },
+  {
+    "id": "CPX-2097",
+    "name": "DNA polymerase delta complex",
+    "genes": [
+      "POLD1",
+      "POLD2",
+      "POLD3"
+    ]
+  },
+  {
+    "id": "CPX-2108",
+    "name": "DNA polymerase epsilon complex",
+    "genes": [
+      "POLE",
+      "POLE2",
+      "POLE3",
+      "POLE4"
+    ]
+  },
+  {
+    "id": "CPX-2129",
+    "name": "CST complex",
+    "genes": [
+      "CTC1",
+      "STN1",
+      "TEN1"
+    ]
+  },
+  {
+    "id": "CPX-2157",
+    "name": "Protein geranylgeranyl transferase type I complex",
+    "genes": [
+      "FNTA",
+      "PGGT1B"
+    ]
+  },
+  {
+    "id": "CPX-2161",
+    "name": "SUMO activating enzyme complex, SAE1-UBA2",
+    "genes": [
+      "SAE1",
+      "UBA2"
+    ]
+  },
+  {
+    "id": "CPX-2165",
+    "name": "Protein farnesyltransferase complex",
+    "genes": [
+      "FNTA",
+      "FNTB"
+    ]
+  },
+  {
+    "id": "CPX-2182",
+    "name": "CX3 complex",
+    "genes": [
+      "RAD51C",
+      "XRCC3"
+    ]
+  },
+  {
+    "id": "CPX-2194",
+    "name": "Ribonucleoside-diphosphate reductase RR1 complex, RRM2 variant",
+    "genes": [
+      "RRM1",
+      "RRM2"
+    ]
+  },
+  {
+    "id": "CPX-2196",
+    "name": "Polycomb repressive complex 2.1, EZH1-RBBP4-PCL3-PALI1 variant",
+    "genes": [
+      "EED",
+      "RBBP4",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2198",
+    "name": "Polycomb repressive complex 2.1,EZH2-RBBP4-PCL3-PALI1 variant",
+    "genes": [
+      "EED",
+      "EZH2",
+      "RBBP4",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2204",
+    "name": "Polycomb repressive complex 2.1, EZH2-RBBP4-PCL1-PALI1 variant",
+    "genes": [
+      "EED",
+      "EZH2",
+      "PHF1",
+      "RBBP4",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2205",
+    "name": "Polycomb repressive complex 2.1, EZH1-RBBP7-PCL1-EPOP variant",
+    "genes": [
+      "EED",
+      "EPOP",
+      "PHF1",
+      "RBBP7",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2208",
+    "name": "Phenylalanyl-tRNA synthetase complex",
+    "genes": [
+      "FARSA",
+      "FARSB"
+    ]
+  },
+  {
+    "id": "CPX-2209",
+    "name": "Polycomb repressive complex 2.2, EZH2-RBBP4 variant",
+    "genes": [
+      "EED",
+      "EZH2",
+      "RBBP4",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2211",
+    "name": "Commander complex",
+    "genes": [
+      "CCDC22",
+      "COMMD4",
+      "COMMD5",
+      "COMMD8",
+      "VPS29"
+    ]
+  },
+  {
+    "id": "CPX-2212",
+    "name": "Polycomb repressive complex 2.2, EZH1-RBBP7 variant",
+    "genes": [
+      "EED",
+      "RBBP7",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2213",
+    "name": "Polycomb repressive complex 2.2, EZH2-RBBP7 variant",
+    "genes": [
+      "EED",
+      "EZH2",
+      "RBBP7",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2214",
+    "name": "LRR1-Elongin C-Elongin B E3 ubiquitin ligase complex",
+    "genes": [
+      "CUL2",
+      "ELOB",
+      "ELOC",
+      "LRR1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2217",
+    "name": "FEM1A-Elongin C-Elongin B E3 ubiquitin ligase complex",
+    "genes": [
+      "CUL2",
+      "ELOB",
+      "ELOC",
+      "FEM1A",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2218",
+    "name": "FEB1B-Elongin C-Elongin B E3 ubiquitin ligase complex",
+    "genes": [
+      "CUL2",
+      "ELOB",
+      "ELOC",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2219",
+    "name": "FEB1C-Elongin C-Elongin B E3 ubiquitin ligase complex",
+    "genes": [
+      "CUL2",
+      "ELOB",
+      "ELOC",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2220",
+    "name": "ZYG11B-Elongin C-Elongin B E3 ubiquitin ligase complex",
+    "genes": [
+      "CUL2",
+      "ELOB",
+      "ELOC",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2221",
+    "name": "APPBP2-Elongin C-Elongin B E3 ubiquitin ligase complex",
+    "genes": [
+      "CUL2",
+      "ELOB",
+      "ELOC",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2222",
+    "name": "ZER1-Elongin C-Elongin B E3 ubiquitin ligase complex",
+    "genes": [
+      "CUL2",
+      "ELOB",
+      "ELOC",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2223",
+    "name": "KLHDC10-Elongin C-Elongin B E3 ubiquitin ligase complex",
+    "genes": [
+      "CUL2",
+      "ELOB",
+      "ELOC",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2226",
+    "name": "KLHDC2-Elongin C-Elongin B E3 ubiquitin ligase complex",
+    "genes": [
+      "CUL2",
+      "ELOB",
+      "ELOC",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2227",
+    "name": "SF3B complex",
+    "genes": [
+      "PHF5A",
+      "SF3B1",
+      "SF3B2",
+      "SF3B3",
+      "SF3B4",
+      "SF3B5",
+      "SF3B6"
+    ]
+  },
+  {
+    "id": "CPX-2228",
+    "name": "KLHDC3-Elongin C-Elongin B E3 ubiquitin ligase complex",
+    "genes": [
+      "CUL2",
+      "ELOB",
+      "ELOC",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2229",
+    "name": "PRAME-Elongin C-Elongin B E3 ubiquitin ligase complex",
+    "genes": [
+      "CUL2",
+      "ELOB",
+      "ELOC",
+      "PRAME",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2236",
+    "name": "STRIPAK complex, STRIP1-STRN3 variant",
+    "genes": [
+      "MOB4",
+      "PPP2CA",
+      "PPP2R1A",
+      "STRIP1",
+      "STRN3"
+    ]
+  },
+  {
+    "id": "CPX-2239",
+    "name": "SCF E3 ubiquitin ligase complex, FBXL5 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-2240",
+    "name": "Mitochondrial RNase Z complex",
+    "genes": [
+      "ELAC2",
+      "HSD17B10",
+      "TRMT10C"
+    ]
+  },
+  {
+    "id": "CPX-2241",
+    "name": "SCF E3 ubiquitin ligase complex, FBXL13 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-2250",
+    "name": "VHL-Elongin C-Elongin B E3 ubiquitin ligase complex",
+    "genes": [
+      "CUL2",
+      "ELOB",
+      "ELOC",
+      "RBX1",
+      "VHL"
+    ]
+  },
+  {
+    "id": "CPX-2252",
+    "name": "KEOPS tRNA N6-adenosine threonylcarbamoyltransferase complex",
+    "genes": [
+      "LAGE3",
+      "OSGEP",
+      "TP53RK",
+      "TPRKB"
+    ]
+  },
+  {
+    "id": "CPX-2256",
+    "name": "ASAP splicing-associated complex",
+    "genes": [
+      "ACIN1",
+      "RNPS1",
+      "SAP18"
+    ]
+  },
+  {
+    "id": "CPX-2257",
+    "name": "PSAP splicing-associated complex",
+    "genes": [
+      "PNN",
+      "RNPS1",
+      "SAP18"
+    ]
+  },
+  {
+    "id": "CPX-2260",
+    "name": "Non-canonical polycomb repressive complex 1.2, RING1-YAF2 variant",
+    "genes": [
+      "PCGF2",
+      "YAF2"
+    ]
+  },
+  {
+    "id": "CPX-2272",
+    "name": "Non-canonical polycomb repressive complex 1.1, RING2-PCGF1-YAF2 variant",
+    "genes": [
+      "KDM2B",
+      "SKP1",
+      "YAF2"
+    ]
+  },
+  {
+    "id": "CPX-2280",
+    "name": "Non-canonical polycomb repressive complex 1.2, RNF2-YAF2 variant",
+    "genes": [
+      "PCGF2",
+      "YAF2"
+    ]
+  },
+  {
+    "id": "CPX-2300",
+    "name": "CRL3 E3 ubiquitin ligase complex, SPOP variant",
+    "genes": [
+      "CUL3",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2307",
+    "name": "Polycomb repressive complex 2.1, EZH1-RBBP7-PCL1-PALI1 variant",
+    "genes": [
+      "EED",
+      "PHF1",
+      "RBBP7",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2309",
+    "name": "Polycomb repressive complex 2.1, EZH1-RBBP7-PCL2-PALI1 variant",
+    "genes": [
+      "EED",
+      "RBBP7",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2310",
+    "name": "Polycomb repressive complex 2.1, EZH1-RBBP4-PCL2-PALI1 variant",
+    "genes": [
+      "EED",
+      "RBBP4",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2311",
+    "name": "Polycomb repressive complex 2.1, EZH2-RBBP7-PCL1-PALI1 variant",
+    "genes": [
+      "EED",
+      "EZH2",
+      "PHF1",
+      "RBBP7",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2312",
+    "name": "Polycomb repressive complex 2.1, EZH2-RBBP4-PCL2-PALI1 variant",
+    "genes": [
+      "EED",
+      "EZH2",
+      "RBBP4",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2314",
+    "name": "Polycomb repressive complex 2.1,EZH2-RBBP7-PCL2-PALI1 variant",
+    "genes": [
+      "EED",
+      "EZH2",
+      "RBBP7",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2316",
+    "name": "Polycomb repressive complex 2.1,EZH2-RBBP7-PCL3-PALI1 variant",
+    "genes": [
+      "EED",
+      "EZH2",
+      "RBBP7",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2317",
+    "name": "Polycomb repressive complex 2.1, EZH1-RBBP4-PCL1-EPOP variant",
+    "genes": [
+      "EED",
+      "EPOP",
+      "PHF1",
+      "RBBP4",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2318",
+    "name": "Polycomb repressive complex 2.1, EZH1-RBBP4-PCL2-EPOP variant",
+    "genes": [
+      "EED",
+      "EPOP",
+      "RBBP4",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2319",
+    "name": "SCF E3 ubiquitin ligase complex, FBXL14 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-2320",
+    "name": "Polycomb repressive complex 2.1, EZH1-RBBP7-PCL2-EPOP variant",
+    "genes": [
+      "EED",
+      "EPOP",
+      "RBBP7",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2322",
+    "name": "Polycomb repressive complex 2.1, EZH1-RBBP4-PCL3-EPOP variant",
+    "genes": [
+      "EED",
+      "EPOP",
+      "RBBP4",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2323",
+    "name": "Polycomb repressive complex 2.1, EZH1-RBBP7-PCL3-EPOP variant",
+    "genes": [
+      "EED",
+      "EPOP",
+      "RBBP7",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2324",
+    "name": "Polycomb repressive complex 2.1, EZH2-RBBP4-PCL1-EPOP variant",
+    "genes": [
+      "EED",
+      "EPOP",
+      "EZH2",
+      "PHF1",
+      "RBBP4",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2325",
+    "name": "Polycomb repressive complex 2.1, EZH2-RBBP7-PCL1-EPOP variant",
+    "genes": [
+      "EED",
+      "EPOP",
+      "EZH2",
+      "PHF1",
+      "RBBP7",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2326",
+    "name": "Polycomb repressive complex 2.1, EZH2-RBBP4-PCL2-EPOP variant",
+    "genes": [
+      "EED",
+      "EPOP",
+      "EZH2",
+      "RBBP4",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2327",
+    "name": "Polycomb repressive complex 2.1, EZH2-RBBP7-PCL2-EPOP variant",
+    "genes": [
+      "EED",
+      "EPOP",
+      "EZH2",
+      "RBBP7",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2328",
+    "name": "Polycomb repressive complex 2.1, EZH2-RBBP4-PCL3-EPOP variant",
+    "genes": [
+      "EED",
+      "EPOP",
+      "EZH2",
+      "RBBP4",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2329",
+    "name": "Polycomb repressive complex 2.1, EZH2-RBBP7-PCL3-EPOP variant",
+    "genes": [
+      "EED",
+      "EPOP",
+      "EZH2",
+      "RBBP7",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2330",
+    "name": "Polycomb repressive complex 2.2, EZH1-RBBP4 variant",
+    "genes": [
+      "EED",
+      "RBBP4",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2332",
+    "name": "4EHP-GIGYF2 co-translational mRNA decay complex, ZNF598 variant",
+    "genes": [
+      "EIF4E2",
+      "GIGYF2"
+    ]
+  },
+  {
+    "id": "CPX-2336",
+    "name": "4EHP-GIGYF1 co-translational mRNA decay complex, ZNF598 variant",
+    "genes": [
+      "EIF4E2",
+      "GIGYF1"
+    ]
+  },
+  {
+    "id": "CPX-2338",
+    "name": "4EHP-GIGYF2 co-translational mRNA decay complex, DDX6 variant",
+    "genes": [
+      "DDX6",
+      "EIF4E2",
+      "GIGYF2"
+    ]
+  },
+  {
+    "id": "CPX-2342",
+    "name": "4EHP-GIGYF1 co-translational mRNA decay complex, DDX6 variant",
+    "genes": [
+      "DDX6",
+      "EIF4E2",
+      "GIGYF1"
+    ]
+  },
+  {
+    "id": "CPX-2343",
+    "name": "SCF E3 ubiquitin ligase complex, FBXL16 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-2349",
+    "name": "eIF4E-CYFIP1-FMRP translational repressor complex",
+    "genes": [
+      "CYFIP1",
+      "EIF4E"
+    ]
+  },
+  {
+    "id": "CPX-2354",
+    "name": "Non-canonical polycomb repressive complex 1.1, RING1-PCGF1-RYBP variant",
+    "genes": [
+      "KDM2B",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-2360",
+    "name": "COPII vesicle coat complex",
+    "genes": [
+      "SEC13",
+      "SEC24A"
+    ]
+  },
+  {
+    "id": "CPX-2363",
+    "name": "BCDX2 complex",
+    "genes": [
+      "RAD51B",
+      "RAD51C",
+      "RAD51D",
+      "XRCC2"
+    ]
+  },
+  {
+    "id": "CPX-2365",
+    "name": "SCF E3 ubiquitin ligase complex, BTRC variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-2366",
+    "name": "Myb-MuvB transcriptional activation complex",
+    "genes": [
+      "LIN37",
+      "LIN52",
+      "LIN54",
+      "LIN9",
+      "MYBL2",
+      "RBBP4"
+    ]
+  },
+  {
+    "id": "CPX-2368",
+    "name": "DREAM transcriptional repressor complex, RBL1 variant",
+    "genes": [
+      "LIN37",
+      "LIN52",
+      "LIN54",
+      "LIN9",
+      "RBBP4",
+      "TFDP1"
+    ]
+  },
+  {
+    "id": "CPX-2373",
+    "name": "General transcription factor TFIIIC complex",
+    "genes": [
+      "GTF3C1",
+      "GTF3C2",
+      "GTF3C3",
+      "GTF3C4",
+      "GTF3C5",
+      "GTF3C6"
+    ]
+  },
+  {
+    "id": "CPX-2381",
+    "name": "PAF1 complex",
+    "genes": [
+      "CDC73",
+      "CTR9",
+      "LEO1",
+      "PAF1",
+      "RTF1"
+    ]
+  },
+  {
+    "id": "CPX-2386",
+    "name": "DNA-directed RNA polymerase I complex",
+    "genes": [
+      "POLR1A",
+      "POLR1B",
+      "POLR1C",
+      "POLR1E",
+      "POLR2E",
+      "POLR2F",
+      "POLR2H",
+      "POLR2K",
+      "POLR2L"
+    ]
+  },
+  {
+    "id": "CPX-2387",
+    "name": "DNA-directed RNA polymerase II complex, Pol II(G) variant",
+    "genes": [
+      "POLR2A",
+      "POLR2B",
+      "POLR2C",
+      "POLR2D",
+      "POLR2E",
+      "POLR2F",
+      "POLR2G",
+      "POLR2H",
+      "POLR2I",
+      "POLR2J",
+      "POLR2K",
+      "POLR2L"
+    ]
+  },
+  {
+    "id": "CPX-2392",
+    "name": "U1 small nuclear ribonucleoprotein complex",
+    "genes": [
+      "SNRNP70",
+      "SNRPA",
+      "SNRPB",
+      "SNRPC",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG"
+    ]
+  },
+  {
+    "id": "CPX-2393",
+    "name": "DNA-directed RNA polymerase III complex, POLR3G variant",
+    "genes": [
+      "CRCP",
+      "POLR1C",
+      "POLR2E",
+      "POLR2F",
+      "POLR2H",
+      "POLR2K",
+      "POLR2L",
+      "POLR3A",
+      "POLR3B",
+      "POLR3C",
+      "POLR3D",
+      "POLR3E",
+      "POLR3F",
+      "POLR3H",
+      "POLR3K"
+    ]
+  },
+  {
+    "id": "CPX-2394",
+    "name": "General transcription factor TFIIE complex",
+    "genes": [
+      "GTF2E1",
+      "GTF2E2"
+    ]
+  },
+  {
+    "id": "CPX-2395",
+    "name": "General transcription factor TFIIH complex",
+    "genes": [
+      "CCNH",
+      "CDK7",
+      "ERCC2",
+      "ERCC3",
+      "GTF2H1",
+      "GTF2H2",
+      "GTF2H3",
+      "GTF2H4",
+      "MNAT1"
+    ]
+  },
+  {
+    "id": "CPX-2396",
+    "name": "General transcription factor TFIII3B complex, BRF1 variant",
+    "genes": [
+      "BDP1",
+      "BRF1",
+      "TBP"
+    ]
+  },
+  {
+    "id": "CPX-2397",
+    "name": "General transcription factor TFIII3B complex, BRF2 variant",
+    "genes": [
+      "BDP1",
+      "BRF2",
+      "TBP"
+    ]
+  },
+  {
+    "id": "CPX-2398",
+    "name": "General transcription factor TFIIB-TBP complex",
+    "genes": [
+      "GTF2B",
+      "TBP"
+    ]
+  },
+  {
+    "id": "CPX-2399",
+    "name": "CRL4-DCAF13 E3 ubiquitin ligase complex, CUL4A variant",
+    "genes": [
+      "DCAF13",
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2403",
+    "name": "CRL4-DCAF11 E3 ubiquitin ligase complex, CUL4A variant",
+    "genes": [
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2404",
+    "name": "CRL4-DCAF11 E3 ubiquitin ligase complex, CUL4B variant",
+    "genes": [
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2405",
+    "name": "CRL4-DCAF12 E3 ubiquitin ligase complex, CUL4A variant",
+    "genes": [
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2406",
+    "name": "CRL4-DCAF12 E3 ubiquitin ligase complex, CUL4B variant",
+    "genes": [
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2407",
+    "name": "CRL4-DCAF13 E3 ubiquitin ligase complex, CUL4B variant",
+    "genes": [
+      "DCAF13",
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2411",
+    "name": "CRL4-DCAF14 E3 ubiquitin ligase complex, CUL4A variant",
+    "genes": [
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2412",
+    "name": "CRL4-DCAF14 E3 ubiquitin ligase complex, CUL4B variant",
+    "genes": [
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2413",
+    "name": "CRL4-DCAF16 E3 ubiquitin ligase complex, CUL4A variant",
+    "genes": [
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2414",
+    "name": "CRL4-DCAF16 E3 ubiquitin ligase complex, CUL4B variant",
+    "genes": [
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2415",
+    "name": "CRL4-DCAF17 E3 ubiquitin ligase complex, CUL4A variant",
+    "genes": [
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2416",
+    "name": "CRL4-DCAF17 E3 ubiquitin ligase complex, CUL4B variant",
+    "genes": [
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2437",
+    "name": "Casein kinase II complex, CSNK2A1-CNSK2A2 variant",
+    "genes": [
+      "CSNK2A1",
+      "CSNK2B"
+    ]
+  },
+  {
+    "id": "CPX-2438",
+    "name": "SCF E3 ubiquitin ligase complex, FBXL8 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-2450",
+    "name": "UTP-A complex",
+    "genes": [
+      "HEATR1",
+      "NOL11",
+      "UTP15",
+      "UTP4",
+      "WDR43",
+      "WDR75"
+    ]
+  },
+  {
+    "id": "CPX-2469",
+    "name": "Multiaminoacyl-tRNA synthetase complex",
+    "genes": [
+      "DARS1",
+      "EEF1E1",
+      "EPRS1",
+      "IARS1",
+      "KARS1",
+      "LARS1",
+      "MARS1",
+      "QARS1",
+      "RARS1"
+    ]
+  },
+  {
+    "id": "CPX-2470",
+    "name": "Vacuolar proton translocating ATPase complex, ATP6V0A1 variant",
+    "genes": [
+      "ATP6AP1",
+      "ATP6AP2",
+      "ATP6V0A1",
+      "ATP6V0B",
+      "ATP6V0C",
+      "ATP6V1A",
+      "ATP6V1D",
+      "ATP6V1F",
+      "ATP6V1H",
+      "RNASEK"
+    ]
+  },
+  {
+    "id": "CPX-2476",
+    "name": "GAIT complex",
+    "genes": [
+      "EPRS1",
+      "GAPDH",
+      "RPL13A",
+      "SYNCRIP"
+    ]
+  },
+  {
+    "id": "CPX-2477",
+    "name": "TREX-2 transcription-export complex, CETN2 variant",
+    "genes": [
+      "ENY2",
+      "MCM3AP",
+      "PCID2"
+    ]
+  },
+  {
+    "id": "CPX-2478",
+    "name": "MPP10 complex",
+    "genes": [
+      "IMP3",
+      "IMP4",
+      "MPHOSPH10"
+    ]
+  },
+  {
+    "id": "CPX-2488",
+    "name": "TREX transcription-export complex, DX39B variant",
+    "genes": [
+      "ALYREF",
+      "CHTOP",
+      "DDX39B",
+      "ERH",
+      "NCBP3",
+      "SARNP",
+      "THOC1",
+      "THOC2",
+      "THOC3",
+      "THOC5",
+      "THOC6",
+      "THOC7",
+      "ZC3H11A"
+    ]
+  },
+  {
+    "id": "CPX-2489",
+    "name": "SCF E3 ubiquitin ligase complex, FBXL22 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-2490",
+    "name": "Actin-related protein 2/3 complex, ARPC1A-ACTR3B-ARPC5 variant",
+    "genes": [
+      "ACTR2",
+      "ARPC2",
+      "ARPC3",
+      "ARPC4"
+    ]
+  },
+  {
+    "id": "CPX-2492",
+    "name": "SCF E3 ubiquitin ligase complex, FBXL15 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-2503",
+    "name": "ISCA2-IBA57 mitochondrial iron-sulfur protein assembly complex",
+    "genes": [
+      "IBA57",
+      "ISCA2"
+    ]
+  },
+  {
+    "id": "CPX-2505",
+    "name": "ESCRT-I complex, VPS37B-MVB12A variant",
+    "genes": [
+      "MVB12A",
+      "TSG101",
+      "VPS28",
+      "VPS37B"
+    ]
+  },
+  {
+    "id": "CPX-2506",
+    "name": "ESCRT-II complex",
+    "genes": [
+      "SNF8",
+      "VPS25",
+      "VPS36"
+    ]
+  },
+  {
+    "id": "CPX-2511",
+    "name": "Small ribosomal subunit processome",
+    "genes": [
+      "AATF",
+      "BMS1",
+      "DCAF13",
+      "DNTTIP2",
+      "FBL",
+      "FCF1",
+      "KRR1",
+      "NAT10",
+      "NGDN",
+      "NOC4L",
+      "NOL6",
+      "NOP14",
+      "NOP56",
+      "NOP58",
+      "PNO1",
+      "RCL1",
+      "RRP7A",
+      "RRP9",
+      "SNU13",
+      "UTP11",
+      "UTP14A",
+      "UTP20",
+      "UTP3",
+      "WDR46"
+    ]
+  },
+  {
+    "id": "CPX-2512",
+    "name": "SCF E3 ubiquitin ligase complex, FBXL4 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-2516",
+    "name": "SCF E3 ubiquitin ligase complex, FBXL6 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-2521",
+    "name": "MNT-MLX transcriptional repressor complex",
+    "genes": [
+      "MLX",
+      "MNT"
+    ]
+  },
+  {
+    "id": "CPX-2522",
+    "name": "CCR4-NOT mRNA deadenylase complex, CNOT6L-CNOT7 variant",
+    "genes": [
+      "CNOT1",
+      "CNOT10",
+      "CNOT11",
+      "CNOT2",
+      "CNOT3",
+      "CNOT4",
+      "CNOT9"
+    ]
+  },
+  {
+    "id": "CPX-2526",
+    "name": "Replication fork protection complex",
+    "genes": [
+      "TIMELESS",
+      "TIPIN"
+    ]
+  },
+  {
+    "id": "CPX-2535",
+    "name": "CCR4-NOT mRNA deadenylase complex, CNOT6L-CNOT8 variant",
+    "genes": [
+      "CNOT1",
+      "CNOT10",
+      "CNOT11",
+      "CNOT2",
+      "CNOT3",
+      "CNOT4",
+      "CNOT9"
+    ]
+  },
+  {
+    "id": "CPX-2538",
+    "name": "SCF E3 ubiquitin ligase complex, KDM2A variant",
+    "genes": [
+      "CUL1",
+      "KDM2A",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-2539",
+    "name": "U2 small nuclear ribonucleoprotein complex",
+    "genes": [
+      "DDX46",
+      "HTATSF1",
+      "PHF5A",
+      "SF3A1",
+      "SF3A2",
+      "SF3A3",
+      "SF3B1",
+      "SF3B2",
+      "SF3B3",
+      "SF3B4",
+      "SF3B5",
+      "SF3B6",
+      "SNRPA1",
+      "SNRPB",
+      "SNRPB2",
+      "SNRPD1",
+      "SNRPD2",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG"
+    ]
+  },
+  {
+    "id": "CPX-2542",
+    "name": "RAG guanosine triphosphatase complex, RAGA-RAGC variant",
+    "genes": [
+      "RRAGA",
+      "RRAGC"
+    ]
+  },
+  {
+    "id": "CPX-2550",
+    "name": "Non-canonical polycomb repressive complex 1.6, RING1-YAF2 variant",
+    "genes": [
+      "PCGF6",
+      "YAF2"
+    ]
+  },
+  {
+    "id": "CPX-2551",
+    "name": "MGA-MAX transcriptional repressor complex",
+    "genes": [
+      "MAX",
+      "MGA"
+    ]
+  },
+  {
+    "id": "CPX-2552",
+    "name": "E2F6-DP1 transcriptional repressor complex",
+    "genes": [
+      "E2F6",
+      "TFDP1"
+    ]
+  },
+  {
+    "id": "CPX-2553",
+    "name": "SCF E3 ubiquitin ligase complex, FBXL18 variant",
+    "genes": [
+      "CUL1",
+      "FBXL18",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-2554",
+    "name": "SCF E3 ubiquitin ligase complex, FBXL19 variant",
+    "genes": [
+      "CUL1",
+      "FBXL19",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-2556",
+    "name": "Nucleosome, variant H3.1-H2A.2-H2B.1",
+    "genes": [
+      "H2AC8",
+      "H2BC11",
+      "H3C8",
+      "H4C2"
+    ]
+  },
+  {
+    "id": "CPX-2557",
+    "name": "Non-canonical polycomb repressive complex 1.6, RING2-YAF2 variant",
+    "genes": [
+      "PCGF6",
+      "YAF2"
+    ]
+  },
+  {
+    "id": "CPX-2558",
+    "name": "Nucleosome complex, H2BC12 variant",
+    "genes": [
+      "H2AC8",
+      "H2BC12",
+      "H3C8",
+      "H4C2"
+    ]
+  },
+  {
+    "id": "CPX-2564",
+    "name": "Nucleosome, variant H3.1t-H2A.2-H2B.1",
+    "genes": [
+      "H2AC8",
+      "H2BC11",
+      "H4C2"
+    ]
+  },
+  {
+    "id": "CPX-2565",
+    "name": "SF3A complex",
+    "genes": [
+      "SF3A1",
+      "SF3A2",
+      "SF3A3"
+    ]
+  },
+  {
+    "id": "CPX-2569",
+    "name": "Polycomb repressive complex 2.1, EZH1-RBBP4-PCL1-PALI1 variant",
+    "genes": [
+      "EED",
+      "PHF1",
+      "RBBP4",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2570",
+    "name": "Polycomb repressive complex 2.1, EZH1-RBBP7-PCL3-PALI1 variant",
+    "genes": [
+      "EED",
+      "RBBP7",
+      "SUZ12"
+    ]
+  },
+  {
+    "id": "CPX-2574",
+    "name": "Serine/threonine-protein phosphatase 2A complex, B56 beta variant",
+    "genes": [
+      "PPP2CA",
+      "PPP2R1A",
+      "PPP2R5B"
+    ]
+  },
+  {
+    "id": "CPX-2575",
+    "name": "Serine/threonine-protein phosphatase 2A complex, B55 alpha variant",
+    "genes": [
+      "PPP2CA",
+      "PPP2R1A",
+      "PPP2R2A"
+    ]
+  },
+  {
+    "id": "CPX-2576",
+    "name": "Serine/threonine-protein phosphatase 2A complex, B56 gamma variant",
+    "genes": [
+      "PPP2CA",
+      "PPP2R1A"
+    ]
+  },
+  {
+    "id": "CPX-2579",
+    "name": "Actin-related protein 2/3 complex, ARPC1B-ACTR3-ARPC5 variant",
+    "genes": [
+      "ACTR2",
+      "ACTR3",
+      "ARPC2",
+      "ARPC3",
+      "ARPC4"
+    ]
+  },
+  {
+    "id": "CPX-2580",
+    "name": "Actin-related protein 2/3 complex, ARPC1B-ACTR3B-ARPC5L variant",
+    "genes": [
+      "ACTR2",
+      "ARPC2",
+      "ARPC3",
+      "ARPC4"
+    ]
+  },
+  {
+    "id": "CPX-2583",
+    "name": "Actin-related protein 2/3 complex, ARPC1B-ACTR3B-ARPC5 variant",
+    "genes": [
+      "ACTR2",
+      "ARPC2",
+      "ARPC3",
+      "ARPC4"
+    ]
+  },
+  {
+    "id": "CPX-2586",
+    "name": "Actin-related protein 2/3 complex, ARPC1A-ACTR3-ARPC5 variant",
+    "genes": [
+      "ACTR2",
+      "ACTR3",
+      "ARPC2",
+      "ARPC3",
+      "ARPC4"
+    ]
+  },
+  {
+    "id": "CPX-2587",
+    "name": "NEDD8 E1 activating enzyme complex, NAE1-UBA3",
+    "genes": [
+      "NAE1",
+      "UBA3"
+    ]
+  },
+  {
+    "id": "CPX-2592",
+    "name": "Actin-related protein 2/3 complex, ARPC1A-ACTR3-ARPC5L variant",
+    "genes": [
+      "ACTR2",
+      "ACTR3",
+      "ARPC2",
+      "ARPC3",
+      "ARPC4"
+    ]
+  },
+  {
+    "id": "CPX-2594",
+    "name": "Polycomb repressive complex 1, RING1-PCGF2-CBX4-PHC1 variant",
+    "genes": [
+      "PCGF2",
+      "PHC1"
+    ]
+  },
+  {
+    "id": "CPX-2600",
+    "name": "Polycomb repressive complex 1, RING1-PCGF2-CBX7-PHC1 variant",
+    "genes": [
+      "PCGF2",
+      "PHC1"
+    ]
+  },
+  {
+    "id": "CPX-2605",
+    "name": "Polycomb repressive complex 1, RING1-PCGF2-CBX2-PHC1 variant",
+    "genes": [
+      "PCGF2",
+      "PHC1"
+    ]
+  },
+  {
+    "id": "CPX-2616",
+    "name": "Polycomb repressive complex 1, RING1-PCGF2-CBX6-PHC1 variant",
+    "genes": [
+      "PCGF2",
+      "PHC1"
+    ]
+  },
+  {
+    "id": "CPX-2621",
+    "name": "Polycomb repressive complex 1, RING1-PCGF2-CBX8-PHC1 variant",
+    "genes": [
+      "PCGF2",
+      "PHC1"
+    ]
+  },
+  {
+    "id": "CPX-2627",
+    "name": "Non-canonical polycomb repressive complex 1.1, RING2-PCGF1-RYBP variant",
+    "genes": [
+      "KDM2B",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-2642",
+    "name": "Ribosome-associated complex",
+    "genes": [
+      "DNAJC2",
+      "HSPA14"
+    ]
+  },
+  {
+    "id": "CPX-2649",
+    "name": "PEX2-PEX10-PEX12 E3 ubiquitin ligase complex",
+    "genes": [
+      "PEX10",
+      "PEX12"
+    ]
+  },
+  {
+    "id": "CPX-2652",
+    "name": "Signal recognition particle",
+    "genes": [
+      "SRP14",
+      "SRP19",
+      "SRP54",
+      "SRP68",
+      "SRP72",
+      "SRP9"
+    ]
+  },
+  {
+    "id": "CPX-2653",
+    "name": "SNIP1/SkIP associated RNA-processing complex",
+    "genes": [
+      "BCLAF1",
+      "PNN",
+      "SNIP1",
+      "SNW1"
+    ]
+  },
+  {
+    "id": "CPX-2658",
+    "name": "SCF E3 ubiquitin ligase complex, FBXL12 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-2663",
+    "name": "Actin-related protein 2/3 complex, ARPC1B-ACTR3-ARPC5L variant",
+    "genes": [
+      "ACTR2",
+      "ACTR3",
+      "ARPC2",
+      "ARPC3",
+      "ARPC4"
+    ]
+  },
+  {
+    "id": "CPX-2666",
+    "name": "Eukaryotic translation initiation factor 4F, EIF4A1 and EIF4G1 variant",
+    "genes": [
+      "EIF4A1",
+      "EIF4E",
+      "EIF4G1"
+    ]
+  },
+  {
+    "id": "CPX-2668",
+    "name": "Actin-related protein 2/3 complex, ARPC1B-ACTR3B-ARPC5L variant",
+    "genes": [
+      "ACTR2",
+      "ARPC2",
+      "ARPC3",
+      "ARPC4"
+    ]
+  },
+  {
+    "id": "CPX-2683",
+    "name": "SCF E3 ubiquitin ligase complex, FBXL7 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-2688",
+    "name": "UTP-B complex",
+    "genes": [
+      "PWP2",
+      "TBL3",
+      "UTP18",
+      "UTP6",
+      "WDR3",
+      "WDR36"
+    ]
+  },
+  {
+    "id": "CPX-2692",
+    "name": "pre-mRNA cleavage factor IIm complex",
+    "genes": [
+      "CLP1",
+      "PCF11"
+    ]
+  },
+  {
+    "id": "CPX-2694",
+    "name": "Histone pre-RNA core cleavage complex",
+    "genes": [
+      "CPSF2",
+      "CPSF3",
+      "CSTF2",
+      "SYMPK"
+    ]
+  },
+  {
+    "id": "CPX-2698",
+    "name": "pre-mRNA cleavage and polyadenylation specificity factor complex",
+    "genes": [
+      "CPSF1",
+      "CPSF2",
+      "CPSF3",
+      "CPSF4",
+      "FIP1L1",
+      "SYMPK",
+      "WDR33"
+    ]
+  },
+  {
+    "id": "CPX-2701",
+    "name": "Cleavage stimulation factor complex, CSTF2 variant",
+    "genes": [
+      "CSTF1",
+      "CSTF2",
+      "CSTF3"
+    ]
+  },
+  {
+    "id": "CPX-2703",
+    "name": "Cleavage stimulation factor complex, CSTF2T variant",
+    "genes": [
+      "CSTF1",
+      "CSTF3"
+    ]
+  },
+  {
+    "id": "CPX-2705",
+    "name": "U7 small nuclear ribonucleoprotein complex",
+    "genes": [
+      "LSM10",
+      "LSM11",
+      "SNRPB",
+      "SNRPD3",
+      "SNRPE",
+      "SNRPF",
+      "SNRPG"
+    ]
+  },
+  {
+    "id": "CPX-2707",
+    "name": "tRNA-intron splicing endonuclease complex",
+    "genes": [
+      "CLP1",
+      "TSEN15",
+      "TSEN2",
+      "TSEN34",
+      "TSEN54"
+    ]
+  },
+  {
+    "id": "CPX-2712",
+    "name": "Little elongation complex, ELL variant",
+    "genes": [
+      "ELL",
+      "ICE1",
+      "ICE2",
+      "ZC3H8"
+    ]
+  },
+  {
+    "id": "CPX-2713",
+    "name": "Little elongation complex, ELL2 variant",
+    "genes": [
+      "ICE1",
+      "ICE2",
+      "ZC3H8"
+    ]
+  },
+  {
+    "id": "CPX-2714",
+    "name": "Little elongation complex, ELL3 variant",
+    "genes": [
+      "ELL3",
+      "ICE1",
+      "ICE2",
+      "ZC3H8"
+    ]
+  },
+  {
+    "id": "CPX-2721",
+    "name": "ERF1-ERF3 translation release factor complex, GSPT1 variant",
+    "genes": [
+      "ETF1",
+      "GSPT1"
+    ]
+  },
+  {
+    "id": "CPX-2740",
+    "name": "TRAMP complex, TENT4B-ZCCHC7 variant",
+    "genes": [
+      "MTREX",
+      "TENT4B",
+      "ZCCHC7"
+    ]
+  },
+  {
+    "id": "CPX-2748",
+    "name": "SCF E3 ubiquitin ligase complex, FBXL21 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-2749",
+    "name": "TRAMP complex, TENT4A-ZCCHC7 variant",
+    "genes": [
+      "MTREX",
+      "ZCCHC7"
+    ]
+  },
+  {
+    "id": "CPX-2750",
+    "name": "Poly(A) tail exosome targeting complex, RBM26 variant",
+    "genes": [
+      "MTREX",
+      "PABPN1",
+      "RBM26",
+      "ZC3H3",
+      "ZFC3H1"
+    ]
+  },
+  {
+    "id": "CPX-2752",
+    "name": "Poly(A) tail exosome targeting complex, RBM27 variant",
+    "genes": [
+      "MTREX",
+      "PABPN1",
+      "RBM27",
+      "ZC3H3",
+      "ZFC3H1"
+    ]
+  },
+  {
+    "id": "CPX-2757",
+    "name": "CRL4-ERCC8 E3 ubiquitin ligase complex, CUL4A variant",
+    "genes": [
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2758",
+    "name": "CRL4-ERCC8 E3 ubiquitin ligase complex, CUL4B variant",
+    "genes": [
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2759",
+    "name": "CRL4-CRBN E3 ubiquitin ligase complex, CUL4A variant",
+    "genes": [
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2762",
+    "name": "CRL4-CRBN E3 ubiquitin ligase complex, CUL4B variant",
+    "genes": [
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2765",
+    "name": "CRL4-DCAF15 E3 ubiquitin ligase complex, CUL4B variant",
+    "genes": [
+      "DCAF15",
+      "DDA1",
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2766",
+    "name": "CRL4-DCAF15 E3 ubiquitin ligase complex, CUL4A variant",
+    "genes": [
+      "DCAF15",
+      "DDA1",
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2769",
+    "name": "CRL4-DCAF1 E3 ubiquitin ligase complex, CUL4A variant",
+    "genes": [
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2770",
+    "name": "CRL4-DCAF1 E3 ubiquitin ligase complex, CUL4B variant",
+    "genes": [
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2773",
+    "name": "SCF E3 ubiquitin ligase complex, FBXL17 variant",
+    "genes": [
+      "CUL1",
+      "FBXL17",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-2777",
+    "name": "CRL4-CDT2 E3 ubiquitin ligase complex, CUL4B variant",
+    "genes": [
+      "DDB1",
+      "DTL",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2778",
+    "name": "CRL4-AMBRA1 E3 ubiquitin ligase complex, CUL4B variant",
+    "genes": [
+      "AMBRA1",
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2782",
+    "name": "CRL4-DCAF5 E3 ubiquitin ligase complex, CUL4A variant",
+    "genes": [
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2783",
+    "name": "CRL4-DCAF5 E3 ubiquitin ligase complex, CUL4B variant",
+    "genes": [
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2784",
+    "name": "CRL4-DCAF6 E3 ubiquitin ligase complex, CUL4A variant",
+    "genes": [
+      "DCAF6",
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2785",
+    "name": "CRL4-DCAF7 E3 ubiquitin ligase complex, CUL4A variant",
+    "genes": [
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2786",
+    "name": "CRL4-DCAF7 E3 ubiquitin ligase complex, CUL4B variant",
+    "genes": [
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2787",
+    "name": "CRL4-DCAF9 E3 ubiquitin ligase complex, CUL4A variant",
+    "genes": [
+      "DDB1",
+      "RBX1",
+      "WDTC1"
+    ]
+  },
+  {
+    "id": "CPX-2795",
+    "name": "CRL4-CDT2 E3 ubiquitin ligase complex, CUL4A variant",
+    "genes": [
+      "DDB1",
+      "DTL",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2797",
+    "name": "CRL4-AMBRA1 E3 ubiquitin ligase complex, CUL4A variant",
+    "genes": [
+      "AMBRA1",
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2799",
+    "name": "CRL4-DCAF4 E3 ubiquitin ligase complex, CUL4A variant",
+    "genes": [
+      "DCAF4",
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2804",
+    "name": "CRL4-DCAF6 E3 ubiquitin ligase complex, CUL4B variant",
+    "genes": [
+      "DCAF6",
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2809",
+    "name": "CRL4-DCAF9 E3 ubiquitin ligase complex, CUL4B variant",
+    "genes": [
+      "DDB1",
+      "RBX1",
+      "WDTC1"
+    ]
+  },
+  {
+    "id": "CPX-2816",
+    "name": "CRL4-DCAF8 E3 ubiquitin ligase complex, CUL4B variant",
+    "genes": [
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2817",
+    "name": "CRL4-DCAF10 E3 ubiquitin ligase complex, CUL4A variant",
+    "genes": [
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2818",
+    "name": "CRL4-DCAF8 E3 ubiquitin ligase complex, CUL4A variant",
+    "genes": [
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2819",
+    "name": "CRL4-DCAF10 E3 ubiquitin ligase complex, CUL4B variant",
+    "genes": [
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2823",
+    "name": "NUBP1-NUBP2 iron-sulfur cluster assembly scaffold complex",
+    "genes": [
+      "NUBP1",
+      "NUBP2"
+    ]
+  },
+  {
+    "id": "CPX-2827",
+    "name": "SMG1C protein kinase complex",
+    "genes": [
+      "SMG1",
+      "SMG8",
+      "SMG9"
+    ]
+  },
+  {
+    "id": "CPX-2831",
+    "name": "ISCA1-ISCA2 mitochondrial iron-sulfur protein assembly complex",
+    "genes": [
+      "ISCA1",
+      "ISCA2"
+    ]
+  },
+  {
+    "id": "CPX-2832",
+    "name": "SCF E3 ubiquitin ligase complex, KDM2B variant",
+    "genes": [
+      "CUL1",
+      "KDM2B",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-2837",
+    "name": "CIAO1-CIAO2B-CIAO3-MMS19 cytosolic iron-sulfur protein assembly complex",
+    "genes": [
+      "CIAO1",
+      "CIAO2B",
+      "CIAO3",
+      "MMS19"
+    ]
+  },
+  {
+    "id": "CPX-2838",
+    "name": "3M complex",
+    "genes": [
+      "CUL7",
+      "OBSL1"
+    ]
+  },
+  {
+    "id": "CPX-2840",
+    "name": "CIAO1-CIAO2A-CIAO3 cytosolic iron-sulfur protein assembly complex",
+    "genes": [
+      "CIAO1",
+      "CIAO2A",
+      "CIAO3"
+    ]
+  },
+  {
+    "id": "CPX-2842",
+    "name": "Mitochondrial degradosome complex",
+    "genes": [
+      "PNPT1",
+      "SUPV3L1"
+    ]
+  },
+  {
+    "id": "CPX-2845",
+    "name": "LKB1-STRAD-MO25 serine/threonine protein kinase complex, CAB39-STRADA variant",
+    "genes": [
+      "CAB39",
+      "STK11"
+    ]
+  },
+  {
+    "id": "CPX-2846",
+    "name": "PeBoW complex",
+    "genes": [
+      "BOP1",
+      "PES1",
+      "WDR12"
+    ]
+  },
+  {
+    "id": "CPX-2847",
+    "name": "Signal peptidase complex, SEC11A variant",
+    "genes": [
+      "SPCS2",
+      "SPCS3"
+    ]
+  },
+  {
+    "id": "CPX-2849",
+    "name": "CCR4-NOT mRNA deadenylase complex, CNOT6-CNOT8 variant",
+    "genes": [
+      "CNOT1",
+      "CNOT10",
+      "CNOT11",
+      "CNOT2",
+      "CNOT3",
+      "CNOT4",
+      "CNOT9"
+    ]
+  },
+  {
+    "id": "CPX-2859",
+    "name": "CRL4-DCAF4 E3 ubiquitin ligase complex, CUL4B variant",
+    "genes": [
+      "DCAF4",
+      "DDB1",
+      "RBX1"
+    ]
+  },
+  {
+    "id": "CPX-2868",
+    "name": "LKB1-STRAD-MO25 serine/threonine protein kinase complex, CAB39-STRADB variant",
+    "genes": [
+      "CAB39",
+      "STK11"
+    ]
+  },
+  {
+    "id": "CPX-2870",
+    "name": "RNA decapping and exonuclease complex, DCP1A variant",
+    "genes": [
+      "DDX6",
+      "EDC4",
+      "XRN1"
+    ]
+  },
+  {
+    "id": "CPX-2871",
+    "name": "BUD23-TRM112 methyltransferase complex",
+    "genes": [
+      "BUD23",
+      "TRMT112"
+    ]
+  },
+  {
+    "id": "CPX-2873",
+    "name": "SCF E3 ubiquitin ligase complex, FBXL20 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-2877",
+    "name": "Nucleolar ribonuclease P complex",
+    "genes": [
+      "POP1",
+      "POP4",
+      "POP5",
+      "POP7",
+      "RPP14",
+      "RPP21",
+      "RPP30",
+      "RPP38",
+      "RPP40"
+    ]
+  },
+  {
+    "id": "CPX-2919",
+    "name": "Protein geranylgeranyltransferase type II complex",
+    "genes": [
+      "RABGGTA",
+      "RABGGTB"
+    ]
+  },
+  {
+    "id": "CPX-2940",
+    "name": "MCM complex",
+    "genes": [
+      "MCM2",
+      "MCM3",
+      "MCM4",
+      "MCM5",
+      "MCM6",
+      "MCM7"
+    ]
+  },
+  {
+    "id": "CPX-3080",
+    "name": "Microprocessor complex",
+    "genes": [
+      "DGCR8",
+      "DROSHA"
+    ]
+  },
+  {
+    "id": "CPX-3227",
+    "name": "Core mediator complex",
+    "genes": [
+      "MED1",
+      "MED10",
+      "MED11",
+      "MED14",
+      "MED15",
+      "MED16",
+      "MED17",
+      "MED18",
+      "MED19",
+      "MED20",
+      "MED21",
+      "MED22",
+      "MED23",
+      "MED24",
+      "MED25",
+      "MED26",
+      "MED27",
+      "MED28",
+      "MED29",
+      "MED30",
+      "MED31",
+      "MED4",
+      "MED6",
+      "MED7",
+      "MED8",
+      "MED9"
+    ]
+  },
+  {
+    "id": "CPX-3232",
+    "name": "CKM complex variant 1",
+    "genes": [
+      "CCNC",
+      "CDK8",
+      "MED12",
+      "MED13"
+    ]
+  },
+  {
+    "id": "CPX-3263",
+    "name": "CKM complex variant 2",
+    "genes": [
+      "CCNC",
+      "MED12",
+      "MED13"
+    ]
+  },
+  {
+    "id": "CPX-3272",
+    "name": "CENP-A recruiting complex",
+    "genes": [
+      "MIS18A",
+      "MIS18BP1",
+      "OIP5"
+    ]
+  },
+  {
+    "id": "CPX-3282",
+    "name": "Syndecan-1-syntenin-1-ALIX complex",
+    "genes": [
+      "PDCD6IP",
+      "SDC1"
+    ]
+  },
+  {
+    "id": "CPX-3285",
+    "name": "HSP90B-CDC37 chaperone complex",
+    "genes": [
+      "CDC37",
+      "HSP90AB1"
+    ]
+  },
+  {
+    "id": "CPX-3291",
+    "name": "SCF E3 ubiquitin ligase complex, FBXL3 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-3292",
+    "name": "SCF E3 ubiquitin ligase complex, FBXL2 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1"
+    ]
+  },
+  {
+    "id": "CPX-3295",
+    "name": "SCF E3 ubiquitin ligase complex, SKP2 variant",
+    "genes": [
+      "CUL1",
+      "RBX1",
+      "SKP1",
+      "SKP2"
+    ]
+  }
+]

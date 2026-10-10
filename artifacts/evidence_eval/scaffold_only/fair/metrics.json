@@ -1,0 +1,44 @@
+{
+  "set": "fair",
+  "n_items": 60,
+  "n_calls": 120,
+  "parse_errors": 0,
+  "MRR": {
+    "A-mask": 0.3183,
+    "H-mask": 0.6117,
+    "H-scaffold": 0.554,
+    "P": 0.6392
+  },
+  "frozen_reference_MRR": {
+    "A-mask": 0.3397,
+    "H-mask": 0.6201
+  },
+  "paired": {
+    "scaffold_minus_Hmask": [
+      -0.0576,
+      -0.1024,
+      -0.0192
+    ],
+    "scaffold_minus_P": [
+      -0.0851,
+      -0.1424,
+      -0.0332
+    ],
+    "scaffold_minus_Amask": [
+      0.2357,
+      0.1493,
+      0.3217
+    ]
+  },
+  "selector": {
+    "exact_ranking_matches_phenotype": 75,
+    "n_item_order_calls": 120,
+    "rr_ties_phenotype": 40,
+    "exceeds_both_sources": 3,
+    "self_reported_weighted_source": {
+      "annotation": 38,
+      "phenotype": 81,
+      "neither": 1
+    }
+  }
+}

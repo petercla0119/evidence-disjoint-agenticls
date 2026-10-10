@@ -1,0 +1,225 @@
+{
+  "cell": "annotation_top_score>=1",
+  "parent_bin": "gap<0.013 | annotation margin 0-1.5",
+  "n_items": 40,
+  "n_responses": 160,
+  "random_ranking_MRR": 0.4083,
+  "calibration_row_shown": {
+    "gap<0.013 | annotation margin 0-1.5 | annotation_top_score>=1": {
+      "n": 72,
+      "phenotype_top_pick_is_true_partner": 0.278,
+      "annotation_top_pick_is_true_partner": 0.181,
+      "phenotype_expected_reciprocal_rank": 0.516,
+      "annotation_expected_reciprocal_rank": 0.471
+    }
+  },
+  "true_partner_phenotype_rank_spread": {
+    "1": 10,
+    "2": 9,
+    "3": 7,
+    "4": 7,
+    "5": 6,
+    "6": 1
+  },
+  "verification": {
+    "selection_statistics": [
+      "phenotype gap (top1-top2 cosine)",
+      "annotation margin (top1-top2 graph score)",
+      "annotation_top_score (top annotation graph score)"
+    ],
+    "gold_rank_used_in_selection": false,
+    "n_items": 40,
+    "n_distinct_queries": 40,
+    "one_item_per_query": true,
+    "n_items_in_calibration_half": 0,
+    "query_disjoint_from_calibration": true,
+    "n_items_reusing_conflict_or_control_query": 0,
+    "spans_all_ranks": true
+  },
+  "references": {
+    "phenotype_only_ranker_MRR": 0.4987,
+    "annotation_only_ranker_MRR": 0.472,
+    "phenotype_only_ranker_top1": 0.25,
+    "annotation_only_ranker_top1": 0.15,
+    "best_source_oracle_MRR": 0.6487,
+    "best_source_oracle_top1": 0.4,
+    "n_exceedable": 24
+  },
+  "fusion_rules": {
+    "borda": {
+      "MRR": 0.5407,
+      "top1": 0.2958,
+      "vs_best_source_oracle": -0.108,
+      "vs_best_source_oracle_CI": [
+        -0.2018,
+        -0.0125
+      ],
+      "exceeds_better_source_n": 6
+    },
+    "rrf_k60": {
+      "MRR": 0.539,
+      "top1": 0.2875,
+      "vs_best_source_oracle": -0.1097,
+      "vs_best_source_oracle_CI": [
+        -0.2012,
+        -0.0179
+      ],
+      "exceeds_better_source_n": 4
+    },
+    "rrf_k1": {
+      "MRR": 0.5088,
+      "top1": 0.2375,
+      "vs_best_source_oracle": -0.1399,
+      "vs_best_source_oracle_CI": [
+        -0.1943,
+        -0.09
+      ],
+      "exceeds_better_source_n": 1
+    },
+    "calib_relu": {
+      "MRR": 0.51,
+      "top1": 0.225,
+      "vs_best_source_oracle": -0.1387,
+      "vs_best_source_oracle_CI": [
+        -0.2385,
+        -0.0374
+      ],
+      "exceeds_better_source_n": 4
+    },
+    "calib_raw": {
+      "MRR": 0.5108,
+      "top1": 0.2,
+      "vs_best_source_oracle": -0.1378,
+      "vs_best_source_oracle_CI": [
+        -0.2278,
+        -0.047
+      ],
+      "exceeds_better_source_n": 3
+    }
+  },
+  "arms": {
+    "agent_free": {
+      "n_items": 40,
+      "n_calls_scored": 80,
+      "parse_errors": 0,
+      "MRR": 0.465,
+      "MRR_CI": [
+        0.3954,
+        0.5383
+      ],
+      "top1": 0.1875,
+      "verbatim_copy_full_ordering_phenotype": 14,
+      "verbatim_copy_full_ordering_annotation": 4,
+      "verbatim_copy_full_ordering_either": 18,
+      "verbatim_copy_full_ordering_phenotype_rate": 0.175,
+      "verbatim_copy_full_ordering_annotation_rate": 0.05,
+      "verbatim_copy_full_ordering_phenotype_rate_CI": [
+        0.107,
+        0.273
+      ],
+      "verbatim_copy_full_ordering_annotation_rate_CI": [
+        0.02,
+        0.122
+      ],
+      "copies_neither_source": 62,
+      "top_pick_agrees_phenotype": 47,
+      "top_pick_agrees_annotation": 46,
+      "minus_phenotype_only_ranker": -0.0338,
+      "minus_phenotype_only_ranker_CI": [
+        -0.1088,
+        0.0448
+      ],
+      "minus_annotation_only_ranker": -0.007,
+      "minus_annotation_only_ranker_CI": [
+        -0.0896,
+        0.0724
+      ],
+      "minus_best_source_oracle": -0.1837,
+      "minus_best_source_oracle_CI": [
+        -0.2423,
+        -0.1289
+      ],
+      "exceeds_best_source_oracle_n": 1,
+      "n_exceedable_among_scored": 24,
+      "queried_reliability_rate": 1.0,
+      "mean_tool_calls": 3.0
+    },
+    "agent_norel": {
+      "n_items": 40,
+      "n_calls_scored": 80,
+      "parse_errors": 0,
+      "MRR": 0.4121,
+      "MRR_CI": [
+        0.3644,
+        0.4637
+      ],
+      "top1": 0.05,
+      "verbatim_copy_full_ordering_phenotype": 8,
+      "verbatim_copy_full_ordering_annotation": 5,
+      "verbatim_copy_full_ordering_either": 13,
+      "verbatim_copy_full_ordering_phenotype_rate": 0.1,
+      "verbatim_copy_full_ordering_annotation_rate": 0.062,
+      "verbatim_copy_full_ordering_phenotype_rate_CI": [
+        0.052,
+        0.185
+      ],
+      "verbatim_copy_full_ordering_annotation_rate_CI": [
+        0.027,
+        0.138
+      ],
+      "copies_neither_source": 67,
+      "top_pick_agrees_phenotype": 19,
+      "top_pick_agrees_annotation": 57,
+      "minus_phenotype_only_ranker": -0.0867,
+      "minus_phenotype_only_ranker_CI": [
+        -0.1873,
+        0.0129
+      ],
+      "minus_annotation_only_ranker": -0.0599,
+      "minus_annotation_only_ranker_CI": [
+        -0.1196,
+        -0.0069
+      ],
+      "minus_best_source_oracle": -0.2366,
+      "minus_best_source_oracle_CI": [
+        -0.3085,
+        -0.1677
+      ],
+      "exceeds_best_source_oracle_n": 0,
+      "n_exceedable_among_scored": 24,
+      "queried_reliability_rate": 0.0,
+      "mean_tool_calls": 2.0
+    }
+  },
+  "source_tie_structure": {
+    "complementary": {
+      "n": 40,
+      "mean_distinct_annotation_scores_of_6": 3.83,
+      "items_with_fully_distinct_annotation": 4,
+      "mean_distinct_phenotype_scores_of_6": 5.83
+    },
+    "conflict_published": {
+      "n": 40,
+      "mean_distinct_annotation_scores_of_6": 4.7,
+      "items_with_fully_distinct_annotation": 19,
+      "mean_distinct_phenotype_scores_of_6": 5.8
+    },
+    "control_published": {
+      "n": 20,
+      "mean_distinct_annotation_scores_of_6": 1.1,
+      "items_with_fully_distinct_annotation": 0,
+      "mean_distinct_phenotype_scores_of_6": 5.8
+    }
+  },
+  "table_contrast": {
+    "n_items": 40,
+    "parse_errors_scored_as": 0.0,
+    "without_table_MRR": 0.4121,
+    "with_table_MRR": 0.465,
+    "with_minus_without": 0.0529,
+    "with_minus_without_CI": [
+      0.0025,
+      0.1065
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "n_repeated_keys": 79,
+  "exact_agreement_rate": 0.911,
+  "mean_abs_RR_difference": 0.012,
+  "p95_abs_RR_difference": 0.0533,
+  "implied_MRR_noise_se_40_items": 0.008,
+  "temperature": 1.0,
+  "note": "deployment rejects temperature=0; episodes are sampled",
+  "sources": {
+    "retest": 79
+  }
+}

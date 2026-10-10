@@ -1,0 +1,367 @@
+{
+  "seed": 42,
+  "pos_thresh": 700,
+  "neg_thresh": 400,
+  "items": [
+    {
+      "query": "UQCRFS1",
+      "gold": "NDUFA6",
+      "distractors": [
+        "NFKB2",
+        "MYBL2",
+        "RFC2",
+        "TXNRD1",
+        "BTF3"
+      ],
+      "gold_degree": 254,
+      "phen_rank": 1,
+      "stratum": "informative",
+      "item_id": "it00"
+    },
+    {
+      "query": "MTHFD1",
+      "gold": "GART",
+      "distractors": [
+        "POLR1A",
+        "MRPL22",
+        "PTPN11",
+        "RPL26L1",
+        "POU5F1"
+      ],
+      "gold_degree": 550,
+      "phen_rank": 1,
+      "stratum": "informative",
+      "item_id": "it01"
+    },
+    {
+      "query": "CABP4",
+      "gold": "GPR179",
+      "distractors": [
+        "CRLF1",
+        "TTI2",
+        "NOTCH2NLB",
+        "KRTAP10-4",
+        "CHD2"
+      ],
+      "gold_degree": 21,
+      "phen_rank": 1,
+      "stratum": "informative",
+      "item_id": "it02"
+    },
+    {
+      "query": "SGO1",
+      "gold": "PPP2CA",
+      "distractors": [
+        "ITGAX",
+        "CEBPB",
+        "NANOG",
+        "YARS1",
+        "HNRNPA2B1"
+      ],
+      "gold_degree": 451,
+      "phen_rank": 2,
+      "stratum": "informative",
+      "item_id": "it03"
+    },
+    {
+      "query": "IGF1R",
+      "gold": "INS",
+      "distractors": [
+        "UBC",
+        "RPS27A",
+        "CD8A",
+        "RPS2",
+        "GNB1"
+      ],
+      "gold_degree": 1284,
+      "phen_rank": 1,
+      "stratum": "informative",
+      "item_id": "it04"
+    },
+    {
+      "query": "NOL7",
+      "gold": "WDR43",
+      "distractors": [
+        "PPIA",
+        "TRRAP",
+        "PSMB6",
+        "MCM6",
+        "RAB7A"
+      ],
+      "gold_degree": 311,
+      "phen_rank": 1,
+      "stratum": "informative",
+      "item_id": "it05"
+    },
+    {
+      "query": "RNASEH2A",
+      "gold": "RNASEH2C",
+      "distractors": [
+        "TRPM2",
+        "KRTAP5-7",
+        "WASHC4",
+        "DUOXA2",
+        "GPAT2"
+      ],
+      "gold_degree": 37,
+      "phen_rank": 1,
+      "stratum": "informative",
+      "item_id": "it06"
+    },
+    {
+      "query": "SCGB1D1",
+      "gold": "SCGB2A1",
+      "distractors": [
+        "MYRIP",
+        "TTLL11",
+        "TMED5",
+        "FAM50A",
+        "IQCE"
+      ],
+      "gold_degree": 31,
+      "phen_rank": 1,
+      "stratum": "informative",
+      "item_id": "it07"
+    },
+    {
+      "query": "SPDYE2B",
+      "gold": "CDK1",
+      "distractors": [
+        "RPL4",
+        "RPS11",
+        "RPS16",
+        "RPS9",
+        "ERBB2"
+      ],
+      "gold_degree": 842,
+      "phen_rank": 1,
+      "stratum": "informative",
+      "item_id": "it08"
+    },
+    {
+      "query": "PRAMEF20",
+      "gold": "FAU",
+      "distractors": [
+        "POLR2F",
+        "CCNB1",
+        "RBX1",
+        "HRAS",
+        "PLK1"
+      ],
+      "gold_degree": 644,
+      "phen_rank": 2,
+      "stratum": "informative",
+      "item_id": "it09"
+    },
+    {
+      "query": "ORC1",
+      "gold": "ORC3",
+      "distractors": [
+        "ZMAT2",
+        "NCR2",
+        "NELFE",
+        "TIMM17A",
+        "PPAT"
+      ],
+      "gold_degree": 146,
+      "phen_rank": 2,
+      "stratum": "informative",
+      "item_id": "it10"
+    },
+    {
+      "query": "SMARCD3",
+      "gold": "SMARCB1",
+      "distractors": [
+        "DCAF13",
+        "SNRNP200",
+        "NDUFV1",
+        "PRPF19",
+        "IRF8"
+      ],
+      "gold_degree": 335,
+      "phen_rank": 2,
+      "stratum": "informative",
+      "item_id": "it11"
+    },
+    {
+      "query": "SUPT4H1",
+      "gold": "POLR2A",
+      "distractors": [
+        "RPS19",
+        "RPL30",
+        "RPS28",
+        "NEDD8",
+        "RPL12"
+      ],
+      "gold_degree": 599,
+      "phen_rank": 5,
+      "stratum": "uninformative",
+      "item_id": "it12"
+    },
+    {
+      "query": "NAV1",
+      "gold": "SCN4A",
+      "distractors": [
+        "NT5C",
+        "LIMD1",
+        "FLCN",
+        "NME5",
+        "VPS16"
+      ],
+      "gold_degree": 112,
+      "phen_rank": 5,
+      "stratum": "uninformative",
+      "item_id": "it13"
+    },
+    {
+      "query": "SLC25A42",
+      "gold": "RPL18",
+      "distractors": [
+        "TUFM",
+        "HNRNPA1",
+        "RPS29",
+        "MRPS14",
+        "MRPS15"
+      ],
+      "gold_degree": 574,
+      "phen_rank": 5,
+      "stratum": "uninformative",
+      "item_id": "it14"
+    },
+    {
+      "query": "ATP5PO",
+      "gold": "ATP5ME",
+      "distractors": [
+        "FKBP8",
+        "BCAS2",
+        "NCKAP1",
+        "DHX35",
+        "TCERG1"
+      ],
+      "gold_degree": 188,
+      "phen_rank": 6,
+      "stratum": "uninformative",
+      "item_id": "it15"
+    },
+    {
+      "query": "HNRNPCL1",
+      "gold": "HNRNPC",
+      "distractors": [
+        "RPL14",
+        "NDUFAB1",
+        "CHD4",
+        "MRPL24",
+        "RPL13"
+      ],
+      "gold_degree": 536,
+      "phen_rank": 6,
+      "stratum": "uninformative",
+      "item_id": "it16"
+    },
+    {
+      "query": "ZCRB1",
+      "gold": "RNPC3",
+      "distractors": [
+        "SCO2",
+        "IFNLR1",
+        "RASGRP1",
+        "EXOC1",
+        "CALD1"
+      ],
+      "gold_degree": 119,
+      "phen_rank": 5,
+      "stratum": "uninformative",
+      "item_id": "it17"
+    },
+    {
+      "query": "XRCC2",
+      "gold": "RAD51D",
+      "distractors": [
+        "FDX2",
+        "PBRM1",
+        "ATP5PB",
+        "H3C2",
+        "MED24"
+      ],
+      "gold_degree": 219,
+      "phen_rank": 5,
+      "stratum": "uninformative",
+      "item_id": "it18"
+    },
+    {
+      "query": "B3GNT4",
+      "gold": "B3GNT3",
+      "distractors": [
+        "MANF",
+        "PPM1D",
+        "WDTC1",
+        "TRIM37",
+        "AHCTF1"
+      ],
+      "gold_degree": 82,
+      "phen_rank": 6,
+      "stratum": "uninformative",
+      "item_id": "it19"
+    },
+    {
+      "query": "DEPDC1",
+      "gold": "TTK",
+      "distractors": [
+        "CDC23",
+        "PHB2",
+        "PPA1",
+        "EIF3C",
+        "RCL1"
+      ],
+      "gold_degree": 264,
+      "phen_rank": 6,
+      "stratum": "uninformative",
+      "item_id": "it20"
+    },
+    {
+      "query": "SERF1A",
+      "gold": "NDUFAF3",
+      "distractors": [
+        "UPF2",
+        "TAF1B",
+        "APOC1",
+        "PIP4K2A",
+        "FANCL"
+      ],
+      "gold_degree": 104,
+      "phen_rank": 6,
+      "stratum": "uninformative",
+      "item_id": "it21"
+    },
+    {
+      "query": "LUC7L2",
+      "gold": "SNRPD2",
+      "distractors": [
+        "SDHB",
+        "RBBP4",
+        "H2BC17",
+        "DICER1",
+        "BRCA2"
+      ],
+      "gold_degree": 499,
+      "phen_rank": 6,
+      "stratum": "uninformative",
+      "item_id": "it22"
+    },
+    {
+      "query": "DIDO1",
+      "gold": "H3-3B",
+      "distractors": [
+        "HSPA4",
+        "BRCA1",
+        "EP300",
+        "BCL2",
+        "CD8A"
+      ],
+      "gold_degree": 1028,
+      "phen_rank": 5,
+      "stratum": "uninformative",
+      "item_id": "it23"
+    }
+  ]
+}

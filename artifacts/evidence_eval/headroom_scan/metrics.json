@@ -1,0 +1,422 @@
+{
+  "question": "is there a (gap, margin) bin where both sources are informative AND their errors are complementary, so an integrator could beat the per-item best-source oracle?",
+  "half": "eval",
+  "half_note": "eval half only (arbitration.split_queries, seed 20260914); the calibration half is excluded, but the proposed cell is then drawn from these same rows, so the bin is chosen on the gold statistics of the items it will score",
+  "packet": "pilot.make_packet(..., 'A-mask', 0); unrounded phenotype cosines; average-rank tie handling throughout",
+  "fusion_rules": [
+    "borda",
+    "rrf_k60",
+    "rrf_k1",
+    "calib_relu",
+    "calib_raw"
+  ],
+  "random_ranking_MRR": 0.4083,
+  "usable_cell_min_n": 30,
+  "bins": {
+    "gap<0.013 | no discriminating annotation": {
+      "n_eval_rows": 469,
+      "n_eval_queries": 248,
+      "n_exceedable": 358,
+      "phenotype_MRR": 0.4726,
+      "phenotype_top1": 0.2367,
+      "annotation_MRR": 0.4048,
+      "annotation_top1": 0.1622,
+      "best_source_oracle_MRR": 0.5652,
+      "best_source_oracle_top1": 0.3609,
+      "fusion_ceiling_MRR": 0.5671,
+      "fusion_ceiling_top1": 0.3639,
+      "headroom_MRR": 0.0019,
+      "headroom_MRR_CI": [
+        0.0,
+        0.0047
+      ],
+      "headroom_top1": 0.003,
+      "n_any_rule_beats_best_source": 2,
+      "frac_exceedable_beaten": 0.0056,
+      "complementarity": {
+        "both_top1": 0,
+        "phen_only_top1": 111,
+        "ann_only_top1": 0,
+        "neither_top1": 358,
+        "phi": null,
+        "odds_ratio_haldane": 3.215
+      },
+      "per_rule_MRR": {
+        "borda": 0.4703,
+        "rrf_k60": 0.4703,
+        "rrf_k1": 0.471,
+        "calib_relu": 0.4726,
+        "calib_raw": 0.471
+      },
+      "best_rule_vs_oracle": {
+        "borda": -0.0949,
+        "rrf_k60": -0.095,
+        "rrf_k1": -0.0943,
+        "calib_relu": -0.0926,
+        "calib_raw": -0.0943
+      },
+      "both_sources_above_random": false,
+      "viable_cell": false
+    },
+    "gap<0.013 | annotation margin 0-1.5": {
+      "n_eval_rows": 100,
+      "n_eval_queries": 84,
+      "n_exceedable": 62,
+      "phenotype_MRR": 0.505,
+      "phenotype_top1": 0.27,
+      "annotation_MRR": 0.4405,
+      "annotation_top1": 0.12,
+      "best_source_oracle_MRR": 0.6366,
+      "best_source_oracle_top1": 0.38,
+      "fusion_ceiling_MRR": 0.69,
+      "fusion_ceiling_top1": 0.48,
+      "headroom_MRR": 0.0533,
+      "headroom_MRR_CI": [
+        0.0267,
+        0.0842
+      ],
+      "headroom_top1": 0.1,
+      "n_any_rule_beats_best_source": 14,
+      "frac_exceedable_beaten": 0.2258,
+      "complementarity": {
+        "both_top1": 1,
+        "phen_only_top1": 26,
+        "ann_only_top1": 11,
+        "neither_top1": 62,
+        "phi": -0.1553,
+        "odds_ratio_haldane": 0.308
+      },
+      "per_rule_MRR": {
+        "borda": 0.5346,
+        "rrf_k60": 0.5318,
+        "rrf_k1": 0.4922,
+        "calib_relu": 0.505,
+        "calib_raw": 0.4923
+      },
+      "best_rule_vs_oracle": {
+        "borda": -0.102,
+        "rrf_k60": -0.1049,
+        "rrf_k1": -0.1444,
+        "calib_relu": -0.1316,
+        "calib_raw": -0.1443
+      },
+      "both_sources_above_random": true,
+      "viable_cell": true
+    },
+    "gap<0.013 | annotation margin>=1.5": {
+      "n_eval_rows": 47,
+      "n_eval_queries": 45,
+      "n_exceedable": 16,
+      "phenotype_MRR": 0.3965,
+      "phenotype_top1": 0.1489,
+      "annotation_MRR": 0.6799,
+      "annotation_top1": 0.5319,
+      "best_source_oracle_MRR": 0.7916,
+      "best_source_oracle_top1": 0.6596,
+      "fusion_ceiling_MRR": 0.8022,
+      "fusion_ceiling_top1": 0.6809,
+      "headroom_MRR": 0.0106,
+      "headroom_MRR_CI": [
+        0.0,
+        0.0319
+      ],
+      "headroom_top1": 0.0213,
+      "n_any_rule_beats_best_source": 1,
+      "frac_exceedable_beaten": 0.0625,
+      "complementarity": {
+        "both_top1": 1,
+        "phen_only_top1": 6,
+        "ann_only_top1": 24,
+        "neither_top1": 16,
+        "phi": -0.3262,
+        "odds_ratio_haldane": 0.155
+      },
+      "per_rule_MRR": {
+        "borda": 0.5176,
+        "rrf_k60": 0.5493,
+        "rrf_k1": 0.5881,
+        "calib_relu": 0.6799,
+        "calib_raw": 0.6858
+      },
+      "best_rule_vs_oracle": {
+        "borda": -0.274,
+        "rrf_k60": -0.2423,
+        "rrf_k1": -0.2034,
+        "calib_relu": -0.1116,
+        "calib_raw": -0.1057
+      },
+      "both_sources_above_random": false,
+      "viable_cell": false
+    },
+    "gap 0.013-0.059 | no discriminating annotation": {
+      "n_eval_rows": 865,
+      "n_eval_queries": 326,
+      "n_exceedable": 613,
+      "phenotype_MRR": 0.5142,
+      "phenotype_top1": 0.2913,
+      "annotation_MRR": 0.4023,
+      "annotation_top1": 0.1603,
+      "best_source_oracle_MRR": 0.596,
+      "best_source_oracle_top1": 0.404,
+      "fusion_ceiling_MRR": 0.5981,
+      "fusion_ceiling_top1": 0.4075,
+      "headroom_MRR": 0.0021,
+      "headroom_MRR_CI": [
+        0.0003,
+        0.0043
+      ],
+      "headroom_top1": 0.0035,
+      "n_any_rule_beats_best_source": 6,
+      "frac_exceedable_beaten": 0.0098,
+      "complementarity": {
+        "both_top1": 0,
+        "phen_only_top1": 252,
+        "ann_only_top1": 0,
+        "neither_top1": 613,
+        "phi": null,
+        "odds_ratio_haldane": 2.43
+      },
+      "per_rule_MRR": {
+        "borda": 0.5119,
+        "rrf_k60": 0.5119,
+        "rrf_k1": 0.5114,
+        "calib_relu": 0.5142,
+        "calib_raw": 0.5121
+      },
+      "best_rule_vs_oracle": {
+        "borda": -0.0841,
+        "rrf_k60": -0.0841,
+        "rrf_k1": -0.0846,
+        "calib_relu": -0.0818,
+        "calib_raw": -0.0839
+      },
+      "both_sources_above_random": false,
+      "viable_cell": false
+    },
+    "gap 0.013-0.059 | annotation margin 0-1.5": {
+      "n_eval_rows": 270,
+      "n_eval_queries": 165,
+      "n_exceedable": 186,
+      "phenotype_MRR": 0.4941,
+      "phenotype_top1": 0.2519,
+      "annotation_MRR": 0.4241,
+      "annotation_top1": 0.0852,
+      "best_source_oracle_MRR": 0.5976,
+      "best_source_oracle_top1": 0.3111,
+      "fusion_ceiling_MRR": 0.6641,
+      "fusion_ceiling_top1": 0.4407,
+      "headroom_MRR": 0.0665,
+      "headroom_MRR_CI": [
+        0.0474,
+        0.0872
+      ],
+      "headroom_top1": 0.1296,
+      "n_any_rule_beats_best_source": 42,
+      "frac_exceedable_beaten": 0.2258,
+      "complementarity": {
+        "both_top1": 7,
+        "phen_only_top1": 61,
+        "ann_only_top1": 16,
+        "neither_top1": 186,
+        "phi": 0.0369,
+        "odds_ratio_haldane": 1.378
+      },
+      "per_rule_MRR": {
+        "borda": 0.5295,
+        "rrf_k60": 0.5282,
+        "rrf_k1": 0.4731,
+        "calib_relu": 0.4896,
+        "calib_raw": 0.4729
+      },
+      "best_rule_vs_oracle": {
+        "borda": -0.0681,
+        "rrf_k60": -0.0694,
+        "rrf_k1": -0.1245,
+        "calib_relu": -0.108,
+        "calib_raw": -0.1247
+      },
+      "both_sources_above_random": true,
+      "viable_cell": true
+    },
+    "gap 0.013-0.059 | annotation margin>=1.5": {
+      "n_eval_rows": 79,
+      "n_eval_queries": 58,
+      "n_exceedable": 31,
+      "phenotype_MRR": 0.4669,
+      "phenotype_top1": 0.2025,
+      "annotation_MRR": 0.6936,
+      "annotation_top1": 0.5316,
+      "best_source_oracle_MRR": 0.7664,
+      "best_source_oracle_top1": 0.6076,
+      "fusion_ceiling_MRR": 0.8107,
+      "fusion_ceiling_top1": 0.6987,
+      "headroom_MRR": 0.0443,
+      "headroom_MRR_CI": [
+        0.0158,
+        0.0791
+      ],
+      "headroom_top1": 0.0911,
+      "n_any_rule_beats_best_source": 8,
+      "frac_exceedable_beaten": 0.2581,
+      "complementarity": {
+        "both_top1": 10,
+        "phen_only_top1": 6,
+        "ann_only_top1": 32,
+        "neither_top1": 31,
+        "phi": 0.0943,
+        "odds_ratio_haldane": 1.566
+      },
+      "per_rule_MRR": {
+        "borda": 0.6393,
+        "rrf_k60": 0.6387,
+        "rrf_k1": 0.6404,
+        "calib_relu": 0.7061,
+        "calib_raw": 0.6892
+      },
+      "best_rule_vs_oracle": {
+        "borda": -0.1271,
+        "rrf_k60": -0.1277,
+        "rrf_k1": -0.126,
+        "calib_relu": -0.0603,
+        "calib_raw": -0.0772
+      },
+      "both_sources_above_random": true,
+      "viable_cell": true
+    },
+    "gap>=0.059 | no discriminating annotation": {
+      "n_eval_rows": 439,
+      "n_eval_queries": 234,
+      "n_exceedable": 188,
+      "phenotype_MRR": 0.6979,
+      "phenotype_top1": 0.5718,
+      "annotation_MRR": 0.3992,
+      "annotation_top1": 0.156,
+      "best_source_oracle_MRR": 0.7521,
+      "best_source_oracle_top1": 0.6378,
+      "fusion_ceiling_MRR": 0.7538,
+      "fusion_ceiling_top1": 0.6401,
+      "headroom_MRR": 0.0018,
+      "headroom_MRR_CI": [
+        0.0001,
+        0.0043
+      ],
+      "headroom_top1": 0.0023,
+      "n_any_rule_beats_best_source": 4,
+      "frac_exceedable_beaten": 0.0213,
+      "complementarity": {
+        "both_top1": 0,
+        "phen_only_top1": 251,
+        "ann_only_top1": 0,
+        "neither_top1": 188,
+        "phi": null,
+        "odds_ratio_haldane": 0.75
+      },
+      "per_rule_MRR": {
+        "borda": 0.6862,
+        "rrf_k60": 0.6857,
+        "rrf_k1": 0.6946,
+        "calib_relu": 0.6979,
+        "calib_raw": 0.6962
+      },
+      "best_rule_vs_oracle": {
+        "borda": -0.0659,
+        "rrf_k60": -0.0664,
+        "rrf_k1": -0.0574,
+        "calib_relu": -0.0541,
+        "calib_raw": -0.0559
+      },
+      "both_sources_above_random": false,
+      "viable_cell": false
+    },
+    "gap>=0.059 | annotation margin 0-1.5": {
+      "n_eval_rows": 143,
+      "n_eval_queries": 101,
+      "n_exceedable": 56,
+      "phenotype_MRR": 0.6672,
+      "phenotype_top1": 0.5175,
+      "annotation_MRR": 0.4605,
+      "annotation_top1": 0.1678,
+      "best_source_oracle_MRR": 0.7677,
+      "best_source_oracle_top1": 0.6084,
+      "fusion_ceiling_MRR": 0.7881,
+      "fusion_ceiling_top1": 0.6469,
+      "headroom_MRR": 0.0204,
+      "headroom_MRR_CI": [
+        0.007,
+        0.0361
+      ],
+      "headroom_top1": 0.0385,
+      "n_any_rule_beats_best_source": 8,
+      "frac_exceedable_beaten": 0.1429,
+      "complementarity": {
+        "both_top1": 11,
+        "phen_only_top1": 63,
+        "ann_only_top1": 13,
+        "neither_top1": 56,
+        "phi": -0.0532,
+        "odds_ratio_haldane": 0.758
+      },
+      "per_rule_MRR": {
+        "borda": 0.6118,
+        "rrf_k60": 0.612,
+        "rrf_k1": 0.6212,
+        "calib_relu": 0.6767,
+        "calib_raw": 0.6462
+      },
+      "best_rule_vs_oracle": {
+        "borda": -0.1559,
+        "rrf_k60": -0.1557,
+        "rrf_k1": -0.1464,
+        "calib_relu": -0.091,
+        "calib_raw": -0.1215
+      },
+      "both_sources_above_random": true,
+      "viable_cell": true
+    },
+    "gap>=0.059 | annotation margin>=1.5": {
+      "n_eval_rows": 54,
+      "n_eval_queries": 34,
+      "n_exceedable": 7,
+      "phenotype_MRR": 0.784,
+      "phenotype_top1": 0.6852,
+      "annotation_MRR": 0.769,
+      "annotation_top1": 0.6667,
+      "best_source_oracle_MRR": 0.925,
+      "best_source_oracle_top1": 0.8704,
+      "fusion_ceiling_MRR": 0.9343,
+      "fusion_ceiling_top1": 0.8889,
+      "headroom_MRR": 0.0093,
+      "headroom_MRR_CI": [
+        0.0,
+        0.0278
+      ],
+      "headroom_top1": 0.0185,
+      "n_any_rule_beats_best_source": 1,
+      "frac_exceedable_beaten": 0.1429,
+      "complementarity": {
+        "both_top1": 26,
+        "phen_only_top1": 11,
+        "ann_only_top1": 10,
+        "neither_top1": 7,
+        "phi": 0.1128,
+        "odds_ratio_haldane": 1.646
+      },
+      "per_rule_MRR": {
+        "borda": 0.7595,
+        "rrf_k60": 0.7673,
+        "rrf_k1": 0.7889,
+        "calib_relu": 0.7799,
+        "calib_raw": 0.7799
+      },
+      "best_rule_vs_oracle": {
+        "borda": -0.1655,
+        "rrf_k60": -0.1577,
+        "rrf_k1": -0.1361,
+        "calib_relu": -0.1451,
+        "calib_raw": -0.1451
+      },
+      "both_sources_above_random": true,
+      "viable_cell": false
+    }
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "model": "claude-sonnet-4-6",
+  "n_items": 24,
+  "conditions": {
+    "all": {
+      "A-open": {
+        "MRR": 1.0,
+        "top1": 1.0
+      },
+      "H-open": {
+        "MRR": 1.0,
+        "top1": 1.0
+      },
+      "A-mask": {
+        "MRR": 0.3281,
+        "top1": 0.0833
+      },
+      "H-mask": {
+        "MRR": 0.4733,
+        "top1": 0.2708
+      },
+      "H-shuffle": {
+        "MRR": 0.3681,
+        "top1": 0.1042
+      }
+    },
+    "informative": {
+      "A-open": {
+        "MRR": 1.0,
+        "top1": 1.0
+      },
+      "H-open": {
+        "MRR": 1.0,
+        "top1": 1.0
+      },
+      "A-mask": {
+        "MRR": 0.2889,
+        "top1": 0.0417
+      },
+      "H-mask": {
+        "MRR": 0.7639,
+        "top1": 0.5417
+      },
+      "H-shuffle": {
+        "MRR": 0.3694,
+        "top1": 0.0833
+      }
+    },
+    "uninformative": {
+      "A-open": {
+        "MRR": 1.0,
+        "top1": 1.0
+      },
+      "H-open": {
+        "MRR": 1.0,
+        "top1": 1.0
+      },
+      "A-mask": {
+        "MRR": 0.3674,
+        "top1": 0.125
+      },
+      "H-mask": {
+        "MRR": 0.1826,
+        "top1": 0.0
+      },
+      "H-shuffle": {
+        "MRR": 0.3667,
+        "top1": 0.125
+      }
+    }
+  },
+  "deltas": {
+    "all": {
+      "exposure": {
+        "point": 0.6719,
+        "boot_mean": 0.6724,
+        "ci95": [
+          0.5993,
+          0.7378
+        ]
+      },
+      "rescue": {
+        "point": 0.1451,
+        "boot_mean": 0.1448,
+        "ci95": [
+          -0.0125,
+          0.3049
+        ]
+      },
+      "interaction": {
+        "point": 0.1451,
+        "boot_mean": 0.1448,
+        "ci95": [
+          -0.0125,
+          0.3049
+        ]
+      }
+    },
+    "informative": {
+      "exposure": {
+        "point": 0.7111,
+        "boot_mean": 0.7113,
+        "ci95": [
+          0.6264,
+          0.7806
+        ]
+      },
+      "rescue": {
+        "point": 0.475,
+        "boot_mean": 0.4756,
+        "ci95": [
+          0.3229,
+          0.6195
+        ]
+      },
+      "interaction": {
+        "point": 0.475,
+        "boot_mean": 0.4756,
+        "ci95": [
+          0.3229,
+          0.6195
+        ]
+      }
+    },
+    "uninformative": {
+      "exposure": {
+        "point": 0.6326,
+        "boot_mean": 0.6339,
+        "ci95": [
+          0.5229,
+          0.7417
+        ]
+      },
+      "rescue": {
+        "point": -0.1847,
+        "boot_mean": -0.1833,
+        "ci95": [
+          -0.2993,
+          -0.075
+        ]
+      },
+      "interaction": {
+        "point": -0.1847,
+        "boot_mean": -0.1833,
+        "ci95": [
+          -0.2993,
+          -0.075
+        ]
+      }
+    }
+  },
+  "baselines": {
+    "all": {
+      "random_MRR": 0.4083,
+      "phenotype_argmax_MRR": 0.5083
+    },
+    "informative": {
+      "random_MRR": 0.4083,
+      "phenotype_argmax_MRR": 0.8333
+    },
+    "uninformative": {
+      "random_MRR": 0.4083,
+      "phenotype_argmax_MRR": 0.1833
+    }
+  },
+  "sanity": {
+    "n_calls": 240,
+    "parse_errors": 0,
+    "masked_calls_removing_0_records": 0
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "set": "booster",
+  "n_items": 24,
+  "n_calls": 48,
+  "parse_errors": 0,
+  "MRR": {
+    "A-mask": 0.3188,
+    "H-mask": 0.1799,
+    "H-scaffold": 0.1892,
+    "P": 0.1819
+  },
+  "frozen_reference_MRR": {
+    "A-mask": 0.351,
+    "H-mask": 0.1816
+  },
+  "paired": {
+    "scaffold_minus_Hmask": [
+      0.0094,
+      -0.0014,
+      0.0267
+    ],
+    "scaffold_minus_P": [
+      0.0073,
+      -0.0021,
+      0.0233
+    ],
+    "scaffold_minus_Amask": [
+      -0.1295,
+      -0.1907,
+      -0.0792
+    ]
+  },
+  "selector": {
+    "exact_ranking_matches_phenotype": 32,
+    "n_item_order_calls": 48,
+    "rr_ties_phenotype": 19,
+    "exceeds_both_sources": 0,
+    "self_reported_weighted_source": {
+      "phenotype": 33,
+      "annotation": 12,
+      "neither": 3
+    }
+  }
+}

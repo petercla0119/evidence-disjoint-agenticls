@@ -1,0 +1,72 @@
+{
+  "split_seed": 20260914,
+  "measured_on": "calibration half, 409 queries / 2551 pairs, query-disjoint from the evaluated items",
+  "keys": "phenotype gap = top1-top2 cosine; annotation margin = top1-top2 graph score. Both computable from the packet without knowing the answer.",
+  "random_candidate_is_true_partner": 0.167,
+  "random_ranking_expected_reciprocal_rank": 0.408,
+  "table": {
+    "gap<0.013 | no discriminating annotation": {
+      "n": 463,
+      "phenotype_top_pick_is_true_partner": 0.201,
+      "annotation_top_pick_is_true_partner": 0.0,
+      "phenotype_expected_reciprocal_rank": 0.452,
+      "annotation_expected_reciprocal_rank": 0.284
+    },
+    "gap<0.013 | annotation margin 0-1.5": {
+      "n": 114,
+      "phenotype_top_pick_is_true_partner": 0.272,
+      "annotation_top_pick_is_true_partner": 0.114,
+      "phenotype_expected_reciprocal_rank": 0.513,
+      "annotation_expected_reciprocal_rank": 0.408
+    },
+    "gap<0.013 | annotation margin>=1.5": {
+      "n": 38,
+      "phenotype_top_pick_is_true_partner": 0.079,
+      "annotation_top_pick_is_true_partner": 0.342,
+      "phenotype_expected_reciprocal_rank": 0.369,
+      "annotation_expected_reciprocal_rank": 0.529
+    },
+    "gap 0.013-0.059 | no discriminating annotation": {
+      "n": 984,
+      "phenotype_top_pick_is_true_partner": 0.262,
+      "annotation_top_pick_is_true_partner": 0.0,
+      "phenotype_expected_reciprocal_rank": 0.49,
+      "annotation_expected_reciprocal_rank": 0.287
+    },
+    "gap 0.013-0.059 | annotation margin 0-1.5": {
+      "n": 250,
+      "phenotype_top_pick_is_true_partner": 0.236,
+      "annotation_top_pick_is_true_partner": 0.128,
+      "phenotype_expected_reciprocal_rank": 0.463,
+      "annotation_expected_reciprocal_rank": 0.432
+    },
+    "gap 0.013-0.059 | annotation margin>=1.5": {
+      "n": 89,
+      "phenotype_top_pick_is_true_partner": 0.348,
+      "annotation_top_pick_is_true_partner": 0.562,
+      "phenotype_expected_reciprocal_rank": 0.558,
+      "annotation_expected_reciprocal_rank": 0.695
+    },
+    "gap>=0.059 | no discriminating annotation": {
+      "n": 420,
+      "phenotype_top_pick_is_true_partner": 0.476,
+      "annotation_top_pick_is_true_partner": 0.0,
+      "phenotype_expected_reciprocal_rank": 0.639,
+      "annotation_expected_reciprocal_rank": 0.294
+    },
+    "gap>=0.059 | annotation margin 0-1.5": {
+      "n": 134,
+      "phenotype_top_pick_is_true_partner": 0.388,
+      "annotation_top_pick_is_true_partner": 0.134,
+      "phenotype_expected_reciprocal_rank": 0.587,
+      "annotation_expected_reciprocal_rank": 0.445
+    },
+    "gap>=0.059 | annotation margin>=1.5": {
+      "n": 59,
+      "phenotype_top_pick_is_true_partner": 0.559,
+      "annotation_top_pick_is_true_partner": 0.508,
+      "phenotype_expected_reciprocal_rank": 0.705,
+      "annotation_expected_reciprocal_rank": 0.656
+    }
+  }
+}

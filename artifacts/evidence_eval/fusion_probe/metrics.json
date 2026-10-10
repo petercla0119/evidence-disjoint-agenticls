@@ -1,0 +1,44 @@
+{
+  "parse_errors": 0,
+  "noise_floor_MRR_se_40_items": 0.0043,
+  "mechanical_fusion_baseline": "present",
+  "cells": {
+    "conflict": {
+      "n_items": 10,
+      "n_calls": 20,
+      "probe_MRR": 0.52,
+      "probe_MRR_CI": [
+        0.325,
+        0.7333
+      ],
+      "system_X_only_MRR": 0.52,
+      "system_Y_only_MRR": 0.35,
+      "best_source_oracle_MRR": 0.5833,
+      "probe_minus_X": -0.0,
+      "probe_minus_X_CI": [
+        -0.025,
+        0.025
+      ],
+      "probe_minus_Y": 0.17,
+      "probe_minus_Y_CI": [
+        -0.0317,
+        0.39
+      ],
+      "exceeds_both_systems": 0,
+      "exact_ranking_matches_X": 12,
+      "exact_ranking_matches_Y": 2,
+      "matched_biology_n_items": 10,
+      "matched_biology_rel_MRR": 0.52,
+      "matched_biology_rel_MRR_CI": [
+        0.3258,
+        0.7333
+      ],
+      "matched_biology_exact_matches_annotation": 5,
+      "matched_biology_exact_matches_phenotype": 3,
+      "matched_biology_n_calls": 20,
+      "matched_biology_exceeds_both": 0,
+      "probe_minus_matched_biology_MRR": 0.0,
+      "mechanical_fusion_MRR": null
+    }
+  }
+}

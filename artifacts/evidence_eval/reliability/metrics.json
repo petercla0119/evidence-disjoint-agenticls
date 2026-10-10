@@ -1,0 +1,133 @@
+{
+  "model": "claude-sonnet-4-6",
+  "n_conflict_items": 29,
+  "calibration": {
+    "phenotype_reliability_by_rank": {
+      "1-2": 0.22,
+      "3-4": 0.16,
+      "5-6": 0.12
+    },
+    "annotation_reliability_by_rank": {
+      "1-2": 0.08,
+      "3-4": 0.42,
+      "5-6": 0.0
+    },
+    "regime_table": {
+      "1-2": {
+        "n": 44,
+        "phenotype_recovery_RR": 0.8182,
+        "annotation_recovery_RR": 0.3773,
+        "random_ranking_RR": 0.4083,
+        "more_reliable": "phenotype",
+        "best_strategy": "phenotype"
+      },
+      "3-4": {
+        "n": 32,
+        "phenotype_recovery_RR": 0.2995,
+        "annotation_recovery_RR": 0.3467,
+        "random_ranking_RR": 0.4083,
+        "more_reliable": "annotation",
+        "best_strategy": "neither (random)"
+      },
+      "5-6": {
+        "n": 24,
+        "phenotype_recovery_RR": 0.1875,
+        "annotation_recovery_RR": 0.3283,
+        "random_ranking_RR": 0.4083,
+        "more_reliable": "annotation",
+        "best_strategy": "neither (random)"
+      }
+    }
+  },
+  "with_vs_without": {
+    "MRR_without_reliability": 0.1825,
+    "MRR_with_reliability": 0.1833,
+    "top1_without": 0.0,
+    "top1_with": 0.0,
+    "MRR_phenotype_oracle_P": 0.1828,
+    "delta_MRR_mean": 0.0009,
+    "delta_ci95": [
+      -0.002,
+      0.004
+    ],
+    "n_helped": 2,
+    "n_tie": 26,
+    "n_hurt": 1
+  },
+  "comprehension_control": {
+    "1-2": {
+      "truth": "phenotype",
+      "model": "phenotype",
+      "correct": true
+    },
+    "3-4": {
+      "truth": "annotation",
+      "model": "annotation",
+      "correct": true
+    },
+    "5-6": {
+      "truth": "annotation",
+      "model": "annotation",
+      "correct": true
+    }
+  },
+  "comprehension_control_grounded": {
+    "n": 62,
+    "n_correct": 62,
+    "accuracy": 1.0,
+    "ci95_clopper_pearson": [
+      0.9422,
+      1.0
+    ],
+    "by_regime": {
+      "1-2": {
+        "n": 20,
+        "truth": "phenotype",
+        "n_correct": 20,
+        "accuracy": 1.0,
+        "ci95_clopper_pearson": [
+          0.8316,
+          1.0
+        ]
+      },
+      "3-4": {
+        "n": 13,
+        "truth": "annotation",
+        "n_correct": 13,
+        "accuracy": 1.0,
+        "ci95_clopper_pearson": [
+          0.7529,
+          1.0
+        ]
+      },
+      "5-6": {
+        "n": 29,
+        "truth": "annotation",
+        "n_correct": 29,
+        "accuracy": 1.0,
+        "ci95_clopper_pearson": [
+          0.8806,
+          1.0
+        ]
+      }
+    },
+    "n_parse_errors": 0
+  },
+  "dissociation": {
+    "note": "same 29 tail (rank 5-6) conflict items: comprehension is a rate, action is null",
+    "tail_action_delta_MRR": 0.0009,
+    "tail_action_delta_ci95": [
+      -0.002,
+      0.004
+    ],
+    "tail_comprehension_accuracy": 1.0,
+    "tail_comprehension_ci95": [
+      0.8806,
+      1.0
+    ]
+  },
+  "sanity": {
+    "n_with_rel_calls": 58,
+    "with_rel_parse_errors": 0
+  }
+}

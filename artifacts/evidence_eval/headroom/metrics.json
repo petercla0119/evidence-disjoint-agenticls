@@ -1,0 +1,2176 @@
+{
+  "generated_by": "scripts/evidence_eval/headroom.py",
+  "bootstrap": "arbitration._boot: 10,000 resamples, seed 0, percentile, paired over items",
+  "n_items_where_4dp_rounding_ties_the_gold_phenotype": 2,
+  "task1_exceedance": {
+    "definition": "An item is EXCEEDABLE only if neither deterministic source already ranks the gold first. If either does, that source scores RR=1.0 and top-1=1.0, the ceiling, so 'beats the better of its two sources' is arithmetically impossible there and the item carries no information about integration.",
+    "cells": {
+      "conflict": {
+        "n_items": 40,
+        "n_unexceedable": 25,
+        "n_exceedable": 15,
+        "unexceedable_because_phen_rank_1": 5,
+        "unexceedable_because_ann_rank_1": 21,
+        "unexceedable_because_both": 1,
+        "exceedable_item_ids": [
+          "conf02",
+          "conf03",
+          "conf04",
+          "conf05",
+          "conf06",
+          "conf08",
+          "conf09",
+          "conf12",
+          "conf13",
+          "conf14",
+          "conf16",
+          "conf17",
+          "conf21",
+          "conf32",
+          "conf36"
+        ],
+        "arms": {
+          "naive": {
+            "n_exceedable_items_scored": 15,
+            "beat": 0,
+            "tie": 6,
+            "lose": 9,
+            "beat_item_ids": [],
+            "n_exceedable_calls": 30,
+            "calls_that_beat": 0,
+            "mean_rr_minus_best_source": -0.0922
+          },
+          "rel": {
+            "n_exceedable_items_scored": 15,
+            "beat": 0,
+            "tie": 7,
+            "lose": 8,
+            "beat_item_ids": [],
+            "n_exceedable_calls": 30,
+            "calls_that_beat": 0,
+            "mean_rr_minus_best_source": -0.0733
+          },
+          "rel_scaffold": {
+            "n_exceedable_items_scored": 15,
+            "beat": 0,
+            "tie": 8,
+            "lose": 7,
+            "beat_item_ids": [],
+            "n_exceedable_calls": 30,
+            "calls_that_beat": 1,
+            "mean_rr_minus_best_source": -0.0722
+          },
+          "agent_A": {
+            "n_exceedable_items_scored": 15,
+            "beat": 0,
+            "tie": 8,
+            "lose": 7,
+            "beat_item_ids": [],
+            "n_exceedable_calls": 30,
+            "calls_that_beat": 0,
+            "mean_rr_minus_best_source": -0.08
+          },
+          "agent_B": {
+            "n_exceedable_items_scored": 15,
+            "beat": 0,
+            "tie": 7,
+            "lose": 8,
+            "beat_item_ids": [],
+            "n_exceedable_calls": 30,
+            "calls_that_beat": 0,
+            "mean_rr_minus_best_source": -0.0978
+          }
+        }
+      },
+      "control": {
+        "n_items": 20,
+        "n_unexceedable": 12,
+        "n_exceedable": 8,
+        "unexceedable_because_phen_rank_1": 12,
+        "unexceedable_because_ann_rank_1": 0,
+        "unexceedable_because_both": 0,
+        "exceedable_item_ids": [
+          "cont02",
+          "cont04",
+          "cont11",
+          "cont12",
+          "cont13",
+          "cont14",
+          "cont15",
+          "cont18"
+        ],
+        "arms": {
+          "naive": {
+            "n_exceedable_items_scored": 8,
+            "beat": 0,
+            "tie": 2,
+            "lose": 6,
+            "beat_item_ids": [],
+            "n_exceedable_calls": 16,
+            "calls_that_beat": 0,
+            "mean_rr_minus_best_source": -0.0952
+          },
+          "rel": {
+            "n_exceedable_items_scored": 8,
+            "beat": 0,
+            "tie": 2,
+            "lose": 6,
+            "beat_item_ids": [],
+            "n_exceedable_calls": 16,
+            "calls_that_beat": 0,
+            "mean_rr_minus_best_source": -0.0744
+          },
+          "rel_scaffold": {
+            "n_exceedable_items_scored": 8,
+            "beat": 1,
+            "tie": 1,
+            "lose": 6,
+            "beat_item_ids": [
+              "cont12"
+            ],
+            "n_exceedable_calls": 16,
+            "calls_that_beat": 1,
+            "mean_rr_minus_best_source": -0.0588
+          },
+          "agent_A": {
+            "n_exceedable_items_scored": 8,
+            "beat": 0,
+            "tie": 3,
+            "lose": 5,
+            "beat_item_ids": [],
+            "n_exceedable_calls": 16,
+            "calls_that_beat": 0,
+            "mean_rr_minus_best_source": -0.064
+          },
+          "agent_B": {
+            "n_exceedable_items_scored": 8,
+            "beat": 0,
+            "tie": 2,
+            "lose": 6,
+            "beat_item_ids": [],
+            "n_exceedable_calls": 16,
+            "calls_that_beat": 0,
+            "mean_rr_minus_best_source": -0.0796
+          }
+        }
+      }
+    },
+    "corrected_denominator": {
+      "exceedable_items_total": 23,
+      "n_arms": 5,
+      "exceedable_item_arm_cells": 115,
+      "stated_in_paper": 300,
+      "uninformative_cells_in_stated_denominator": 185,
+      "conflict_only_item_arm_cells": 75,
+      "total_beats": 1,
+      "conflict_beats": 0
+    },
+    "control_cell_limitation": {
+      "n_items": 20,
+      "ann_rank_is_3.5": 19,
+      "ann_rank_distribution": {
+        "3.5": 19,
+        "5.0": 1
+      },
+      "margin_is_zero": 20,
+      "items_with_all_6_annotation_scores_tied": 19,
+      "annotation_only_MRR_published_1_over_avgrank": 0.2814,
+      "annotation_only_MRR_tieaware_expected": 0.3982,
+      "chance_MRR": 0.4083,
+      "annotation_only_top1_tieaware": 0.1583,
+      "reading": "The control cell is defined by margin<=0, i.e. annotation is non-discriminating BY CONSTRUCTION: 19/20 items have all six annotation scores tied (ann_rank 3.5), the 20th has the gold below a tie group. There is therefore no second signal to integrate. The cell tests NON-DISTRACTION (does the model abandon a good source when a useless one is named reliable?) -- it cannot test integration, and its 100 item-arm cells should not enter an integration denominator. A further artifact: scoring the annotation-only ranker as 1/avg_rank gives MRR 0.281, BELOW chance 0.408, when a random tie-break scores exactly chance. The reported '+0.42 over annotation-only' in control is ~0.29 once ties are handled as ties."
+    }
+  },
+  "task2_top1": {
+    "chance": {
+      "MRR": 0.4083,
+      "top1": 0.1667
+    },
+    "dynamic_range": {
+      "MRR": 0.5917,
+      "top1": 0.8333,
+      "ratio": 1.41
+    },
+    "tab_main": {
+      "conflict": {
+        "n_items": 40,
+        "baselines": {
+          "phenotype_only": {
+            "MRR": {
+              "mean": 0.3838,
+              "ci95": [
+                0.3058,
+                0.4675
+              ],
+              "n": 40
+            },
+            "top1": {
+              "mean": 0.125,
+              "ci95": [
+                0.025,
+                0.225
+              ],
+              "n": 40
+            }
+          },
+          "annotation_only": {
+            "MRR": {
+              "mean": 0.6713,
+              "ci95": [
+                0.5633,
+                0.7775
+              ],
+              "n": 40
+            },
+            "MRR_tieaware": {
+              "mean": 0.6771,
+              "ci95": [
+                0.5709,
+                0.7808
+              ],
+              "n": 40
+            },
+            "top1": {
+              "mean": 0.525,
+              "ci95": [
+                0.375,
+                0.675
+              ],
+              "n": 40
+            }
+          },
+          "best_source_oracle": {
+            "MRR": {
+              "mean": 0.7729,
+              "ci95": [
+                0.6771,
+                0.8646
+              ],
+              "n": 40
+            },
+            "top1": {
+              "mean": 0.625,
+              "ci95": [
+                0.475,
+                0.775
+              ],
+              "n": 40
+            }
+          }
+        },
+        "arms": {
+          "naive": {
+            "MRR": {
+              "mean": 0.3877,
+              "ci95": [
+                0.3327,
+                0.4481
+              ],
+              "n": 40
+            },
+            "top1": {
+              "mean": 0.0625,
+              "ci95": [
+                0.0125,
+                0.125
+              ],
+              "n": 40
+            }
+          },
+          "rel": {
+            "MRR": {
+              "mean": 0.6762,
+              "ci95": [
+                0.5696,
+                0.7815
+              ],
+              "n": 40
+            },
+            "top1": {
+              "mean": 0.525,
+              "ci95": [
+                0.375,
+                0.675
+              ],
+              "n": 40
+            }
+          },
+          "rel_scaffold": {
+            "MRR": {
+              "mean": 0.6737,
+              "ci95": [
+                0.5679,
+                0.7771
+              ],
+              "n": 40
+            },
+            "top1": {
+              "mean": 0.5125,
+              "ci95": [
+                0.3625,
+                0.6625
+              ],
+              "n": 40
+            }
+          },
+          "agent_A": {
+            "MRR": {
+              "mean": 0.675,
+              "ci95": [
+                0.5675,
+                0.7813
+              ],
+              "n": 40
+            },
+            "top1": {
+              "mean": 0.525,
+              "ci95": [
+                0.375,
+                0.675
+              ],
+              "n": 40
+            }
+          },
+          "agent_B": {
+            "MRR": {
+              "mean": 0.6704,
+              "ci95": [
+                0.5608,
+                0.7787
+              ],
+              "n": 40
+            },
+            "top1": {
+              "mean": 0.525,
+              "ci95": [
+                0.375,
+                0.675
+              ],
+              "n": 40
+            }
+          }
+        }
+      },
+      "control": {
+        "n_items": 20,
+        "baselines": {
+          "phenotype_only": {
+            "MRR": {
+              "mean": 0.7042,
+              "ci95": [
+                0.5375,
+                0.8625
+              ],
+              "n": 20
+            },
+            "top1": {
+              "mean": 0.6,
+              "ci95": [
+                0.4,
+                0.8
+              ],
+              "n": 20
+            }
+          },
+          "annotation_only": {
+            "MRR": {
+              "mean": 0.2814,
+              "ci95": [
+                0.2729,
+                0.2857
+              ],
+              "n": 20
+            },
+            "MRR_tieaware": {
+              "mean": 0.3982,
+              "ci95": [
+                0.3779,
+                0.4083
+              ],
+              "n": 20
+            },
+            "top1": {
+              "mean": 0.1583,
+              "ci95": [
+                0.1417,
+                0.1667
+              ],
+              "n": 20
+            }
+          },
+          "best_source_oracle": {
+            "MRR": {
+              "mean": 0.7298,
+              "ci95": [
+                0.5845,
+                0.8702
+              ],
+              "n": 20
+            },
+            "top1": {
+              "mean": 0.6583,
+              "ci95": [
+                0.4833,
+                0.8333
+              ],
+              "n": 20
+            }
+          }
+        },
+        "arms": {
+          "naive": {
+            "MRR": {
+              "mean": 0.6917,
+              "ci95": [
+                0.525,
+                0.85
+              ],
+              "n": 20
+            },
+            "top1": {
+              "mean": 0.6,
+              "ci95": [
+                0.4,
+                0.8
+              ],
+              "n": 20
+            }
+          },
+          "rel": {
+            "MRR": {
+              "mean": 0.7,
+              "ci95": [
+                0.5333,
+                0.8583
+              ],
+              "n": 20
+            },
+            "top1": {
+              "mean": 0.6,
+              "ci95": [
+                0.4,
+                0.8
+              ],
+              "n": 20
+            }
+          },
+          "rel_scaffold": {
+            "MRR": {
+              "mean": 0.7063,
+              "ci95": [
+                0.5417,
+                0.8646
+              ],
+              "n": 20
+            },
+            "top1": {
+              "mean": 0.6,
+              "ci95": [
+                0.4,
+                0.8
+              ],
+              "n": 20
+            }
+          },
+          "agent_A": {
+            "MRR": {
+              "mean": 0.7042,
+              "ci95": [
+                0.5375,
+                0.8625
+              ],
+              "n": 20
+            },
+            "top1": {
+              "mean": 0.6,
+              "ci95": [
+                0.4,
+                0.8
+              ],
+              "n": 20
+            }
+          },
+          "agent_B": {
+            "MRR": {
+              "mean": 0.6979,
+              "ci95": [
+                0.5333,
+                0.8583
+              ],
+              "n": 20
+            },
+            "top1": {
+              "mean": 0.6,
+              "ci95": [
+                0.4,
+                0.8
+              ],
+              "n": 20
+            }
+          }
+        }
+      }
+    },
+    "tab_selector": {
+      "conflict": {
+        "naive": {
+          "minus_phenotype_only": {
+            "MRR": {
+              "mean": 0.004,
+              "ci95": [
+                -0.0817,
+                0.0852
+              ],
+              "n": 40
+            },
+            "top1": {
+              "mean": -0.0625,
+              "ci95": [
+                -0.175,
+                0.0375
+              ],
+              "n": 40
+            },
+            "agreement": {
+              "sign_agree": false,
+              "significance_agree": true,
+              "mrr_significant": false,
+              "top1_significant": false,
+              "both_null": true,
+              "disagrees": true
+            }
+          },
+          "minus_annotation_only": {
+            "MRR": {
+              "mean": -0.2835,
+              "ci95": [
+                -0.3825,
+                -0.1819
+              ],
+              "n": 40
+            },
+            "top1": {
+              "mean": -0.4625,
+              "ci95": [
+                -0.6125,
+                -0.3125
+              ],
+              "n": 40
+            },
+            "agreement": {
+              "sign_agree": true,
+              "significance_agree": true,
+              "mrr_significant": true,
+              "top1_significant": true,
+              "both_null": false,
+              "disagrees": false
+            }
+          },
+          "minus_annotation_only_tieaware": {
+            "MRR": {
+              "mean": -0.2894,
+              "ci95": [
+                -0.3868,
+                -0.1894
+              ],
+              "n": 40
+            }
+          }
+        },
+        "rel": {
+          "minus_phenotype_only": {
+            "MRR": {
+              "mean": 0.2925,
+              "ci95": [
+                0.1398,
+                0.4406
+              ],
+              "n": 40
+            },
+            "top1": {
+              "mean": 0.4,
+              "ci95": [
+                0.2,
+                0.6
+              ],
+              "n": 40
+            },
+            "agreement": {
+              "sign_agree": true,
+              "significance_agree": true,
+              "mrr_significant": true,
+              "top1_significant": true,
+              "both_null": false,
+              "disagrees": false
+            }
+          },
+          "minus_annotation_only": {
+            "MRR": {
+              "mean": 0.005,
+              "ci95": [
+                -0.0117,
+                0.0244
+              ],
+              "n": 40
+            },
+            "top1": {
+              "mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n": 40
+            },
+            "agreement": {
+              "sign_agree": false,
+              "significance_agree": true,
+              "mrr_significant": false,
+              "top1_significant": false,
+              "both_null": true,
+              "disagrees": false
+            }
+          },
+          "minus_annotation_only_tieaware": {
+            "MRR": {
+              "mean": -0.0008,
+              "ci95": [
+                -0.0173,
+                0.0171
+              ],
+              "n": 40
+            }
+          }
+        },
+        "rel_scaffold": {
+          "minus_phenotype_only": {
+            "MRR": {
+              "mean": 0.29,
+              "ci95": [
+                0.1417,
+                0.4363
+              ],
+              "n": 40
+            },
+            "top1": {
+              "mean": 0.3875,
+              "ci95": [
+                0.1875,
+                0.575
+              ],
+              "n": 40
+            },
+            "agreement": {
+              "sign_agree": true,
+              "significance_agree": true,
+              "mrr_significant": true,
+              "top1_significant": true,
+              "both_null": false,
+              "disagrees": false
+            }
+          },
+          "minus_annotation_only": {
+            "MRR": {
+              "mean": 0.0025,
+              "ci95": [
+                -0.0183,
+                0.0233
+              ],
+              "n": 40
+            },
+            "top1": {
+              "mean": -0.0125,
+              "ci95": [
+                -0.0375,
+                0.0
+              ],
+              "n": 40
+            },
+            "agreement": {
+              "sign_agree": false,
+              "significance_agree": true,
+              "mrr_significant": false,
+              "top1_significant": false,
+              "both_null": true,
+              "disagrees": false
+            }
+          },
+          "minus_annotation_only_tieaware": {
+            "MRR": {
+              "mean": -0.0033,
+              "ci95": [
+                -0.0235,
+                0.016
+              ],
+              "n": 40
+            }
+          }
+        },
+        "agent_A": {
+          "minus_phenotype_only": {
+            "MRR": {
+              "mean": 0.2912,
+              "ci95": [
+                0.1392,
+                0.44
+              ],
+              "n": 40
+            },
+            "top1": {
+              "mean": 0.4,
+              "ci95": [
+                0.2,
+                0.6
+              ],
+              "n": 40
+            },
+            "agreement": {
+              "sign_agree": true,
+              "significance_agree": true,
+              "mrr_significant": true,
+              "top1_significant": true,
+              "both_null": false,
+              "disagrees": false
+            }
+          },
+          "minus_annotation_only": {
+            "MRR": {
+              "mean": 0.0037,
+              "ci95": [
+                -0.0138,
+                0.0229
+              ],
+              "n": 40
+            },
+            "top1": {
+              "mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n": 40
+            },
+            "agreement": {
+              "sign_agree": false,
+              "significance_agree": true,
+              "mrr_significant": false,
+              "top1_significant": false,
+              "both_null": true,
+              "disagrees": false
+            }
+          },
+          "minus_annotation_only_tieaware": {
+            "MRR": {
+              "mean": -0.0021,
+              "ci95": [
+                -0.0194,
+                0.0154
+              ],
+              "n": 40
+            }
+          }
+        },
+        "agent_B": {
+          "minus_phenotype_only": {
+            "MRR": {
+              "mean": 0.2867,
+              "ci95": [
+                0.135,
+                0.4358
+              ],
+              "n": 40
+            },
+            "top1": {
+              "mean": 0.4,
+              "ci95": [
+                0.2,
+                0.6
+              ],
+              "n": 40
+            },
+            "agreement": {
+              "sign_agree": true,
+              "significance_agree": true,
+              "mrr_significant": true,
+              "top1_significant": true,
+              "both_null": false,
+              "disagrees": false
+            }
+          },
+          "minus_annotation_only": {
+            "MRR": {
+              "mean": -0.0008,
+              "ci95": [
+                -0.0229,
+                0.0208
+              ],
+              "n": 40
+            },
+            "top1": {
+              "mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n": 40
+            },
+            "agreement": {
+              "sign_agree": false,
+              "significance_agree": true,
+              "mrr_significant": false,
+              "top1_significant": false,
+              "both_null": true,
+              "disagrees": false
+            }
+          },
+          "minus_annotation_only_tieaware": {
+            "MRR": {
+              "mean": -0.0067,
+              "ci95": [
+                -0.0288,
+                0.0138
+              ],
+              "n": 40
+            }
+          }
+        }
+      },
+      "control": {
+        "naive": {
+          "minus_phenotype_only": {
+            "MRR": {
+              "mean": -0.0125,
+              "ci95": [
+                -0.0375,
+                0.0
+              ],
+              "n": 20
+            },
+            "top1": {
+              "mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n": 20
+            },
+            "agreement": {
+              "sign_agree": false,
+              "significance_agree": true,
+              "mrr_significant": false,
+              "top1_significant": false,
+              "both_null": true,
+              "disagrees": false
+            }
+          },
+          "minus_annotation_only": {
+            "MRR": {
+              "mean": 0.4102,
+              "ci95": [
+                0.2437,
+                0.5687
+              ],
+              "n": 20
+            },
+            "top1": {
+              "mean": 0.4417,
+              "ci95": [
+                0.2333,
+                0.6417
+              ],
+              "n": 20
+            },
+            "agreement": {
+              "sign_agree": true,
+              "significance_agree": true,
+              "mrr_significant": true,
+              "top1_significant": true,
+              "both_null": false,
+              "disagrees": false
+            }
+          },
+          "minus_annotation_only_tieaware": {
+            "MRR": {
+              "mean": 0.2935,
+              "ci95": [
+                0.1286,
+                0.4518
+              ],
+              "n": 20
+            }
+          }
+        },
+        "rel": {
+          "minus_phenotype_only": {
+            "MRR": {
+              "mean": -0.0042,
+              "ci95": [
+                -0.0125,
+                0.0
+              ],
+              "n": 20
+            },
+            "top1": {
+              "mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n": 20
+            },
+            "agreement": {
+              "sign_agree": false,
+              "significance_agree": true,
+              "mrr_significant": false,
+              "top1_significant": false,
+              "both_null": true,
+              "disagrees": false
+            }
+          },
+          "minus_annotation_only": {
+            "MRR": {
+              "mean": 0.4186,
+              "ci95": [
+                0.252,
+                0.5769
+              ],
+              "n": 20
+            },
+            "top1": {
+              "mean": 0.4417,
+              "ci95": [
+                0.2333,
+                0.6417
+              ],
+              "n": 20
+            },
+            "agreement": {
+              "sign_agree": true,
+              "significance_agree": true,
+              "mrr_significant": true,
+              "top1_significant": true,
+              "both_null": false,
+              "disagrees": false
+            }
+          },
+          "minus_annotation_only_tieaware": {
+            "MRR": {
+              "mean": 0.3018,
+              "ci95": [
+                0.1393,
+                0.4601
+              ],
+              "n": 20
+            }
+          }
+        },
+        "rel_scaffold": {
+          "minus_phenotype_only": {
+            "MRR": {
+              "mean": 0.0021,
+              "ci95": [
+                -0.0063,
+                0.0125
+              ],
+              "n": 20
+            },
+            "top1": {
+              "mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n": 20
+            },
+            "agreement": {
+              "sign_agree": false,
+              "significance_agree": true,
+              "mrr_significant": false,
+              "top1_significant": false,
+              "both_null": true,
+              "disagrees": false
+            }
+          },
+          "minus_annotation_only": {
+            "MRR": {
+              "mean": 0.4248,
+              "ci95": [
+                0.2602,
+                0.5814
+              ],
+              "n": 20
+            },
+            "top1": {
+              "mean": 0.4417,
+              "ci95": [
+                0.2333,
+                0.6417
+              ],
+              "n": 20
+            },
+            "agreement": {
+              "sign_agree": true,
+              "significance_agree": true,
+              "mrr_significant": true,
+              "top1_significant": true,
+              "both_null": false,
+              "disagrees": false
+            }
+          },
+          "minus_annotation_only_tieaware": {
+            "MRR": {
+              "mean": 0.3081,
+              "ci95": [
+                0.1453,
+                0.4667
+              ],
+              "n": 20
+            }
+          }
+        },
+        "agent_A": {
+          "minus_phenotype_only": {
+            "MRR": {
+              "mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n": 20
+            },
+            "top1": {
+              "mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n": 20
+            },
+            "agreement": {
+              "sign_agree": true,
+              "significance_agree": true,
+              "mrr_significant": false,
+              "top1_significant": false,
+              "both_null": true,
+              "disagrees": false
+            }
+          },
+          "minus_annotation_only": {
+            "MRR": {
+              "mean": 0.4227,
+              "ci95": [
+                0.2602,
+                0.5811
+              ],
+              "n": 20
+            },
+            "top1": {
+              "mean": 0.4417,
+              "ci95": [
+                0.2333,
+                0.6417
+              ],
+              "n": 20
+            },
+            "agreement": {
+              "sign_agree": true,
+              "significance_agree": true,
+              "mrr_significant": true,
+              "top1_significant": true,
+              "both_null": false,
+              "disagrees": false
+            }
+          },
+          "minus_annotation_only_tieaware": {
+            "MRR": {
+              "mean": 0.306,
+              "ci95": [
+                0.1417,
+                0.4667
+              ],
+              "n": 20
+            }
+          }
+        },
+        "agent_B": {
+          "minus_phenotype_only": {
+            "MRR": {
+              "mean": -0.0063,
+              "ci95": [
+                -0.0187,
+                0.0
+              ],
+              "n": 20
+            },
+            "top1": {
+              "mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n": 20
+            },
+            "agreement": {
+              "sign_agree": false,
+              "significance_agree": true,
+              "mrr_significant": false,
+              "top1_significant": false,
+              "both_null": true,
+              "disagrees": false
+            }
+          },
+          "minus_annotation_only": {
+            "MRR": {
+              "mean": 0.4165,
+              "ci95": [
+                0.2518,
+                0.5748
+              ],
+              "n": 20
+            },
+            "top1": {
+              "mean": 0.4417,
+              "ci95": [
+                0.2333,
+                0.6417
+              ],
+              "n": 20
+            },
+            "agreement": {
+              "sign_agree": true,
+              "significance_agree": true,
+              "mrr_significant": true,
+              "top1_significant": true,
+              "both_null": false,
+              "disagrees": false
+            }
+          },
+          "minus_annotation_only_tieaware": {
+            "MRR": {
+              "mean": 0.2997,
+              "ci95": [
+                0.1367,
+                0.4581
+              ],
+              "n": 20
+            }
+          }
+        }
+      }
+    },
+    "disagreements": [
+      {
+        "where": "tab:selector conflict/naive minus phenotype_only",
+        "MRR": {
+          "mean": 0.004,
+          "ci95": [
+            -0.0817,
+            0.0852
+          ],
+          "n": 40
+        },
+        "top1": {
+          "mean": -0.0625,
+          "ci95": [
+            -0.175,
+            0.0375
+          ],
+          "n": 40
+        },
+        "sign_agree": false,
+        "significance_agree": true,
+        "mrr_significant": false,
+        "top1_significant": false,
+        "both_null": true,
+        "disagrees": true
+      }
+    ],
+    "arm_contrasts": {
+      "conflict": {
+        "rel_minus_naive": {
+          "MRR": {
+            "mean": 0.2885,
+            "ci95": [
+              0.1919,
+              0.385
+            ],
+            "n": 40
+          },
+          "top1": {
+            "mean": 0.4625,
+            "ci95": [
+              0.3125,
+              0.6125
+            ],
+            "n": 40
+          },
+          "agreement": {
+            "sign_agree": true,
+            "significance_agree": true,
+            "mrr_significant": true,
+            "top1_significant": true,
+            "both_null": false,
+            "disagrees": false
+          }
+        },
+        "rel_scaffold_minus_naive": {
+          "MRR": {
+            "mean": 0.286,
+            "ci95": [
+              0.1929,
+              0.3792
+            ],
+            "n": 40
+          },
+          "top1": {
+            "mean": 0.45,
+            "ci95": [
+              0.3,
+              0.5875
+            ],
+            "n": 40
+          },
+          "agreement": {
+            "sign_agree": true,
+            "significance_agree": true,
+            "mrr_significant": true,
+            "top1_significant": true,
+            "both_null": false,
+            "disagrees": false
+          }
+        },
+        "agent_A_minus_naive": {
+          "MRR": {
+            "mean": 0.2873,
+            "ci95": [
+              0.1908,
+              0.3835
+            ],
+            "n": 40
+          },
+          "top1": {
+            "mean": 0.4625,
+            "ci95": [
+              0.3125,
+              0.6125
+            ],
+            "n": 40
+          },
+          "agreement": {
+            "sign_agree": true,
+            "significance_agree": true,
+            "mrr_significant": true,
+            "top1_significant": true,
+            "both_null": false,
+            "disagrees": false
+          }
+        },
+        "agent_B_minus_naive": {
+          "MRR": {
+            "mean": 0.2827,
+            "ci95": [
+              0.1871,
+              0.3798
+            ],
+            "n": 40
+          },
+          "top1": {
+            "mean": 0.4625,
+            "ci95": [
+              0.3125,
+              0.6125
+            ],
+            "n": 40
+          },
+          "agreement": {
+            "sign_agree": true,
+            "significance_agree": true,
+            "mrr_significant": true,
+            "top1_significant": true,
+            "both_null": false,
+            "disagrees": false
+          }
+        },
+        "agent_A_minus_rel": {
+          "MRR": {
+            "mean": -0.0012,
+            "ci95": [
+              -0.0127,
+              0.0083
+            ],
+            "n": 40
+          },
+          "top1": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n": 40
+          },
+          "agreement": {
+            "sign_agree": false,
+            "significance_agree": true,
+            "mrr_significant": false,
+            "top1_significant": false,
+            "both_null": true,
+            "disagrees": false
+          }
+        },
+        "agent_B_minus_rel": {
+          "MRR": {
+            "mean": -0.0058,
+            "ci95": [
+              -0.0242,
+              0.01
+            ],
+            "n": 40
+          },
+          "top1": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n": 40
+          },
+          "agreement": {
+            "sign_agree": false,
+            "significance_agree": true,
+            "mrr_significant": false,
+            "top1_significant": false,
+            "both_null": true,
+            "disagrees": false
+          }
+        },
+        "rel_scaffold_minus_rel": {
+          "MRR": {
+            "mean": -0.0025,
+            "ci95": [
+              -0.0187,
+              0.0104
+            ],
+            "n": 40
+          },
+          "top1": {
+            "mean": -0.0125,
+            "ci95": [
+              -0.0375,
+              0.0
+            ],
+            "n": 40
+          },
+          "agreement": {
+            "sign_agree": true,
+            "significance_agree": true,
+            "mrr_significant": false,
+            "top1_significant": false,
+            "both_null": true,
+            "disagrees": false
+          }
+        }
+      },
+      "control": {
+        "rel_minus_naive": {
+          "MRR": {
+            "mean": 0.0083,
+            "ci95": [
+              0.0,
+              0.025
+            ],
+            "n": 20
+          },
+          "top1": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n": 20
+          },
+          "agreement": {
+            "sign_agree": false,
+            "significance_agree": true,
+            "mrr_significant": false,
+            "top1_significant": false,
+            "both_null": true,
+            "disagrees": false
+          }
+        },
+        "rel_scaffold_minus_naive": {
+          "MRR": {
+            "mean": 0.0146,
+            "ci95": [
+              -0.0042,
+              0.0417
+            ],
+            "n": 20
+          },
+          "top1": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n": 20
+          },
+          "agreement": {
+            "sign_agree": false,
+            "significance_agree": true,
+            "mrr_significant": false,
+            "top1_significant": false,
+            "both_null": true,
+            "disagrees": false
+          }
+        },
+        "agent_A_minus_naive": {
+          "MRR": {
+            "mean": 0.0125,
+            "ci95": [
+              0.0,
+              0.0375
+            ],
+            "n": 20
+          },
+          "top1": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n": 20
+          },
+          "agreement": {
+            "sign_agree": false,
+            "significance_agree": true,
+            "mrr_significant": false,
+            "top1_significant": false,
+            "both_null": true,
+            "disagrees": false
+          }
+        },
+        "agent_B_minus_naive": {
+          "MRR": {
+            "mean": 0.0063,
+            "ci95": [
+              0.0,
+              0.0187
+            ],
+            "n": 20
+          },
+          "top1": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n": 20
+          },
+          "agreement": {
+            "sign_agree": false,
+            "significance_agree": true,
+            "mrr_significant": false,
+            "top1_significant": false,
+            "both_null": true,
+            "disagrees": false
+          }
+        },
+        "agent_A_minus_rel": {
+          "MRR": {
+            "mean": 0.0042,
+            "ci95": [
+              0.0,
+              0.0125
+            ],
+            "n": 20
+          },
+          "top1": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n": 20
+          },
+          "agreement": {
+            "sign_agree": false,
+            "significance_agree": true,
+            "mrr_significant": false,
+            "top1_significant": false,
+            "both_null": true,
+            "disagrees": false
+          }
+        },
+        "agent_B_minus_rel": {
+          "MRR": {
+            "mean": -0.0021,
+            "ci95": [
+              -0.0062,
+              0.0
+            ],
+            "n": 20
+          },
+          "top1": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n": 20
+          },
+          "agreement": {
+            "sign_agree": false,
+            "significance_agree": true,
+            "mrr_significant": false,
+            "top1_significant": false,
+            "both_null": true,
+            "disagrees": false
+          }
+        },
+        "rel_scaffold_minus_rel": {
+          "MRR": {
+            "mean": 0.0063,
+            "ci95": [
+              -0.0042,
+              0.0188
+            ],
+            "n": 20
+          },
+          "top1": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n": 20
+          },
+          "agreement": {
+            "sign_agree": false,
+            "significance_agree": true,
+            "mrr_significant": false,
+            "top1_significant": false,
+            "both_null": true,
+            "disagrees": false
+          }
+        }
+      }
+    },
+    "uncalibrated_60_item_draw": {
+      "fair60": {
+        "n": 60,
+        "levels": {
+          "A-mask": {
+            "MRR": {
+              "mean": 0.3397,
+              "ci95": [
+                0.2953,
+                0.3894
+              ],
+              "n": 60
+            },
+            "top1": {
+              "mean": 0.0917,
+              "ci95": [
+                0.0417,
+                0.15
+              ],
+              "n": 60
+            }
+          },
+          "H-mask": {
+            "MRR": {
+              "mean": 0.6201,
+              "ci95": [
+                0.5418,
+                0.6999
+              ],
+              "n": 60
+            },
+            "top1": {
+              "mean": 0.3917,
+              "ci95": [
+                0.275,
+                0.5167
+              ],
+              "n": 60
+            }
+          },
+          "H-shuffle": {
+            "MRR": {
+              "mean": 0.3944,
+              "ci95": [
+                0.3425,
+                0.4485
+              ],
+              "n": 60
+            },
+            "top1": {
+              "mean": 0.15,
+              "ci95": [
+                0.0917,
+                0.2167
+              ],
+              "n": 60
+            }
+          }
+        },
+        "phenotype_only": {
+          "MRR": {
+            "mean": 0.6392,
+            "ci95": [
+              0.5597,
+              0.7183
+            ],
+            "n": 60
+          },
+          "top1": {
+            "mean": 0.4167,
+            "ci95": [
+              0.3,
+              0.5337
+            ],
+            "n": 60
+          }
+        },
+        "rescue_Hmask_minus_Amask": {
+          "MRR": {
+            "mean": 0.2804,
+            "ci95": [
+              0.1836,
+              0.3758
+            ],
+            "n": 60
+          },
+          "top1": {
+            "mean": 0.3,
+            "ci95": [
+              0.1667,
+              0.4417
+            ],
+            "n": 60
+          },
+          "agreement": {
+            "sign_agree": true,
+            "significance_agree": true,
+            "mrr_significant": true,
+            "top1_significant": true,
+            "both_null": false,
+            "disagrees": false
+          }
+        },
+        "shuffle_control_Hshuffle_minus_Amask": {
+          "MRR": {
+            "mean": 0.0547,
+            "ci95": [
+              -0.0183,
+              0.1224
+            ],
+            "n": 60
+          },
+          "top1": {
+            "mean": 0.0583,
+            "ci95": [
+              -0.025,
+              0.1417
+            ],
+            "n": 60
+          },
+          "agreement": {
+            "sign_agree": true,
+            "significance_agree": true,
+            "mrr_significant": false,
+            "top1_significant": false,
+            "both_null": true,
+            "disagrees": false
+          }
+        }
+      },
+      "tail29": {
+        "n": 29,
+        "n_from_fair60": 5,
+        "n_from_booster": 24,
+        "levels": {
+          "A-mask": {
+            "MRR": {
+              "mean": 0.3483,
+              "ci95": [
+                0.2825,
+                0.4244
+              ],
+              "n": 29
+            },
+            "top1": {
+              "mean": 0.1034,
+              "ci95": [
+                0.0345,
+                0.2069
+              ],
+              "n": 29
+            }
+          },
+          "H-mask": {
+            "MRR": {
+              "mean": 0.1825,
+              "ci95": [
+                0.1761,
+                0.1891
+              ],
+              "n": 29
+            },
+            "top1": {
+              "mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n": 29
+            }
+          },
+          "H-shuffle": {
+            "MRR": {
+              "mean": 0.3511,
+              "ci95": [
+                0.2891,
+                0.425
+              ],
+              "n": 29
+            },
+            "top1": {
+              "mean": 0.1034,
+              "ci95": [
+                0.0345,
+                0.2069
+              ],
+              "n": 29
+            }
+          }
+        },
+        "misinformation_cost_Hmask_minus_Hshuffle": {
+          "MRR": {
+            "mean": -0.1687,
+            "ci95": [
+              -0.2425,
+              -0.1057
+            ],
+            "n": 29
+          },
+          "top1": {
+            "mean": -0.1034,
+            "ci95": [
+              -0.2069,
+              -0.0345
+            ],
+            "n": 29
+          },
+          "agreement": {
+            "sign_agree": true,
+            "significance_agree": true,
+            "mrr_significant": true,
+            "top1_significant": true,
+            "both_null": false,
+            "disagrees": false
+          }
+        },
+        "rescue_Hmask_minus_Amask": {
+          "MRR": {
+            "mean": -0.1658,
+            "ci95": [
+              -0.2422,
+              -0.1
+            ],
+            "n": 29
+          },
+          "top1": {
+            "mean": -0.1034,
+            "ci95": [
+              -0.2069,
+              -0.0345
+            ],
+            "n": 29
+          },
+          "agreement": {
+            "sign_agree": true,
+            "significance_agree": true,
+            "mrr_significant": true,
+            "top1_significant": true,
+            "both_null": false,
+            "disagrees": false
+          }
+        }
+      },
+      "scaffold_without_table": {
+        "fair60": {
+          "n": 60,
+          "levels": {
+            "A-mask": {
+              "MRR": {
+                "mean": 0.3183,
+                "ci95": [
+                  0.2811,
+                  0.3601
+                ],
+                "n": 60
+              },
+              "top1": {
+                "mean": 0.05,
+                "ci95": [
+                  0.0167,
+                  0.0917
+                ],
+                "n": 60
+              }
+            },
+            "H-mask": {
+              "MRR": {
+                "mean": 0.6117,
+                "ci95": [
+                  0.5364,
+                  0.6875
+                ],
+                "n": 60
+              },
+              "top1": {
+                "mean": 0.3667,
+                "ci95": [
+                  0.25,
+                  0.4833
+                ],
+                "n": 60
+              }
+            },
+            "H-scaffold": {
+              "MRR": {
+                "mean": 0.554,
+                "ci95": [
+                  0.4804,
+                  0.6299
+                ],
+                "n": 60
+              },
+              "top1": {
+                "mean": 0.3,
+                "ci95": [
+                  0.1917,
+                  0.4167
+                ],
+                "n": 60
+              }
+            },
+            "P": {
+              "MRR": {
+                "mean": 0.6392,
+                "ci95": [
+                  0.5597,
+                  0.7183
+                ],
+                "n": 60
+              },
+              "top1": {
+                "mean": 0.4167,
+                "ci95": [
+                  0.3,
+                  0.5337
+                ],
+                "n": 60
+              }
+            }
+          },
+          "scaffold_minus_Hmask": {
+            "MRR": {
+              "mean": -0.0576,
+              "ci95": [
+                -0.1032,
+                -0.0203
+              ],
+              "n": 60
+            },
+            "top1": {
+              "mean": -0.0667,
+              "ci95": [
+                -0.1333,
+                -0.0083
+              ],
+              "n": 60
+            },
+            "agreement": {
+              "sign_agree": true,
+              "significance_agree": true,
+              "mrr_significant": true,
+              "top1_significant": true,
+              "both_null": false,
+              "disagrees": false
+            }
+          },
+          "scaffold_minus_P": {
+            "MRR": {
+              "mean": -0.0851,
+              "ci95": [
+                -0.1415,
+                -0.0356
+              ],
+              "n": 60
+            },
+            "top1": {
+              "mean": -0.1167,
+              "ci95": [
+                -0.2083,
+                -0.0333
+              ],
+              "n": 60
+            },
+            "agreement": {
+              "sign_agree": true,
+              "significance_agree": true,
+              "mrr_significant": true,
+              "top1_significant": true,
+              "both_null": false,
+              "disagrees": false
+            }
+          }
+        },
+        "booster24": {
+          "n": 24,
+          "levels": {
+            "A-mask": {
+              "MRR": {
+                "mean": 0.3188,
+                "ci95": [
+                  0.2656,
+                  0.3788
+                ],
+                "n": 24
+              },
+              "top1": {
+                "mean": 0.0625,
+                "ci95": [
+                  0.0,
+                  0.125
+                ],
+                "n": 24
+              }
+            },
+            "H-mask": {
+              "MRR": {
+                "mean": 0.1799,
+                "ci95": [
+                  0.1736,
+                  0.1861
+                ],
+                "n": 24
+              },
+              "top1": {
+                "mean": 0.0,
+                "ci95": [
+                  0.0,
+                  0.0
+                ],
+                "n": 24
+              }
+            },
+            "H-scaffold": {
+              "MRR": {
+                "mean": 0.1892,
+                "ci95": [
+                  0.1764,
+                  0.2087
+                ],
+                "n": 24
+              },
+              "top1": {
+                "mean": 0.0,
+                "ci95": [
+                  0.0,
+                  0.0
+                ],
+                "n": 24
+              }
+            },
+            "P": {
+              "MRR": {
+                "mean": 0.1819,
+                "ci95": [
+                  0.175,
+                  0.1889
+                ],
+                "n": 24
+              },
+              "top1": {
+                "mean": 0.0,
+                "ci95": [
+                  0.0,
+                  0.0
+                ],
+                "n": 24
+              }
+            }
+          },
+          "scaffold_minus_Hmask": {
+            "MRR": {
+              "mean": 0.0094,
+              "ci95": [
+                -0.0007,
+                0.0267
+              ],
+              "n": 24
+            },
+            "top1": {
+              "mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n": 24
+            },
+            "agreement": {
+              "sign_agree": false,
+              "significance_agree": true,
+              "mrr_significant": false,
+              "top1_significant": false,
+              "both_null": true,
+              "disagrees": false
+            }
+          },
+          "scaffold_minus_P": {
+            "MRR": {
+              "mean": 0.0073,
+              "ci95": [
+                -0.0021,
+                0.0233
+              ],
+              "n": 24
+            },
+            "top1": {
+              "mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n": 24
+            },
+            "agreement": {
+              "sign_agree": false,
+              "significance_agree": true,
+              "mrr_significant": false,
+              "top1_significant": false,
+              "both_null": true,
+              "disagrees": false
+            }
+          }
+        }
+      }
+    }
+  },
+  "task3_permutation": {
+    "model_B": {
+      "conflict": {
+        "n_calls": 80,
+        "exact_phenotype": 4,
+        "exact_annotation": 26,
+        "distinct_orderings": 78,
+        "phen_equals_presented_order": 0,
+        "emitted_equals_presented_order": 0
+      },
+      "control": {
+        "n_calls": 40,
+        "exact_phenotype": 39,
+        "exact_annotation": 0,
+        "distinct_orderings": 38,
+        "phen_equals_presented_order": 0,
+        "emitted_equals_presented_order": 0,
+        "items_matching_on_both_orders": 19,
+        "items_matching_on_one_order": 1,
+        "items_matching_on_neither": 0
+      }
+    },
+    "model_B_retest": {
+      "conflict": {
+        "n_calls": 80,
+        "exact_phenotype": 4,
+        "exact_annotation": 24,
+        "distinct_orderings": 76,
+        "phen_equals_presented_order": 0,
+        "emitted_equals_presented_order": 0
+      },
+      "control": {
+        "n_calls": 0,
+        "exact_phenotype": 0,
+        "exact_annotation": 0,
+        "distinct_orderings": 0,
+        "phen_equals_presented_order": 0,
+        "emitted_equals_presented_order": 0
+      }
+    },
+    "model_A": {
+      "conflict": {
+        "n_calls": 80,
+        "exact_phenotype": 5,
+        "exact_annotation": 28,
+        "distinct_orderings": 77,
+        "phen_equals_presented_order": 0,
+        "emitted_equals_presented_order": 0
+      },
+      "control": {
+        "n_calls": 40,
+        "exact_phenotype": 40,
+        "exact_annotation": 0,
+        "distinct_orderings": 38,
+        "phen_equals_presented_order": 0,
+        "emitted_equals_presented_order": 0
+      }
+    },
+    "model_B_self_agreement": {
+      "conflict": {
+        "n_repeated_keys": 80,
+        "self_agreement_FULL_ORDERING": 0.575,
+        "self_agreement_GOLD_RANK_ONLY": 0.9,
+        "note": "noise_floor.json's 0.911 is GOLD-RANK agreement (it compares reciprocal ranks), not full-ordering agreement. The paper must not cite it as the latter."
+      },
+      "control": {
+        "n_repeated_keys": 0
+      },
+      "published_overall": {
+        "n_repeated_keys": 79,
+        "exact_agreement": 0.911,
+        "note": "artifacts/evidence_eval/tool_agent_gpt56/noise_floor.json"
+      }
+    },
+    "nulls": {
+      "uniform_720_STRAWMAN": {
+        "description": "P(match a specified 6-permutation) = 1/720 per call, i.i.d.",
+        "p_value": "~1e-111",
+        "log10_p": -111.4,
+        "verdict": "STRAWMAN -- do not use. No LLM samples uniformly over orderings; it samples from a sharply peaked distribution concentrated on evidence-consistent orders. Rejecting uniformity is uninformative and a reviewer will say so."
+      },
+      "entropy_only": {
+        "description": "Could low sampling entropy alone explain 39/40? Self-agreement bounds how concentrated the output distribution is, but says NOTHING about WHICH ordering it concentrates on. A model that deterministically emitted any other fixed ordering would show the same self-agreement and 0/40 external matches. Entropy and mode identity are logically independent.",
+        "conflict_self_agreement_full_ordering": 0.575,
+        "conflict_n_repeated_keys": 80,
+        "control_self_agreement": null,
+        "external_match_rate_control": 0.975,
+        "headline": "At forced T=1 model B reproduces ITS OWN full six-item ordering on only 0.575 of re-sampled conflict calls, yet reproduces an EXTERNAL deterministic ranker's full ordering on 39/40 = 0.975 of control calls. It agrees with the phenotype ranker more than it agrees with itself.",
+        "caveat": "Two caveats a reviewer will raise, and they are fair. (1) Model B's retest covers the CONFLICT cell only (80 calls); control-cell self-agreement was never measured, so we cannot exclude that control calls are simply near-zero-entropy. (2) The two cells differ in difficulty, so 0.575 vs 0.975 is not a matched comparison. Neither caveat rescues an entropy explanation: low entropy still leaves open WHICH ordering is the mode, and the finding is that the mode is the external ranker's output.",
+        "verdict": "Not a competing explanation; it constrains stability, not target."
+      },
+      "matched_entropy_bound": {
+        "description": "Suppose the control calls had the SAME output entropy as the measured conflict calls. Full-ordering self-agreement 0.575 is the collision probability sum(p_i^2); concentrating as much mass as possible on a single ordering gives p_mode <= sqrt(0.575).",
+        "measured_collision_probability": 0.575,
+        "implied_max_probability_of_any_single_ordering": 0.757,
+        "observed_match_rate_to_external_ranker": 0.975,
+        "verdict": "Even the most deterministic reading of the measured entropy caps the match rate at ~0.76, below the observed 0.975. Conditional on the conflict-cell entropy transferring -- which is unverified, since no control retest exists."
+      },
+      "within_model_cell_contrast": {
+        "description": "The defensible null. Same model, same deployment, same forced T=1, same tool stack, same prompt -- only the EVIDENCE differs. If the 39/40 control match were a decoding/entropy artifact it would hold in the conflict cell too. It does not.",
+        "control": "39/40",
+        "conflict": "4/80",
+        "fisher_exact_one_sided_p": 8.305842161137087e-26,
+        "log10_p": -25.1,
+        "verdict": "Use this one. It is a real empirical contrast, not a coin-flip null."
+      }
+    },
+    "confound_checks": {
+      "phen_ordering_equals_presentation_order_control": "0/40",
+      "phen_ordering_equals_presentation_order_conflict": "0/80",
+      "emitted_equals_presentation_order_control": "0/40",
+      "note": "If the phenotype-only ordering coincided with the order the candidates were listed in, matching it would be trivial. It does not, so the match is to the numeric evidence."
+    }
+  }
+}

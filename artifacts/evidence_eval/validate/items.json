@@ -1,0 +1,908 @@
+{
+  "seed": 123,
+  "pos_thresh": 700,
+  "neg_thresh": 400,
+  "unconditioned": true,
+  "items": [
+    {
+      "query": "DCTN3",
+      "gold": "DCTN1",
+      "distractors": [
+        "DDX17",
+        "RAF1",
+        "IMP4",
+        "RPTOR",
+        "PAK2"
+      ],
+      "gold_degree": 316,
+      "phen_rank": 1,
+      "gold_cosine": 0.7972,
+      "item_id": "v00"
+    },
+    {
+      "query": "TEDC1",
+      "gold": "TEDC2",
+      "distractors": [
+        "USP17L12",
+        "TRIAP1",
+        "OR1D2",
+        "SIGLEC14",
+        "AGBL4"
+      ],
+      "gold_degree": 23,
+      "phen_rank": 1,
+      "gold_cosine": 0.8861,
+      "item_id": "v01"
+    },
+    {
+      "query": "PTMA",
+      "gold": "KEAP1",
+      "distractors": [
+        "UBE2N",
+        "USP7",
+        "FUS",
+        "SPI1",
+        "VCL"
+      ],
+      "gold_degree": 414,
+      "phen_rank": 5,
+      "gold_cosine": 0.672,
+      "item_id": "v02"
+    },
+    {
+      "query": "LARS1",
+      "gold": "EPRS1",
+      "distractors": [
+        "AGT",
+        "EZH2",
+        "HSPA5",
+        "RACK1",
+        "H2BC21"
+      ],
+      "gold_degree": 780,
+      "phen_rank": 1,
+      "gold_cosine": 0.874,
+      "item_id": "v03"
+    },
+    {
+      "query": "MRPL23",
+      "gold": "MRPL41",
+      "distractors": [
+        "POLR1E",
+        "NUF2",
+        "SNAP23",
+        "SHMT1",
+        "CDC27"
+      ],
+      "gold_degree": 261,
+      "phen_rank": 3,
+      "gold_cosine": 0.7565,
+      "item_id": "v04"
+    },
+    {
+      "query": "MAPK3",
+      "gold": "MAPK1",
+      "distractors": [
+        "H2AZ1",
+        "RPL7",
+        "PLK1",
+        "IMP3",
+        "RBX1"
+      ],
+      "gold_degree": 667,
+      "phen_rank": 1,
+      "gold_cosine": 0.8143,
+      "item_id": "v05"
+    },
+    {
+      "query": "MEX3A",
+      "gold": "AGO2",
+      "distractors": [
+        "H2BC12",
+        "RPS12",
+        "YBX1",
+        "RPL35A",
+        "MRPS2"
+      ],
+      "gold_degree": 516,
+      "phen_rank": 4,
+      "gold_cosine": 0.713,
+      "item_id": "v06"
+    },
+    {
+      "query": "RAD1",
+      "gold": "HUS1",
+      "distractors": [
+        "STMN1",
+        "DTYMK",
+        "MRPS24",
+        "GPKOW",
+        "CDK11A"
+      ],
+      "gold_degree": 135,
+      "phen_rank": 1,
+      "gold_cosine": 0.8997,
+      "item_id": "v07"
+    },
+    {
+      "query": "H2AB1",
+      "gold": "H2BC21",
+      "distractors": [
+        "RACK1",
+        "RPL11",
+        "AGT",
+        "EPRS1",
+        "RPS6"
+      ],
+      "gold_degree": 771,
+      "phen_rank": 3,
+      "gold_cosine": 0.8132,
+      "item_id": "v08"
+    },
+    {
+      "query": "PRR20E",
+      "gold": "PRR20C",
+      "distractors": [
+        "CGB8",
+        "TRIM35",
+        "OXER1",
+        "OR6C6",
+        "OR7A17"
+      ],
+      "gold_degree": 13,
+      "phen_rank": 1,
+      "gold_cosine": 1.0,
+      "item_id": "v09"
+    },
+    {
+      "query": "BRK1",
+      "gold": "NCKAP1",
+      "distractors": [
+        "FANCA",
+        "FKBP8",
+        "DHX35",
+        "ATP5ME",
+        "ERCC6L"
+      ],
+      "gold_degree": 188,
+      "phen_rank": 2,
+      "gold_cosine": 0.7561,
+      "item_id": "v10"
+    },
+    {
+      "query": "CCDC84",
+      "gold": "TXNL4B",
+      "distractors": [
+        "FAM32A",
+        "FRG1",
+        "TUBGCP2",
+        "MICOS13",
+        "DRD5"
+      ],
+      "gold_degree": 72,
+      "phen_rank": 1,
+      "gold_cosine": 0.9379,
+      "item_id": "v11"
+    },
+    {
+      "query": "PSMB4",
+      "gold": "POMP",
+      "distractors": [
+        "FABP5",
+        "TRAPPC5",
+        "SLC29A1",
+        "GGT6",
+        "CHMP5"
+      ],
+      "gold_degree": 76,
+      "phen_rank": 1,
+      "gold_cosine": 0.8481,
+      "item_id": "v12"
+    },
+    {
+      "query": "GDF1",
+      "gold": "CERS2",
+      "distractors": [
+        "LSM11",
+        "DAPK3",
+        "NISCH",
+        "DPM3",
+        "ESRP2"
+      ],
+      "gold_degree": 70,
+      "phen_rank": 2,
+      "gold_cosine": 0.8416,
+      "item_id": "v13"
+    },
+    {
+      "query": "COASY",
+      "gold": "PPCDC",
+      "distractors": [
+        "LRP10",
+        "PRDM4",
+        "NFE2L3",
+        "SLC4A5",
+        "FOLR3"
+      ],
+      "gold_degree": 34,
+      "phen_rank": 2,
+      "gold_cosine": 0.8778,
+      "item_id": "v14"
+    },
+    {
+      "query": "ALG12",
+      "gold": "ALG5",
+      "distractors": [
+        "PEX10",
+        "ATP2B4",
+        "EPC1",
+        "HOXC4",
+        "CEP131"
+      ],
+      "gold_degree": 100,
+      "phen_rank": 1,
+      "gold_cosine": 0.8564,
+      "item_id": "v15"
+    },
+    {
+      "query": "NOP10",
+      "gold": "NHP2",
+      "distractors": [
+        "EIF4A3",
+        "UBE2I",
+        "MRPS10",
+        "TBP",
+        "MRPS15"
+      ],
+      "gold_degree": 585,
+      "phen_rank": 2,
+      "gold_cosine": 0.8672,
+      "item_id": "v16"
+    },
+    {
+      "query": "CDK4",
+      "gold": "CDC37",
+      "distractors": [
+        "LIG1",
+        "MRM2",
+        "GTF2H2",
+        "MRPS35",
+        "GTF2H1"
+      ],
+      "gold_degree": 249,
+      "phen_rank": 6,
+      "gold_cosine": 0.5746,
+      "item_id": "v17"
+    },
+    {
+      "query": "DLGAP5",
+      "gold": "KIF11",
+      "distractors": [
+        "SHC1",
+        "TERT",
+        "MRPS9",
+        "MRPL21",
+        "SNRPG"
+      ],
+      "gold_degree": 431,
+      "phen_rank": 4,
+      "gold_cosine": 0.6576,
+      "item_id": "v18"
+    },
+    {
+      "query": "ACO2",
+      "gold": "CS",
+      "distractors": [
+        "H2BC11",
+        "RPL7A",
+        "TOP2A",
+        "BRAF",
+        "PA2G4"
+      ],
+      "gold_degree": 568,
+      "phen_rank": 3,
+      "gold_cosine": 0.7304,
+      "item_id": "v19"
+    },
+    {
+      "query": "DMWD",
+      "gold": "WDR48",
+      "distractors": [
+        "SMG1",
+        "PHF20",
+        "DCTN5",
+        "MRPS23",
+        "NR4A2"
+      ],
+      "gold_degree": 145,
+      "phen_rank": 2,
+      "gold_cosine": 0.836,
+      "item_id": "v20"
+    },
+    {
+      "query": "PSMD1",
+      "gold": "PSMD2",
+      "distractors": [
+        "CTCF",
+        "SDHC",
+        "BYSL",
+        "SF3B1",
+        "RPL39"
+      ],
+      "gold_degree": 403,
+      "phen_rank": 2,
+      "gold_cosine": 0.7318,
+      "item_id": "v21"
+    },
+    {
+      "query": "SSU72",
+      "gold": "SYMPK",
+      "distractors": [
+        "ATP2A2",
+        "STX18",
+        "MAPRE1",
+        "TAF2",
+        "COX6C"
+      ],
+      "gold_degree": 195,
+      "phen_rank": 1,
+      "gold_cosine": 0.8236,
+      "item_id": "v22"
+    },
+    {
+      "query": "NELFCD",
+      "gold": "NELFA",
+      "distractors": [
+        "PER2",
+        "YJU2",
+        "POLR3K",
+        "USP10",
+        "TIMM44"
+      ],
+      "gold_degree": 129,
+      "phen_rank": 1,
+      "gold_cosine": 0.9125,
+      "item_id": "v23"
+    },
+    {
+      "query": "GNB3",
+      "gold": "GNG13",
+      "distractors": [
+        "MDM2",
+        "RPL23A",
+        "CREBBP",
+        "MRPS7",
+        "CYCS"
+      ],
+      "gold_degree": 713,
+      "phen_rank": 1,
+      "gold_cosine": 0.8924,
+      "item_id": "v24"
+    },
+    {
+      "query": "ZPBP2",
+      "gold": "LRRC3C",
+      "distractors": [
+        "KRTAP19-8",
+        "NOSIP",
+        "KRTAP10-1",
+        "PHKG1",
+        "SPNS2"
+      ],
+      "gold_degree": 28,
+      "phen_rank": 1,
+      "gold_cosine": 0.9455,
+      "item_id": "v25"
+    },
+    {
+      "query": "PSMC1",
+      "gold": "PSMD2",
+      "distractors": [
+        "CTCF",
+        "SDHC",
+        "BYSL",
+        "SF3B1",
+        "RPL39"
+      ],
+      "gold_degree": 403,
+      "phen_rank": 1,
+      "gold_cosine": 0.8896,
+      "item_id": "v26"
+    },
+    {
+      "query": "SMARCD3",
+      "gold": "SMARCA4",
+      "distractors": [
+        "RPL19",
+        "EEF1A1",
+        "RPL18A",
+        "RPL10A",
+        "RPL26L1"
+      ],
+      "gold_degree": 559,
+      "phen_rank": 2,
+      "gold_cosine": 0.8361,
+      "item_id": "v27"
+    },
+    {
+      "query": "METAP1",
+      "gold": "RPL5",
+      "distractors": [
+        "HSPA5",
+        "EZH2",
+        "AGT",
+        "RACK1",
+        "H2BC21"
+      ],
+      "gold_degree": 786,
+      "phen_rank": 2,
+      "gold_cosine": 0.8266,
+      "item_id": "v28"
+    },
+    {
+      "query": "RPS10",
+      "gold": "RPL27A",
+      "distractors": [
+        "MYD88",
+        "SOD2",
+        "CHD4",
+        "CDC20",
+        "HNRNPC"
+      ],
+      "gold_degree": 531,
+      "phen_rank": 1,
+      "gold_cosine": 0.8295,
+      "item_id": "v29"
+    },
+    {
+      "query": "COPB1",
+      "gold": "COPB2",
+      "distractors": [
+        "SAFB",
+        "HSPB8",
+        "AKT1S1",
+        "STAG3",
+        "CIT"
+      ],
+      "gold_degree": 122,
+      "phen_rank": 1,
+      "gold_cosine": 0.8367,
+      "item_id": "v30"
+    },
+    {
+      "query": "NCBP2",
+      "gold": "SRRT",
+      "distractors": [
+        "GPSM3",
+        "TUBB4B",
+        "MED17",
+        "BUD23",
+        "TUBA4A"
+      ],
+      "gold_degree": 236,
+      "phen_rank": 2,
+      "gold_cosine": 0.8536,
+      "item_id": "v31"
+    },
+    {
+      "query": "ACTR10",
+      "gold": "DCTN5",
+      "distractors": [
+        "WDR48",
+        "H1-2",
+        "CWC25",
+        "SLIRP",
+        "PHF20"
+      ],
+      "gold_degree": 145,
+      "phen_rank": 1,
+      "gold_cosine": 0.9073,
+      "item_id": "v32"
+    },
+    {
+      "query": "RHOF",
+      "gold": "DIAPH3",
+      "distractors": [
+        "UTP15",
+        "ZEB1",
+        "RPA3",
+        "ACTA1",
+        "ARID1A"
+      ],
+      "gold_degree": 272,
+      "phen_rank": 1,
+      "gold_cosine": 0.9148,
+      "item_id": "v33"
+    },
+    {
+      "query": "TCP1",
+      "gold": "CCT6A",
+      "distractors": [
+        "RBM8A",
+        "ATP5MC1",
+        "NDUFS2",
+        "POLR2J",
+        "HNRNPU"
+      ],
+      "gold_degree": 351,
+      "phen_rank": 1,
+      "gold_cosine": 0.969,
+      "item_id": "v34"
+    },
+    {
+      "query": "GEMIN2",
+      "gold": "GEMIN7",
+      "distractors": [
+        "MICU1",
+        "WDR59",
+        "NPC1L1",
+        "HS6ST1",
+        "SLC7A1"
+      ],
+      "gold_degree": 74,
+      "phen_rank": 2,
+      "gold_cosine": 0.9123,
+      "item_id": "v35"
+    },
+    {
+      "query": "MTCH2",
+      "gold": "SLC25A10",
+      "distractors": [
+        "PGS1",
+        "ALX3",
+        "NIPAL2",
+        "PLEKHG2",
+        "AGBL5"
+      ],
+      "gold_degree": 24,
+      "phen_rank": 4,
+      "gold_cosine": 0.7825,
+      "item_id": "v36"
+    },
+    {
+      "query": "FLT3",
+      "gold": "GRB2",
+      "distractors": [
+        "RPL13A",
+        "CYCS",
+        "MRPS7",
+        "RPS23",
+        "GNG13"
+      ],
+      "gold_degree": 729,
+      "phen_rank": 2,
+      "gold_cosine": 0.8148,
+      "item_id": "v37"
+    },
+    {
+      "query": "EXOC4",
+      "gold": "EXOC1",
+      "distractors": [
+        "RASGRP1",
+        "CALD1",
+        "IFNLR1",
+        "SCO2",
+        "DERL2"
+      ],
+      "gold_degree": 119,
+      "phen_rank": 1,
+      "gold_cosine": 0.8806,
+      "item_id": "v38"
+    },
+    {
+      "query": "VPS52",
+      "gold": "VPS53",
+      "distractors": [
+        "LIMD1",
+        "JMJD6",
+        "NT5C",
+        "PIK3R5",
+        "FLCN"
+      ],
+      "gold_degree": 112,
+      "phen_rank": 1,
+      "gold_cosine": 0.8744,
+      "item_id": "v39"
+    },
+    {
+      "query": "LTO1",
+      "gold": "ABCE1",
+      "distractors": [
+        "MAD2L1",
+        "VDAC1",
+        "RPS21",
+        "RPL28",
+        "EXOSC10"
+      ],
+      "gold_degree": 437,
+      "phen_rank": 1,
+      "gold_cosine": 0.8544,
+      "item_id": "v40"
+    },
+    {
+      "query": "ESPNL",
+      "gold": "FSCN2",
+      "distractors": [
+        "KIFC2",
+        "CIAPIN1",
+        "SMUG1",
+        "KLHL22",
+        "VPS4A"
+      ],
+      "gold_degree": 98,
+      "phen_rank": 3,
+      "gold_cosine": 0.8509,
+      "item_id": "v41"
+    },
+    {
+      "query": "EIF1",
+      "gold": "EIF5",
+      "distractors": [
+        "CPSF1",
+        "SRPRA",
+        "FECH",
+        "MAD2L2",
+        "PSMF1"
+      ],
+      "gold_degree": 204,
+      "phen_rank": 2,
+      "gold_cosine": 0.784,
+      "item_id": "v42"
+    },
+    {
+      "query": "ODR4",
+      "gold": "UFSP2",
+      "distractors": [
+        "TTYH1",
+        "DPH7",
+        "MIGA2",
+        "METTL23",
+        "UNC119B"
+      ],
+      "gold_degree": 20,
+      "phen_rank": 4,
+      "gold_cosine": 0.8032,
+      "item_id": "v43"
+    },
+    {
+      "query": "FBXO21",
+      "gold": "CUL1",
+      "distractors": [
+        "RUVBL2",
+        "RAC1",
+        "SNRPE",
+        "SUMO2",
+        "CCT2"
+      ],
+      "gold_degree": 491,
+      "phen_rank": 1,
+      "gold_cosine": 0.7899,
+      "item_id": "v44"
+    },
+    {
+      "query": "COX19",
+      "gold": "COX17",
+      "distractors": [
+        "CCP110",
+        "SCFD1",
+        "MRPS18B",
+        "MRPL45",
+        "GANAB"
+      ],
+      "gold_degree": 154,
+      "phen_rank": 3,
+      "gold_cosine": 0.865,
+      "item_id": "v45"
+    },
+    {
+      "query": "EXOSC4",
+      "gold": "EXOSC6",
+      "distractors": [
+        "CACNA1G",
+        "PRKAB2",
+        "MED20",
+        "ATRIP",
+        "COPS8"
+      ],
+      "gold_degree": 149,
+      "phen_rank": 4,
+      "gold_cosine": 0.7776,
+      "item_id": "v46"
+    },
+    {
+      "query": "THOC6",
+      "gold": "THOC5",
+      "distractors": [
+        "ARCN1",
+        "SPC25",
+        "EIF4EBP1",
+        "SRP19",
+        "HSF1"
+      ],
+      "gold_degree": 151,
+      "phen_rank": 2,
+      "gold_cosine": 0.8611,
+      "item_id": "v47"
+    },
+    {
+      "query": "HASPIN",
+      "gold": "BUB1",
+      "distractors": [
+        "RPL36AL",
+        "DDX3X",
+        "BARD1",
+        "COX4I1",
+        "PSMC3"
+      ],
+      "gold_degree": 370,
+      "phen_rank": 2,
+      "gold_cosine": 0.7376,
+      "item_id": "v48"
+    },
+    {
+      "query": "FOXG1",
+      "gold": "SRF",
+      "distractors": [
+        "NUP35",
+        "CSF2RB",
+        "PI4KB",
+        "RPL41",
+        "TIMM10"
+      ],
+      "gold_degree": 177,
+      "phen_rank": 2,
+      "gold_cosine": 0.8731,
+      "item_id": "v49"
+    },
+    {
+      "query": "MUC6",
+      "gold": "MUC16",
+      "distractors": [
+        "STEAP3",
+        "ATP6V0D1",
+        "POLQ",
+        "TIMM8B",
+        "KCNA10"
+      ],
+      "gold_degree": 137,
+      "phen_rank": 3,
+      "gold_cosine": 0.7814,
+      "item_id": "v50"
+    },
+    {
+      "query": "FNTA",
+      "gold": "GGPS1",
+      "distractors": [
+        "BBS9",
+        "NDUFAF4",
+        "AP3D1",
+        "SGPL1",
+        "NARS2"
+      ],
+      "gold_degree": 89,
+      "phen_rank": 3,
+      "gold_cosine": 0.7737,
+      "item_id": "v51"
+    },
+    {
+      "query": "FAM98B",
+      "gold": "RTCB",
+      "distractors": [
+        "COG2",
+        "MRPL14",
+        "MAF1",
+        "STAG3",
+        "LAMTOR3"
+      ],
+      "gold_degree": 121,
+      "phen_rank": 1,
+      "gold_cosine": 0.903,
+      "item_id": "v52"
+    },
+    {
+      "query": "GTF3C2",
+      "gold": "GTF3C1",
+      "distractors": [
+        "P3H1",
+        "COX14",
+        "EGLN2",
+        "THOC3",
+        "AGPS"
+      ],
+      "gold_degree": 91,
+      "phen_rank": 3,
+      "gold_cosine": 0.8359,
+      "item_id": "v53"
+    },
+    {
+      "query": "FBL",
+      "gold": "NOP56",
+      "distractors": [
+        "DLG4",
+        "PSMD14",
+        "ABL1",
+        "POLR2L",
+        "SKP1"
+      ],
+      "gold_degree": 523,
+      "phen_rank": 1,
+      "gold_cosine": 0.8621,
+      "item_id": "v54"
+    },
+    {
+      "query": "MCL1",
+      "gold": "BECN1",
+      "distractors": [
+        "HDAC3",
+        "POLR2H",
+        "ATP5F1B",
+        "CUL3",
+        "MRPL16"
+      ],
+      "gold_degree": 463,
+      "phen_rank": 5,
+      "gold_cosine": 0.7002,
+      "item_id": "v55"
+    },
+    {
+      "query": "SLC5A1",
+      "gold": "PDZK1IP1",
+      "distractors": [
+        "RNF181",
+        "LCE1E",
+        "FBXO28",
+        "GET1",
+        "NHLRC2"
+      ],
+      "gold_degree": 43,
+      "phen_rank": 5,
+      "gold_cosine": 0.8245,
+      "item_id": "v56"
+    },
+    {
+      "query": "AFDN",
+      "gold": "HRAS",
+      "distractors": [
+        "ATP5F1A",
+        "POLR2F",
+        "FAU",
+        "RPL35",
+        "CCNB1"
+      ],
+      "gold_degree": 639,
+      "phen_rank": 2,
+      "gold_cosine": 0.7391,
+      "item_id": "v57"
+    },
+    {
+      "query": "PYM1",
+      "gold": "RBM8A",
+      "distractors": [
+        "ATP5MC1",
+        "CCT6A",
+        "NDUFS2",
+        "POLR2J",
+        "GNB2"
+      ],
+      "gold_degree": 351,
+      "phen_rank": 6,
+      "gold_cosine": 0.528,
+      "item_id": "v58"
+    },
+    {
+      "query": "IMPA2",
+      "gold": "CDIPT",
+      "distractors": [
+        "PTCD3",
+        "SQLE",
+        "SLC4A7",
+        "NACA",
+        "SMARCD1"
+      ],
+      "gold_degree": 159,
+      "phen_rank": 2,
+      "gold_cosine": 0.8009,
+      "item_id": "v59"
+    }
+  ]
+}

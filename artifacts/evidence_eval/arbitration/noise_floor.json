@@ -1,0 +1,11 @@
+{
+  "n_repeated_keys": 101,
+  "exact_agreement_rate": 0.95,
+  "mean_abs_RR_difference": 0.0058,
+  "p95_abs_RR_difference": 0.0,
+  "implied_MRR_noise_se_40_items": 0.0043,
+  "sources": {
+    "accidental": 21,
+    "retest": 80
+  }
+}

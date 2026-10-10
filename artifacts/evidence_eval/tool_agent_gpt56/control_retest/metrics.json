@@ -1,0 +1,47 @@
+{
+  "model": "gpt-5.6-luna (Azure, forced T=1)",
+  "arm": "agent_free",
+  "control_retest": {
+    "n_episodes": 40,
+    "test_retest": {
+      "n_repeated_keys": 40,
+      "full_ordering_exact_agreement": 0.975,
+      "gold_rank_agreement": 0.975,
+      "mean_abs_RR_difference": 0.0063,
+      "p95_abs_RR_difference": 0.0,
+      "implied_MRR_noise_se": 0.0088,
+      "se_n_items": 20
+    },
+    "verbatim_match_phenotype_only_ranker": "39/40",
+    "verbatim_match_annotation_only_ranker": "0/40"
+  },
+  "control_original_run": {
+    "verbatim_match_phenotype_only_ranker": "39/40"
+  },
+  "conflict_retest_for_contrast": {
+    "test_retest": {
+      "n_repeated_keys": 79,
+      "full_ordering_exact_agreement": 0.5823,
+      "gold_rank_agreement": 0.9114,
+      "mean_abs_RR_difference": 0.012,
+      "p95_abs_RR_difference": 0.0533,
+      "implied_MRR_noise_se": 0.008,
+      "se_n_items": 40
+    },
+    "verbatim_match_annotation_only_ranker_original_run": "26/80"
+  },
+  "cell_contrast_fisher_exact_one_sided": {
+    "control_phenotype_verbatim": "39/40",
+    "conflict_annotation_verbatim": "26/80",
+    "odds_ratio": 81.0,
+    "p": 4.87e-13
+  },
+  "self_agreement_cell_contrast_fisher_exact_one_sided": {
+    "control_full_ordering_self_agreement": "39/40",
+    "conflict_full_ordering_self_agreement": "46/79",
+    "odds_ratio": 27.978,
+    "p": 1.16e-06,
+    "note": "The statistic the body cites for 'this is not decoding stability'. Both sides measure the SAME thing -- the model reproducing its own six-item ordering across repeated calls -- so unlike cell_contrast_fisher_exact_one_sided it compares like with like. Denominator is repeated keys parseable in BOTH runs, so conflict is 79, not 80: one key failed to parse in one of the two runs."
+  },
+  "note": "noise_floor.json's exact_agreement_rate is gold-rank agreement (equality of 1/rank(gold)), NOT equality of the six-item permutation. full_ordering_exact_agreement here is the permutation-level quantity."
+}

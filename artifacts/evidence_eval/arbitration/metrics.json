@@ -1,0 +1,215 @@
+{
+  "parse_errors": 0,
+  "cells": {
+    "conflict": {
+      "n": 40,
+      "phenotype_only_MRR": 0.3838,
+      "annotation_only_MRR": 0.6771,
+      "random_MRR": 0.4083,
+      "oracle_arbiter_MRR": 0.7759,
+      "naive_MRR": 0.3877,
+      "naive_CI": [
+        0.3327,
+        0.4481
+      ],
+      "naive_minus_P": 0.004,
+      "naive_minus_P_CI": [
+        -0.0817,
+        0.0852
+      ],
+      "rel_MRR": 0.6762,
+      "rel_CI": [
+        0.5696,
+        0.7815
+      ],
+      "rel_minus_P": 0.2925,
+      "rel_minus_P_CI": [
+        0.1398,
+        0.4406
+      ],
+      "rel_scaffold_MRR": 0.6737,
+      "rel_scaffold_CI": [
+        0.5679,
+        0.7771
+      ],
+      "rel_scaffold_minus_P": 0.29,
+      "rel_scaffold_minus_P_CI": [
+        0.1417,
+        0.4363
+      ],
+      "rel_minus_naive": 0.2885,
+      "rel_minus_naive_CI": [
+        0.1919,
+        0.385
+      ],
+      "rel_headroom_recovered": 0.746,
+      "rel_scaffold_minus_naive": 0.286,
+      "rel_scaffold_minus_naive_CI": [
+        0.1929,
+        0.3792
+      ],
+      "rel_scaffold_headroom_recovered": 0.739,
+      "selector": {
+        "naive": {
+          "minus_phenotype_oracle": 0.004,
+          "minus_phenotype_oracle_CI": [
+            -0.0817,
+            0.0852
+          ],
+          "minus_annotation_oracle": -0.2894,
+          "minus_annotation_oracle_CI": [
+            -0.3868,
+            -0.1894
+          ],
+          "rr_ties_phenotype": 14,
+          "rr_ties_annotation": 6,
+          "exact_ranking_matches_phenotype": 7,
+          "exact_ranking_matches_annotation": 0,
+          "n_item_order_calls": 80,
+          "exceeds_both_sources": 0
+        },
+        "rel": {
+          "minus_phenotype_oracle": 0.2925,
+          "minus_phenotype_oracle_CI": [
+            0.1398,
+            0.4406
+          ],
+          "minus_annotation_oracle": -0.0008,
+          "minus_annotation_oracle_CI": [
+            -0.0173,
+            0.0171
+          ],
+          "rr_ties_phenotype": 7,
+          "rr_ties_annotation": 27,
+          "exact_ranking_matches_phenotype": 5,
+          "exact_ranking_matches_annotation": 24,
+          "n_item_order_calls": 80,
+          "exceeds_both_sources": 0
+        },
+        "rel_scaffold": {
+          "minus_phenotype_oracle": 0.29,
+          "minus_phenotype_oracle_CI": [
+            0.1417,
+            0.4363
+          ],
+          "minus_annotation_oracle": -0.0033,
+          "minus_annotation_oracle_CI": [
+            -0.0235,
+            0.016
+          ],
+          "rr_ties_phenotype": 7,
+          "rr_ties_annotation": 29,
+          "exact_ranking_matches_phenotype": 4,
+          "exact_ranking_matches_annotation": 32,
+          "n_item_order_calls": 80,
+          "exceeds_both_sources": 0
+        }
+      }
+    },
+    "control": {
+      "n": 20,
+      "phenotype_only_MRR": 0.7042,
+      "annotation_only_MRR": 0.3982,
+      "random_MRR": 0.4083,
+      "oracle_arbiter_MRR": 0.7679,
+      "naive_MRR": 0.6917,
+      "naive_CI": [
+        0.525,
+        0.85
+      ],
+      "naive_minus_P": -0.0125,
+      "naive_minus_P_CI": [
+        -0.0375,
+        0.0
+      ],
+      "rel_MRR": 0.7,
+      "rel_CI": [
+        0.5333,
+        0.8583
+      ],
+      "rel_minus_P": -0.0042,
+      "rel_minus_P_CI": [
+        -0.0125,
+        0.0
+      ],
+      "rel_scaffold_MRR": 0.7063,
+      "rel_scaffold_CI": [
+        0.5417,
+        0.8646
+      ],
+      "rel_scaffold_minus_P": 0.0021,
+      "rel_scaffold_minus_P_CI": [
+        -0.0063,
+        0.0125
+      ],
+      "rel_minus_naive": 0.0083,
+      "rel_minus_naive_CI": [
+        0.0,
+        0.025
+      ],
+      "rel_headroom_recovered": -0.065,
+      "rel_scaffold_minus_naive": 0.0146,
+      "rel_scaffold_minus_naive_CI": [
+        -0.0042,
+        0.0417
+      ],
+      "rel_scaffold_headroom_recovered": 0.033,
+      "selector": {
+        "naive": {
+          "minus_phenotype_oracle": -0.0125,
+          "minus_phenotype_oracle_CI": [
+            -0.0375,
+            0.0
+          ],
+          "minus_annotation_oracle": 0.2935,
+          "minus_annotation_oracle_CI": [
+            0.1286,
+            0.4518
+          ],
+          "rr_ties_phenotype": 19,
+          "rr_ties_annotation": 0,
+          "exact_ranking_matches_phenotype": 30,
+          "exact_ranking_matches_annotation": 0,
+          "n_item_order_calls": 40,
+          "exceeds_both_sources": 0
+        },
+        "rel": {
+          "minus_phenotype_oracle": -0.0042,
+          "minus_phenotype_oracle_CI": [
+            -0.0125,
+            0.0
+          ],
+          "minus_annotation_oracle": 0.3018,
+          "minus_annotation_oracle_CI": [
+            0.1393,
+            0.4601
+          ],
+          "rr_ties_phenotype": 19,
+          "rr_ties_annotation": 0,
+          "exact_ranking_matches_phenotype": 36,
+          "exact_ranking_matches_annotation": 0,
+          "n_item_order_calls": 40,
+          "exceeds_both_sources": 0
+        },
+        "rel_scaffold": {
+          "minus_phenotype_oracle": 0.0021,
+          "minus_phenotype_oracle_CI": [
+            -0.0063,
+            0.0125
+          ],
+          "minus_annotation_oracle": 0.3081,
+          "minus_annotation_oracle_CI": [
+            0.1453,
+            0.4667
+          ],
+          "rr_ties_phenotype": 18,
+          "rr_ties_annotation": 0,
+          "exact_ranking_matches_phenotype": 35,
+          "exact_ranking_matches_annotation": 0,
+          "n_item_order_calls": 40,
+          "exceeds_both_sources": 1
+        }
+      }
+    }
+  }
+}
