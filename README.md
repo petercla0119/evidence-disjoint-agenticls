@@ -2,7 +2,9 @@
 
 [![reproduce](https://github.com/petercla0119/evidence-disjoint-agenticls/actions/workflows/reproduce.yml/badge.svg)](https://github.com/petercla0119/evidence-disjoint-agenticls/actions/workflows/reproduce.yml)
 
-Code, evidence packets, and raw model responses for the paper (Peterson et al.), Agentic Life Sciences workshop at NeurIPS 2026.
+Code, evidence packets, and raw model responses for:
+
+> Claire S. Peterson, Cynthia Siego, and Matthew Might. *Evidence-Disjoint Evaluation of Reliability-Aware Source Selection in Biological Agents.* Agentic Life Sciences Workshop, NeurIPS 2026. [OpenReview](https://openreview.net/forum?id=2B5ZgH5hvi)
 
 Each item asks an agent to rank six candidate genes as the functional partner of a query gene. It decides from two evidence sources: curated annotation with every record linking the query to the answer removed, and pooled-CRISPR perturbation morphology. Every number in the paper recomputes from the stored responses without an API call.
 
@@ -39,14 +41,14 @@ The scaffold experiment (`exp7_scaffold_only.py`) predates that check and cannot
 | Table 1, conflict and control cells (models A and B) | `arbitration.py analyze [--provider azure]` | `arbitration/metrics.json`, `metrics_gpt56.json` |
 | Table 1, complementary and replication cells | `exp23_complementary_cell.py analyze` (see `reproduce.sh` for flags) | `complementary*/metrics*.json`, key `table_contrast` |
 | Tool-delivered reliability arms | `tool_agent.py analyze [--provider azure]` | `tool_agent*/metrics.json` |
-| Noise floor, retests, temperature arms | `arbitration.py noise-floor`, `analyze_control_retest.py`, `analyze_temp_arms.py` | `arbitration/noise_floor.json`, `tool_agent*/…` |
-| Mechanical-fusion control | `exp20_fusion_baseline.py` | `fusion/` |
-| Headroom scan (eval and calibration halves) | `exp22_headroom_scan.py [--half calib]` | `headroom_scan*/` |
-| Exceedance, top-1 and permutation statistics | `headroom.py` | `headroom/metrics.json` |
-| Abstracted (biology-free) probe | `exp21_abstract_fusion_probe.py analyze` | `fusion_probe/` |
-| Zero-shot scaffold arm | `exp7_scaffold_only.py analyze --set {fair,booster}` | `scaffold_only/` |
-| Masking audit | `audit_masking.py --json artifacts/evidence_eval/masking_audit.json` | `masking_audit.json` |
-| Retracted pilot and earlier item sets | `pilot_counterfactual.py`, `validate_counterfactual.py`, `reliability_calibration.py` | `pilot/`, `validate*/`, `reliability*/` |
+| Run-to-run variability, retests, temperature arms (Appendix D.2) | `arbitration.py noise-floor`, `analyze_control_retest.py`, `analyze_temp_arms.py` | `arbitration/noise_floor.json`, `tool_agent*/…` |
+| Mechanical-fusion control (Appendix A.1) | `exp20_fusion_baseline.py` | `fusion/` |
+| Headroom scan, eval and calibration halves (Appendix A.2–A.3) | `exp22_headroom_scan.py [--half calib]` | `headroom_scan*/` |
+| Exceedance, top-1 and permutation statistics (Appendix E) | `headroom.py` | `headroom/metrics.json` |
+| Biology-agnostic control (Appendix C) | `exp21_abstract_fusion_probe.py analyze` | `fusion_probe/` |
+| Uninformed scaffold arm (Appendix B) | `exp7_scaffold_only.py analyze --set {fair,booster}` | `scaffold_only/` |
+| Masking audit (Appendix F.5) | `audit_masking.py --json artifacts/evidence_eval/masking_audit.json` | `masking_audit.json` |
+| Pilot conditions excluded from the reported analyses (Appendix F.2) | `pilot_counterfactual.py`, `validate_counterfactual.py`, `reliability_calibration.py` | `pilot/`, `validate*/`, `reliability*/` |
 | Figure 1 | `make_arbitration_figure.py` | `figures/arbitration.pdf` |
 
 ## Re-running model calls
@@ -56,6 +58,26 @@ The `run` subcommands call the models again and need credentials. These calls ar
 - **Model A** (`claude-sonnet-4-6` via Google Vertex): set `ANTHROPIC_VERTEX_PROJECT_ID`, and optionally `CLOUD_ML_REGION`.
 - **Model B** (`gpt-5.6-luna` via Azure OpenAI): set `AZURE_OPENAI_ENDPOINT` and `AZURE_OPENAI_API_KEY`. This deployment accepts only the default temperature, so its episodes are sampled.
 
-## License
+## Citation
 
-MIT. The bundled data derive from public releases: Funk et al. 2022 (BioImage Archive S-BIAD394), Reactome, Complex Portal, and STRING (CC BY 4.0).
+```bibtex
+@inproceedings{peterson2026evidencedisjoint,
+  title     = {Evidence-Disjoint Evaluation of Reliability-Aware Source Selection in Biological Agents},
+  author    = {Peterson, Claire S. and Siego, Cynthia and Might, Matthew},
+  booktitle = {Agentic Life Sciences Workshop at NeurIPS 2026},
+  year      = {2026},
+  url       = {https://openreview.net/forum?id=2B5ZgH5hvi}
+}
+```
+
+## License and data provenance
+
+Code is released under the MIT License (see `LICENSE`). The bundled data derive from public releases and remain under their original terms: morphology features from Funk et al. 2022 (BioImage Archive S-BIAD394), Reactome pathway membership, Complex Portal complex membership, and STRING v12.0 (CC BY 4.0, downloaded at build time).
+
+## Funding
+
+This work was supported by the Advanced Research Projects Agency for Health (ARPA-H) through the Biomedical Data Fabric Toolbox and Pediatric Care eXpansion programs, Other Transaction Agreement No. AY2AX000025 to the University of Alabama at Birmingham. The views expressed are those of the authors and do not necessarily represent those of the U.S. Government.
+
+## Contact
+
+Claire S. Peterson, cpeterson@uab.edu
