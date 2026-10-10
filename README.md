@@ -2,7 +2,7 @@
 
 [![reproduce](https://github.com/petercla0119/evidence-disjoint-agenticls/actions/workflows/reproduce.yml/badge.svg)](https://github.com/petercla0119/evidence-disjoint-agenticls/actions/workflows/reproduce.yml)
 
-Code, evidence packets, and raw model responses for the paper of the same name (Peterson, Siego, Might), Agentic Life Sciences workshop at NeurIPS 2026.
+Code, evidence packets, and raw model responses for the paper (Peterson et al.), Agentic Life Sciences workshop at NeurIPS 2026.
 
 Each item asks an agent to rank six candidate genes as the functional partner of a query gene. It decides from two evidence sources: curated annotation with every record linking the query to the answer removed, and pooled-CRISPR perturbation morphology. Every number in the paper recomputes from the stored responses without an API call.
 
