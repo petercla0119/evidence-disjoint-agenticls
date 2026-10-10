@@ -9,6 +9,9 @@ dependencies:
   - numpy=2.2.6
   - scipy=1.15.2
   - matplotlib=3.10.3
+  # pinned so regenerated PNGs are byte-identical (rasterization changes across these)
+  - freetype=2.13.3
+  - pillow=11.2.1
   - pip
   - pip:
       # only needed to re-run model calls (`run` subcommands), not to recompute any number

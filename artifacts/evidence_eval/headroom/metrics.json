@@ -2161,7 +2161,7 @@
         "description": "The defensible null. Same model, same deployment, same forced T=1, same tool stack, same prompt -- only the EVIDENCE differs. If the 39/40 control match were a decoding/entropy artifact it would hold in the conflict cell too. It does not.",
         "control": "39/40",
         "conflict": "4/80",
-        "fisher_exact_one_sided_p": 8.305842161137087e-26,
+        "fisher_exact_one_sided_p": 8.30584e-26,
         "log10_p": -25.1,
         "verdict": "Use this one. It is a real empirical contrast, not a coin-flip null."
       }

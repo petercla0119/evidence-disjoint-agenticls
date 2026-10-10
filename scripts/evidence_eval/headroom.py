@@ -596,7 +596,7 @@ def task3(items, ctx):
             "39/40 control match were a decoding/entropy artifact it would hold "
             "in the conflict cell too. It does not."),
         "control": f"{a}/{a+b}", "conflict": f"{c_}/{c_+d}",
-        "fisher_exact_one_sided_p": p,
+        "fisher_exact_one_sided_p": float(f"{p:.6g}"),  # libm differs past ~13 digits across platforms
         "log10_p": rnd(math.log10(p), 1) if p > 0 else None,
         "verdict": "Use this one. It is a real empirical contrast, not a coin-flip null.",
     }

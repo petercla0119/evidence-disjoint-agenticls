@@ -1,0 +1,27 @@
+# Recomputes every number and Figure 1 from the stored responses and fails if any tracked
+# output changes. No API calls.
+name: reproduce
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  reproduce:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        shell: bash -el {0}
+    env:
+      OMP_NUM_THREADS: 2
+      MKL_NUM_THREADS: 2
+      OPENBLAS_NUM_THREADS: 2
+    steps:
+      - uses: actions/checkout@v4
+      - uses: conda-incubator/setup-miniconda@v3
+        with:
+          environment-file: environment.yml
+          activate-environment: evidence-disjoint
+          miniforge-version: latest
+      - run: ./reproduce.sh
+      - run: git status --short && git diff --exit-code --stat
