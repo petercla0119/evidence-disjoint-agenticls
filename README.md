@@ -1,5 +1,7 @@
 # Evidence-Disjoint Evaluation of Reliability-Aware Source Selection in Biological Agents
 
+[![reproduce](https://github.com/petercla0119/evidence-disjoint-agenticls/actions/workflows/reproduce.yml/badge.svg)](https://github.com/petercla0119/evidence-disjoint-agenticls/actions/workflows/reproduce.yml)
+
 Code, evidence packets, and raw model responses for the paper of the same name (Peterson, Siego, Might), Agentic Life Sciences workshop at NeurIPS 2026.
 
 Each item asks an agent to rank six candidate genes as the functional partner of a query gene. It decides from two evidence sources: curated annotation with every record linking the query to the answer removed, and pooled-CRISPR perturbation morphology. Every number in the paper recomputes from the stored responses without an API call.
@@ -23,6 +25,8 @@ conda env create -f environment.yml
 conda activate evidence-disjoint
 ./reproduce.sh
 ```
+
+Tested from a fresh clone and a fresh environment on macOS arm64 and Linux (arm64 and x86-64): `reproduce.sh` regenerates every tracked output byte-identically, figures included. The `reproduce` GitHub Actions workflow re-checks this on Ubuntu and macOS for every push. `scripts/download_string.sh` needs `curl`.
 
 Every script must run as `PYTHONHASHSEED=0 python scripts/evidence_eval/<script>.py <subcommand>` under **Python 3.10**. Candidate order in a packet comes from `hash((item_id, order))`. `PYTHONHASHSEED=0` fixes string hashing only within one Python version, and CPython 3.11 changed the algorithm. Each entry point that rebuilds packets checks the rebuilt gold alias against the stored one and exits on a mismatch, rather than scoring different packets than the model saw.
 
